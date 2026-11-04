@@ -110,7 +110,7 @@ PYNQ、NumPy、Pillow、Python与Vivado IP遵循各自发布条件，第三方�
 - Iowa MIS的来源为 https://theremin.music.uiowa.edu/MIS.html
 - 钢琴素材来源为 https://github.com/mcapodici/pianosounds
 
-技能脚本和案例来源见 `skill/evidence/source_index.json` 和 `skill/extraction_process.md`，算法讨论与团队决策见 `report/ai_collaboration/README.md`。最终技术报告见 `report/design_report_final.docx`。实体钢琴后续实测合计37/49（75.5%），高音区3/5，汇总记录见 `board/results/current_r6/team_confirmed_piano_summary_20261104.json`。
+技能脚本和案例来源见 `skill/evidence/source_index.json` 和 `skill/extraction_process.md`，算法讨论与团队决策见 `report/ai_collaboration/README.md`。最终技术报告见 `report/technical_report.pdf`。实体钢琴后续实测合计37/49（75.5%），高音区3/5，汇总记录见 `board/results/current_r6/team_confirmed_piano_summary_20261104.json`。
 
 ## GitHub与平台交付
 
