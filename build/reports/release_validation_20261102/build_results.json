@@ -1,0 +1,10 @@
+{
+  "host": {
+    "file": "libmusic_ps_host.dll",
+    "sha256": "fb1598f09dbee762000891f88702e158eb6c0260935b5872eb4a0e7dc3f259a6"
+  },
+  "arm": {
+    "file": "libmusic_ps_arm.so",
+    "sha256": "aa74e1dfdc0820e7a2a28cd390d57fb3397a553240587fb3d0b0703291858287"
+  }
+}

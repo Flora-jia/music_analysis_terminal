@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "records": 3,
+  "errors": [],
+  "gaps": [
+    {
+      "after_sequence": 1,
+      "missing_sequences": 1,
+      "coverage": "all_packets"
+    }
+  ],
+  "scope": "normalized packet/index/time checks; mixed values only detected if distinguishable golden payload is provided"
+}

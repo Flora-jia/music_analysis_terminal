@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/software_1/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe tb_spectrum_pack -s tb_spectrum_pack_snapshot 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.spectrum_frame_pack_default
+Compiling module work.tb_spectrum_pack
+Built simulation snapshot tb_spectrum_pack_snapshot
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum/xsim.dir/tb_spectrum_pack_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  4 15:39:25 2026...

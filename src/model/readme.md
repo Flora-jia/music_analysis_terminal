@@ -1,0 +1,1 @@
+models/和reference/提供与board/runtime配套的权重、mel矩阵、参考库及元数据。training_reference/保存分类头优化脚本和历史比较记录。运行部署使用随包权重，R6钢琴支持参数由Python模块和元数据加载。

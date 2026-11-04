@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "errors": [],
+  "checked_files": [
+    "design.hwh",
+    "payload.bin"
+  ],
+  "register_map": {
+    "sensor_dma": [
+      "0x81000000"
+    ]
+  },
+  "scope": "offline bytes and HWH metadata only; does not prove the bit encodes this HWH or is loaded on hardware"
+}

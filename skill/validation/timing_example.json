@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "errors": [],
+  "timing": {
+    "wns_ns": 7.336,
+    "tns_ns": 0.0,
+    "whs_ns": 0.04,
+    "ths_ns": 0.0
+  },
+  "constraint_checks": {
+    "no_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 0,
+    "no_output_delay": 0,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0
+  },
+  "constraint_review_items": [],
+  "clocks": [
+    {
+      "name": "clk_test",
+      "period_ns": 10.0,
+      "frequency_mhz": 100.0
+    }
+  ],
+  "scope": "receipt and parsed timing checks only; does not prove source-to-bit regeneration, CDC correctness or board electrical timing"
+}

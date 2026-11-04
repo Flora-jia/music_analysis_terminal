@@ -1,0 +1,15 @@
+test_capture_does_not_change_real_model_decision (__main__.Tests.test_capture_does_not_change_real_model_decision) ... ok
+test_diagnostics_confusion_transition_and_archive (__main__.Tests.test_diagnostics_confusion_transition_and_archive) ... ok
+test_disk_failure_is_reported_without_raising_to_producer (__main__.Tests.test_disk_failure_is_reported_without_raising_to_producer) ... ok
+test_exact_features_and_operator_label_are_preserved (__main__.Tests.test_exact_features_and_operator_label_are_preserved) ... ok
+test_full_queue_does_not_wait_and_close_drains (__main__.Tests.test_full_queue_does_not_wait_and_close_drains) ... ok
+test_invalid_labels_epochs_and_bad_features (__main__.Tests.test_invalid_labels_epochs_and_bad_features) ... ok
+test_preprocessing_mismatch_is_detected (__main__.Tests.test_preprocessing_mismatch_is_detected) ... ok
+test_segment_and_byte_limits (__main__.Tests.test_segment_and_byte_limits) ... ok
+test_silence_is_recorded_without_fake_probabilities (__main__.Tests.test_silence_is_recorded_without_fake_probabilities) ... ok
+test_worker_recording_failure_does_not_stop_inference (__main__.Tests.test_worker_recording_failure_does_not_stop_inference) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.500s
+
+OK

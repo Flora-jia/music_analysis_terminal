@@ -1,0 +1,7 @@
+{
+  "file": "AC820_ZYNQ_Pynq_Boot_img-2.7.0.zip",
+  "bytes": 1853305278,
+  "sha256": "59263095d2a411241dbaacac22e856054f85690ff5ab00aa890ac6104eb27b72",
+  "source": "AC820 vendor PYNQ image supplied in project materials",
+  "delivery": "board/environment/images/ac820_pynq_2_7_0.zip"
+}

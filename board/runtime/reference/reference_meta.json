@@ -1,0 +1,458 @@
+{
+  "labels": [
+    "piano",
+    "guitar",
+    "violin"
+  ],
+  "reference_count": 70,
+  "references": [
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 10
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 10
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2a927e4d",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 10
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "piano",
+      "label": "piano",
+      "segment": 10
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "guitar",
+      "label": "guitar",
+      "segment": 10
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 1
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 2
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 3
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 4
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 5
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 6
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 7
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 8
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 9
+    },
+    {
+      "capture": "acceptance_2e5f9f8f",
+      "phase": "violin",
+      "label": "violin",
+      "segment": 10
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 1
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 2
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 3
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 4
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 5
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 6
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 7
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 8
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 9
+    },
+    {
+      "capture": "gain_features_f225616e",
+      "phase": "gain18",
+      "label": "violin",
+      "segment": 10
+    }
+  ],
+  "weights_sha256": "b3cfc4c092a788968e343b6b06bc678ea79d840bab59cf7c772494b948f727cf",
+  "mel_matrix_sha256": "9455b8916038184f94abf8f3581553c41b1e6075a5bd8f18037157cf6bc5271e",
+  "calibration_captures": [
+    "acceptance_2a927e4d",
+    "acceptance_2e5f9f8f",
+    "gain_features_f225616e"
+  ],
+  "capture_archive_hashes": {
+    "acceptance_2a927e4d": "9b7f04784fafa915e6d9d6d31f7020adc7e5af802b9405f291bd140c72b30064",
+    "acceptance_2e5f9f8f": "b3d0e600972afe7147087e1eda064a10db871d4512891bbdb6607d7f6cf59123",
+    "gain_features_f225616e": "8e8f36a91d7615a53804cece3a71823ec99e36fad6cf22a99cffb640b3e63f0a"
+  },
+  "reference_scope": "User-labeled board excerpts; purity not independently reviewed",
+  "calibration_is_not_test": true,
+  "origin_weights_sha256": "4146c3863ec6a2e8dee6eac139659a9fa142f9c19ed661fdd21c542a6107c63a",
+  "pairing_note": "Convolution/embedding bit-identical; dense-head-only update. Existing reference labels unchanged.",
+  "piano_support": {
+    "method": "centered_cosine_local_piano_support_v1",
+    "source_group": "20261101_232456.m4a",
+    "source_sha256": "2df1b3dccb06cc278484014b8fd999e4d6ba4184d86ed7ce9b90890d8047e659",
+    "positive_templates": 23,
+    "negative_templates": 93,
+    "parameters": {
+      "similarity_floor": 0.85,
+      "negative_exclusion": 0.02,
+      "relative_margin": 0.05
+    }
+  }
+}

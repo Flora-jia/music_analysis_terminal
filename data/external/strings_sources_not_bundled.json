@@ -1,0 +1,98 @@
+{
+  "schema": "ac820.playback_selection.v1",
+  "notes": [
+    "C4",
+    "D4",
+    "E4",
+    "G4",
+    "A4"
+  ],
+  "rounds": 2,
+  "label_basis": "source filename; not model predictions",
+  "files": [
+    {
+      "instrument": "guitar",
+      "note": "C4",
+      "source_entry": "Strings/guitar/guitar_C4_very-long_forte_normal.mp3",
+      "file": "guitar/01_guitar_C4_very-long_forte_normal.mp3",
+      "bytes": 49422,
+      "sha256": "9b18e0263580cda2ba641d09673068634483f5888dd10830ade249a8655fffb8"
+    },
+    {
+      "instrument": "guitar",
+      "note": "D4",
+      "source_entry": "Strings/guitar/guitar_D4_very-long_forte_normal.mp3",
+      "file": "guitar/02_guitar_D4_very-long_forte_normal.mp3",
+      "bytes": 52870,
+      "sha256": "b0ea53ba01f1ccca7e5a6352163614acc9dcaefb48c2107d7fbe280dd1b11dfa"
+    },
+    {
+      "instrument": "guitar",
+      "note": "E4",
+      "source_entry": "Strings/guitar/guitar_E4_very-long_forte_normal.mp3",
+      "file": "guitar/03_guitar_E4_very-long_forte_normal.mp3",
+      "bytes": 64155,
+      "sha256": "467ca6cfbe52336e6e99b824cf27912962501ff0d0fcdd8828a6a8732e5be72a"
+    },
+    {
+      "instrument": "guitar",
+      "note": "G4",
+      "source_entry": "Strings/guitar/guitar_G4_very-long_forte_normal.mp3",
+      "file": "guitar/04_guitar_G4_very-long_forte_normal.mp3",
+      "bytes": 58512,
+      "sha256": "c4d3c6025a412db2eaf6cf24a8e188de6a8805e9b2a5420a65b19a06825dfdd4"
+    },
+    {
+      "instrument": "guitar",
+      "note": "A4",
+      "source_entry": "Strings/guitar/guitar_A4_very-long_forte_normal.mp3",
+      "file": "guitar/05_guitar_A4_very-long_forte_normal.mp3",
+      "bytes": 55691,
+      "sha256": "393aa8cd14902e84143e693d41731ed2469cf928487b2fceb8a525da6fdb3b2a"
+    },
+    {
+      "instrument": "violin",
+      "note": "C4",
+      "source_entry": "Strings/violin/violin_C4_15_fortissimo_arco-normal.mp3",
+      "file": "violin/01_violin_C4_15_fortissimo_arco-normal.mp3",
+      "bytes": 28109,
+      "sha256": "cea223fc78737be799fe47ee173ddfb615632416f5612e5d8ad22ad1af743d07"
+    },
+    {
+      "instrument": "violin",
+      "note": "D4",
+      "source_entry": "Strings/violin/violin_D4_15_fortissimo_arco-normal.mp3",
+      "file": "violin/02_violin_D4_15_fortissimo_arco-normal.mp3",
+      "bytes": 34378,
+      "sha256": "0a593b478015fc44372dc158edbb73cebdc25097eff5b5bcfa2559fab54a832d"
+    },
+    {
+      "instrument": "violin",
+      "note": "E4",
+      "source_entry": "Strings/violin/violin_E4_15_fortissimo_arco-normal.mp3",
+      "file": "violin/03_violin_E4_15_fortissimo_arco-normal.mp3",
+      "bytes": 33124,
+      "sha256": "aa26793af5e997d393789ebec2723ac4eae31cc8f675c4d1b88edd454e507bb1"
+    },
+    {
+      "instrument": "violin",
+      "note": "G4",
+      "source_entry": "Strings/violin/violin_G4_15_fortissimo_arco-normal.mp3",
+      "file": "violin/04_violin_G4_15_fortissimo_arco-normal.mp3",
+      "bytes": 29676,
+      "sha256": "423b4126142236121edfd08b7eb3b04be2b6e1beb37ff6d7a3c3c31a6ed4ab3a"
+    },
+    {
+      "instrument": "violin",
+      "note": "A4",
+      "source_entry": "Strings/violin/violin_A4_15_fortissimo_arco-normal.mp3",
+      "file": "violin/05_violin_A4_15_fortissimo_arco-normal.mp3",
+      "bytes": 35632,
+      "sha256": "20f9502aa1fb83de2f552ac8a226a0278a245b3200686b4a897fc75ee56b9121"
+    }
+  ],
+  "available_local": true,
+  "included_audio": false,
+  "official_source": "https://philharmonia.co.uk/resources/sound-samples/",
+  "reason": "Origin ZIP not independently authenticated; if Philharmonia, as-is sample redistribution is restricted. Acquire from original source instead."
+}

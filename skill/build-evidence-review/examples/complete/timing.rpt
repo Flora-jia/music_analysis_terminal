@@ -1,0 +1,10 @@
+checking no_clock (0)
+checking unconstrained_internal_endpoints (0)
+checking no_input_delay (0)
+checking no_output_delay (0)
+checking partial_input_delay (0)
+checking partial_output_delay (0)
+WNS(ns) TNS(ns) TNS Failing Endpoints TNS Total Endpoints WHS(ns) THS(ns) THS Failing Endpoints THS Total Endpoints
+------- ------- ---- ---- ------- ------- ---- ----
+7.336 0.000 0 123 0.040 0.000 0 123
+clk_test {0.000 5.000} 10.000 100.000

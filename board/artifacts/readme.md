@@ -1,0 +1,1 @@
+audio_merged.bit和audio_merged.hwh与board/runtime中的对应文件逐字节一致。PYNQ正式入口从runtime加载配套Overlay。文件哈希由总发布清单和runtime原始清单共同核对。

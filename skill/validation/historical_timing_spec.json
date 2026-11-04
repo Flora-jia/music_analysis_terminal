@@ -1,0 +1,7 @@
+{
+  "timing_report": "timing_summary.rpt",
+  "require_complete_constraints": true,
+  "files": {
+    "timing_summary.rpt": "a2cd0f4f16dd0da182cd8a8a0dccd9dccf6e3eae2617774890172cec2294dc1a"
+  }
+}

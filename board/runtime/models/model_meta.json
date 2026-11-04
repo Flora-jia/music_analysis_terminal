@@ -1,0 +1,31 @@
+{
+  "labels": [
+    "piano",
+    "guitar",
+    "violin"
+  ],
+  "n_mels": 64,
+  "frames": 63,
+  "sr": 16000,
+  "input_shape": [
+    1,
+    64,
+    63,
+    1
+  ],
+  "model_variant": "field_head_with_piano_support_20261101_r6",
+  "training_scope": "55 phone segments; first complete piano round only",
+  "baseline_weights_sha256": "4146c3863ec6a2e8dee6eac139659a9fa142f9c19ed661fdd21c542a6107c63a",
+  "convolution_frozen": true,
+  "field_note_holdout_correct": 42,
+  "field_note_holdout_total": 55,
+  "board_acceptance": "pending",
+  "piano_support": {
+    "source_group": "20261101_232456.m4a",
+    "positive_templates": 23,
+    "negative_templates": 93,
+    "method": "centered_cosine_local_piano_support_v1",
+    "board_acceptance": "pending"
+  },
+  "raw_cnn_training_scope": "55 phone segments; first complete piano round only"
+}

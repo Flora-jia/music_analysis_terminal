@@ -1,0 +1,5 @@
+﻿case,model_enabled,feature_recording_enabled,received_spectrum_frames,model_results,lifecycle,input_profile,pc_volume_percent,music_record
+wired_smoke02,True,True,4761,152,STOPPED,line,100,recorded/music_records/9fd62fa69dbb4c35a3ecea3ed579267e.json
+wired_static01,True,True,4030,130,STOPPED,line,100,recorded/music_records/bc0fc4d513454acd96c1c3a5df987461.json
+wired_nomodel01,False,False,2830,0,STOPPED,line,100,recorded/music_records/7c2122b70721455f855616b4b832245a.json
+wired_model_nofeatures01,True,False,2088,66,STOPPED,line,100,recorded/music_records/550ddf3cf3f94f658f6fb0932e5e08ea.json

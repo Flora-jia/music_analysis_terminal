@@ -1,0 +1,29 @@
+{
+  "schema": "music.board.evidence.v1",
+  "case": "wired_nomodel01",
+  "archive_file": "original_capture.zip",
+  "archive_sha256": "12105ba8f1b9ea06abf457100de4d2555e8524c6dc394e6f7e496ad7cfe383db",
+  "zip_crc_passed": true,
+  "member_count": 3,
+  "members": {
+    "wired_nomodel01/console.log": {
+      "bytes": 6581,
+      "sha256": "d8f8e25e5f0e5cc4584e16de04f2f6088e08a37da4dbbc2de08779d290343118",
+      "storage": "original_capture.zip",
+      "extracted_file": "recorded/console.log"
+    },
+    "wired_nomodel01/music_records/7c2122b70721455f855616b4b832245a.json": {
+      "bytes": 31866,
+      "sha256": "64894be94e4a8a04b802033bf6a9adbd938d88b45a2c3c8bc8a29fb89eba54ed",
+      "storage": "original_capture.zip",
+      "extracted_file": "recorded/music_records/7c2122b70721455f855616b4b832245a.json"
+    },
+    "wired_nomodel01/run_arguments.json": {
+      "bytes": 940,
+      "sha256": "3157f9743607aff193c2e164f0cdd567f5fef5598e1469d5442d4f07a3eac17e",
+      "storage": "original_capture.zip",
+      "extracted_file": "recorded/run_arguments.json"
+    }
+  },
+  "source_evidence_received_date": "2026-11-03"
+}

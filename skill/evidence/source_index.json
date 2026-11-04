@@ -1,0 +1,69 @@
+{
+  "pl2_acceptance.md": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\board\\results\\historical_pl2_20261030\\acceptance.md",
+    "sha256": "70936b28a0c71bbd676f39385a8fd6736c96e4dbee6e026f3a8ef9dd129866d5",
+    "kind": "historical source record; not a new board run"
+  },
+  "notes_board_summary.md": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\board\\results\\historical_notes_20261030\\board_summary.md",
+    "sha256": "8de225158f9ff71fa3947fad69fbc192d7fbe0cd8a03ab8ef45be530bb2c4084",
+    "kind": "historical source record; not a new board run"
+  },
+  "model_interface_acceptance.md": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\board\\results\\historical_model_20261030\\interface_acceptance.md",
+    "sha256": "94dec9964a8d3db4ca8fddcf380ce598c71e4e90e4cd9d03e6f1bbf56417eb8a",
+    "kind": "historical source record; not a new board run"
+  },
+  "timing_summary.rpt": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\build\\reports\\frozen_20261031\\timing_summary.rpt",
+    "sha256": "a2cd0f4f16dd0da182cd8a8a0dccd9dccf6e3eae2617774890172cec2294dc1a",
+    "kind": "historical source record; not a new board run"
+  },
+  "build_acceptance.json": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\build\\reports\\frozen_20261031\\build_acceptance.json",
+    "sha256": "9d8ac21d0e75683bf4c7d2eb44074a2d53672d726a8be6ee01bdb5c8b6d8f20c",
+    "kind": "historical source record; not a new board run"
+  },
+  "host_validation_summary.json": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\sim\\results\\release_validation_20261102\\host\\summary.json",
+    "sha256": "ab8bf247566ba36895959823b83cb672ba86d1ca10e185aec1281e789de1f6d0",
+    "kind": "historical source record; not a new board run"
+  },
+  "host_validation_tests.log": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\sim\\results\\release_validation_20261102\\host\\tests.log",
+    "sha256": "ea9d5495c965b04d841b74fe84d95c6f63394d7e249e7af5a43a294e2545f632",
+    "kind": "historical source record; not a new board run"
+  },
+  "rtl_validation_summary.json": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal\\sim\\results\\release_validation_20261102\\rtl\\summary.json",
+    "sha256": "e36b2d3769d1ff1dc801416c783d8f8295103fab19bbeee9ff382e51845850ed",
+    "kind": "historical source record; not a new board run"
+  },
+  "archive_roundtrip.json": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\debug_tools\\freeze_validation_20261102\\archive_roundtrip.json",
+    "sha256": "bcb25eb09b7a3e9874b5da36ffe656d4a2c7056e1fe83e4266d158c5b9e8108e",
+    "kind": "historical source record; not a new board run"
+  },
+  "targeted_checks.json": {
+    "origin": "D:\\Claude_code_thing_new\\audio_f0923\\debug_tools\\merged_review_20261101\\targeted_checks.json",
+    "sha256": "80de2ea2e7c931df389b9d7b9d67229c89f8a3c4794674b1b29eaf4f4e35f0c8",
+    "kind": "historical source record; not a new board run"
+  },
+  "historical_magnitude_actual.npy": {
+    "origin": "board/results/historical_pl2_20261030/matching_pcm_and_gold.npz",
+    "array": "hardware_magnitude",
+    "derivation": "unchanged saved array to .npy; no new capture",
+    "sha256": "3cef63d75b819c8654b89aca52accf55136d43d835ad22d49c900b496e139fcc"
+  },
+  "historical_magnitude_expected.npy": {
+    "origin": "board/results/historical_pl2_20261030/matching_pcm_and_gold.npz",
+    "array": "expected_magnitude",
+    "derivation": "unchanged saved array to .npy; no new capture",
+    "sha256": "7e391191271a4a47063c10eb75883db2052ab279c91e07c58ac25013186c3e45"
+  },
+  "spectrum_packets.hex": {
+    "origin": "sim/fixtures/spectrum_packets.hex",
+    "kind": "historical RTL fixture",
+    "sha256": "a87f57dcb9677fce8327002e2c71bcdac8400b9817ecbfaba9995b8635d6b265"
+  }
+}

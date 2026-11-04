@@ -1,0 +1,31 @@
+{
+  "archive": "D:\\Claude_code_thing_new\\audio_f0923\\submission\\music_analysis_terminal_engineering_r6_20261102.zip",
+  "archive_bytes": 15319424,
+  "archive_sha256": "d7d162dba42829781ea867fc7e15c04c8b825d88be1ff54693e37520a764fef5",
+  "frozen_files": 253,
+  "section_counts": {
+    "src": 93,
+    "sim": 37,
+    "build": 40,
+    "board": 79
+  },
+  "relocated_checks": [
+    {
+      "command": [
+        "build/scripts/verify_release.py"
+      ],
+      "returncode": 0,
+      "output": "RELEASE_VERIFY_OK {\"release\": \"20261102-r6-freeze\", \"verified_files\": 253, \"runtime_release\": \"20261101-R6\"}\n"
+    },
+    {
+      "command": [
+        "sim/scripts/run_validation.py",
+        "--out",
+        "D:\\Claude_code_thing_new\\audio_f0923\\debug_tools\\freeze_validation_20261102\\unpacked\\host_relocated"
+      ],
+      "returncode": 0,
+      "output": "{\"tests\": 22, \"failures\": 0, \"errors\": 0, \"successful\": true, \"native_lib_sha256\": \"e20728251a807391f02ff3aec427ff2611c84f7f562f7d32ac6d5278b4b214a9\", \"scope\": \"PC real C/Python with generated/recorded protocol data; no board, ADC, LCD or vendor FFT arithmetic assertion\"}\n"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "method": "centered_cosine_v1",
+  "files": {
+    "reference_infer.py": "46818209cb2cd70a1b0411cf28e1007cb5e0ac286efa14dcb0dc0e3130bc743d",
+    "reference_check.py": "ef72c04bea3e62dc4b8887c67e2257277163d9a750964efb58100d5bd2006963",
+    "reference/reference_bank.npz": "3779e1bb27cd67a8618d4b2cebe80295a9f611f289b3526938853c9a0b8b284c",
+    "reference/reference_meta.json": "a505e41800fbbaf508551d7ad805a290f8d73f3b90694ae3084c2ef4ae939f01",
+    "reference/frozen_config.json": "79f51ae409e10a1216a3a9cf3a93fd7e1da2955ffafeb0248bbda431bc71590a",
+    "REFERENCE_README.md": "86eb25267d207d654b719faab9e7929989fcf7137df63a0a4b938f8ed07355fa"
+  },
+  "original_manifest_sha256": "e0b5d6e8b64860abbb1e774806f745ee333eeb41fd223ea2152accbb8b0382cb",
+  "cnn_weights_changed": false,
+  "status": "PC improved candidate; board verification pending"
+}

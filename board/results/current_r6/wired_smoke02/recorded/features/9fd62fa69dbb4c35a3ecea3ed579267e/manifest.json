@@ -1,0 +1,115 @@
+{
+  "schema": "ac820.instrument_capture.v1",
+  "epoch": "9fd62fa69dbb4c35a3ecea3ed579267e",
+  "operator_label": "unlabeled",
+  "label_source": "operator_fixed_per_run",
+  "created_unix": 1637223641.149386,
+  "fs_hz": 16000,
+  "feature_contract": {
+    "power_shape": [
+      513,
+      63
+    ],
+    "mel_shape": [
+      64,
+      63
+    ],
+    "fft_n": 1024,
+    "hop": 256,
+    "segment_samples": 16000,
+    "frames": 63,
+    "power": "BFP restored float64; no phase or PCM",
+    "mel": "exact float32 inference input; global max reference, -80..0 dB mapped to 0..1"
+  },
+  "metadata": {
+    "input_profile": "line",
+    "note": "actual_date=2026-11-02; source=PC_line",
+    "frontend_prepared": {
+      "codec": {
+        "R04": "0x3c",
+        "R08": "0x0",
+        "R17": "0x18",
+        "R18": "0x6",
+        "R19": "0x22",
+        "R27": "0x80",
+        "R2A": "0x80",
+        "R2B": "0x80"
+      },
+      "i2c_backend": "pl_open_drain",
+      "i2c_half_period_us": 20.0,
+      "rx_divider": 12,
+      "slot_bits": 16,
+      "rx_enabled": false
+    },
+    "paired_artifacts": {
+      "audio_merged.bit": {
+        "sha256": "42740ac0ef8a2715750f5d37f1adb570f8d5de1cc66bc2ba01fb333379a6e37c",
+        "bytes": 4045669
+      },
+      "audio_merged.hwh": {
+        "sha256": "dd13e40f663de7ba6dafadb4d66d569ba0370f02f46ead69fda801f1bb7a72f3",
+        "bytes": 731937
+      },
+      "pl_fft.py": {
+        "sha256": "2dc7e0f8ef2e5ab20f21aab5eca2e1b46c8e50c8b753eab46e5ba2737524a892",
+        "bytes": 8939
+      },
+      "infer_numpy.py": {
+        "sha256": "8fa315d6296705e97ac4f0c192b2b36b280330f408ea5858ac38881d8ad0a38c",
+        "bytes": 3824
+      },
+      "reference_infer.py": {
+        "sha256": "46818209cb2cd70a1b0411cf28e1007cb5e0ac286efa14dcb0dc0e3130bc743d",
+        "bytes": 5518
+      },
+      "instrument_capture.py": {
+        "sha256": "707a8156b115ad354593e63642c1e3352310fda19f091488d7e7196926042dcb",
+        "bytes": 7599
+      },
+      "models/cnn_weights.npz": {
+        "sha256": "b3cfc4c092a788968e343b6b06bc678ea79d840bab59cf7c772494b948f727cf",
+        "bytes": 95982
+      },
+      "models/mel_matrix.npy": {
+        "sha256": "9455b8916038184f94abf8f3581553c41b1e6075a5bd8f18037157cf6bc5271e",
+        "bytes": 131456
+      },
+      "models/model_meta.json": {
+        "sha256": "e06a3b22b9530046e321b597adc3924d249cd2a319bb856c2e0aa5a9508643aa",
+        "bytes": 860
+      },
+      "reference/reference_bank.npz": {
+        "sha256": "281ec1a5948415aa80f2e7fe89a7927f8f6c8be9f472e8986574512c317cc320",
+        "bytes": 42355
+      },
+      "reference/reference_meta.json": {
+        "sha256": "f5c70ab281ddddc9b58e66ce161d0971cb5450ce316d0a4e1d60607e8502fb42",
+        "bytes": 10451
+      },
+      "reference/frozen_config.json": {
+        "sha256": "b7655efc637840a78fd7e7b9687b31aeed6f466b566d23913f2826646d4aeb02",
+        "bytes": 1374
+      }
+    },
+    "silence_rms": 0.003,
+    "classification": "raw CNN and reference; no smoothing/retraining"
+  },
+  "status": {
+    "enabled": true,
+    "directory": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/acceptance_runs/wired_smoke02/features/9fd62fa69dbb4c35a3ecea3ed579267e",
+    "operator_label": "unlabeled",
+    "seen": 152,
+    "accepted": 120,
+    "written": 120,
+    "queue_dropped": 0,
+    "write_failed": 0,
+    "skipped_limit": 32,
+    "pending": 0,
+    "reserved_bytes": 35163796,
+    "bytes_written": 33305248,
+    "error": null,
+    "closing": true,
+    "max_segments": 120,
+    "max_bytes": 268435456
+  }
+}

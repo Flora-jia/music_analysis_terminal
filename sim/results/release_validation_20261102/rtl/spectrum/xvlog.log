@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/music_analysis_terminal/sim/testbench/tb_spectrum_pack.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_pack
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/music_analysis_terminal/src/rtl/spectrum_frame_pack.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_frame_pack

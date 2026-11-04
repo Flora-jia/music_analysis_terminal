@@ -1,0 +1,108 @@
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/project/audio/audio/pl_merge_20261031/test_portable.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/project/audio/audio/pl_merge_20261031/merged_inputs/base_ip/fir_compiler_audio/fir_5k_simple_16k.coe' provided. It will be converted relative to IP Instance files '../../../../../merged_inputs/base_ip/fir_compiler_audio/fir_5k_simple_16k.coe'
+INFO: [BD::TCL 103-2003] Currently there is no design <Audio> in project, so creating one...
+Wrote  : <D:\project\audio\audio\pl_merge_20261031\portable_check_v2\audio_merged.srcs\sources_1\bd\Audio\Audio.bd> 
+INFO: [BD::TCL 103-2004] Making design <Audio> as current_bd_design.
+INFO: [BD::TCL 103-2005] Currently the variable <design_name> is equal to "Audio".
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'FREQ_HZ' with value '50000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-7067] Note that bus interface 's_axi_aclk' has a fixed FREQ_HZ of '50000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [BD 41-1306] The connection to interface pin </processing_system7_0/GPIO_O> is being overridden by the user with net <processing_system7_0_GPIO_O>. This pin will not be connected as a part of interface connection <GPIO_0>.
+WARNING: [BD 41-1306] The connection to interface pin </processing_system7_0/GPIO_I> is being overridden by the user with net <touch_reset_feedback_dout>. This pin will not be connected as a part of interface connection <GPIO_0>.
+Slave segment '/processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0x0000_0000 [ 1G ]>.
+Slave segment '/processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/axi_dma_1/Data_S2MM' at <0x0000_0000 [ 1G ]>.
+Slave segment '/processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/lcd_vdma/Data_MM2S' at <0x0000_0000 [ 1G ]>.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4040_0000 [ 64K ]>.
+Slave segment '/axi_dma_1/S_AXI_LITE/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4041_0000 [ 64K ]>.
+Slave segment '/i2s_receiver_0/s_axi_ctrl/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C1_0000 [ 64K ]>.
+Slave segment '/i2s_transmitter_0/s_axi_ctrl/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C0_0000 [ 64K ]>.
+Slave segment '/lcd_vdma/S_AXI_LITE/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4300_0000 [ 64K ]>.
+Slave segment '/lcd_vtc/ctrl/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C2_0000 [ 64K ]>.
+Slave segment '/speaker_core/s_axi/reg0' is being assigned into address space '/processing_system7_0/Data' at <0x43C3_0000 [ 64K ]>.
+clk_domain: Audio_processing_system7_0_0_FCLK_CLK0, clk_domain_1: Audio_lcd_clk_wiz_0_clk_out1, clkDomainValSrc_1: DEFAULT, clk_domain_ctrl: 0
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /lcd_clk_wiz clk_wiz propagate
+Wrote  : <D:\project\audio\audio\pl_merge_20261031\portable_check_v2\audio_merged.srcs\sources_1\bd\Audio\Audio.bd> 
+INFO: [BD 5-320] Validate design is not run, since the design is already validated.
+INFO: [BD 41-1662] The design 'Audio.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(2) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(2) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(2) - Only lower order bits will be connected.
+VHDL Output written to : D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/synth/Audio.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(2) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(2) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(2) - Only lower order bits will be connected.
+VHDL Output written to : D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/sim/Audio.v
+VHDL Output written to : D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/hdl/Audio_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/ip/Audio_auto_us_0/Audio_auto_us_0_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/ip/Audio_auto_us_1/Audio_auto_us_1_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/ip/Audio_auto_pc_0/Audio_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block i2s_receiver_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block i2s_transmitter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_clk_wiz .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_one .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_rst .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/ip/Audio_lcd_vdma_0/Audio_lcd_vdma_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_vdma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_video_out .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_vtc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block lcd_zero .
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/ip/Audio_auto_pc_1/Audio_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block speaker_core .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block touch_reset_feedback .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block touch_reset_slice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block touch_reset_zero .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+Exporting to file D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/hw_handoff/Audio.hwh
+Generated Block Design Tcl file D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/hw_handoff/Audio_bd.tcl
+Generated Hardware Definition File D:/project/audio/audio/pl_merge_20261031/portable_check_v2/audio_merged.gen/sources_1/bd/Audio/synth/Audio.hwdef
+generate_target: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1162.574 ; gain = 51.375
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'xfft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xfft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'xfft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'xfft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'xfft_1024'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'xfft_1024'...
+INFO: [Vivado 12-4796] No errors or warning reported.
+PORTABLE_PROJECT_READY
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 14:41:59 2026...

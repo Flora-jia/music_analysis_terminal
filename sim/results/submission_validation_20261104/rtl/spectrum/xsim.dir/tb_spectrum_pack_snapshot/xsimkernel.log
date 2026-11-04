@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_spectrum_pack_snapshot/xsimk.exe -runall -simmode gui -wdb tb_spectrum_pack_snapshot.wdb -simrunnum 0 -socket 64010
+Design successfully loaded
+Design Loading Memory Usage: 8684 KB (Peak: 8684 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 9276 KB (Peak: 9276 KB)
+Simulation CPU Usage: 77 ms

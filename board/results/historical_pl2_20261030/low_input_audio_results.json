@@ -1,0 +1,442 @@
+{
+  "source": "Computer playback via user-confirmed audio cable to LINE IN",
+  "WAV_amplitude": 0.035,
+  "tests": [
+    {
+      "case": "A2_third_strong",
+      "expected_note": "A2",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.032,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        }
+      ]
+    },
+    {
+      "case": "110Hz",
+      "expected_note": "A2",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.191,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.192,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.191,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.185,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.185,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        }
+      ]
+    }
+  ]
+}

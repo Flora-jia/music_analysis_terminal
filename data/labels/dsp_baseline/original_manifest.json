@@ -1,0 +1,64 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "duration_seconds": 6.0,
+  "identical_channels": true,
+  "note": "PC WAV rate differs from FPGA acquisition rate; tones retain their physical frequency.",
+  "files": [
+    {
+      "name": "01_500Hz.wav",
+      "components_hz_and_peak_gain": [
+        [
+          500.0,
+          0.25
+        ]
+      ],
+      "digital_peak": 8192,
+      "frames": 288000
+    },
+    {
+      "name": "02_1000Hz.wav",
+      "components_hz_and_peak_gain": [
+        [
+          1000.0,
+          0.25
+        ]
+      ],
+      "digital_peak": 8192,
+      "frames": 288000
+    },
+    {
+      "name": "03_440Hz.wav",
+      "components_hz_and_peak_gain": [
+        [
+          440.0,
+          0.25
+        ]
+      ],
+      "digital_peak": 8192,
+      "frames": 288000
+    },
+    {
+      "name": "04_silence.wav",
+      "components_hz_and_peak_gain": [],
+      "digital_peak": 0,
+      "frames": 288000
+    },
+    {
+      "name": "05_220Hz_weak_fundamental_440Hz.wav",
+      "components_hz_and_peak_gain": [
+        [
+          220.0,
+          0.04
+        ],
+        [
+          440.0,
+          0.2
+        ]
+      ],
+      "digital_peak": 7496,
+      "frames": 288000
+    }
+  ]
+}

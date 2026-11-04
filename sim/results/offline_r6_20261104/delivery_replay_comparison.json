@@ -1,0 +1,31 @@
+{
+  "test": "delivery_root_r6_audio_replay",
+  "date": "2026-11-04",
+  "software_release": "20261101-R6",
+  "weights_sha256": "b3cfc4c092a788968e343b6b06bc678ea79d840bab59cf7c772494b948f727cf",
+  "comparisons": [
+    {
+      "file": "file_results.csv",
+      "rows": 221,
+      "matching_non_timing_fields": true
+    },
+    {
+      "file": "segment_results.csv",
+      "rows": 2154,
+      "matching_non_timing_fields": true
+    },
+    {
+      "file": "suite_summary.csv",
+      "rows": 8,
+      "matching_non_timing_fields": true
+    },
+    {
+      "file": "failed_files.csv",
+      "rows": 59,
+      "matching_non_timing_fields": true
+    }
+  ],
+  "files": 221,
+  "segments": 2154,
+  "all_matched": true
+}

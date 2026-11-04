@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  4 15:39:35 2026
+# Process ID: 21616
+# Current directory: D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum
+# Command line: wbtcv.exe -mode batch -source D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum/xsim.dir/tb_spectrum_pack_snapshot/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum/webtalk.log
+# Journal file: D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum\webtalk.jou
+#-----------------------------------------------------------
+source D:/Claude_code_thing_new/rtl_sim_1104_native/spectrum/xsim.dir/tb_spectrum_pack_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  4 15:39:36 2026...

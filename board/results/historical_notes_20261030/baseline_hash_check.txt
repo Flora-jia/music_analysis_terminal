@@ -1,0 +1,5 @@
+pitch_compare.c: SAME  base=6bfa7d9aa62b100d cand=6bfa7d9aa62b100d
+pitch_compare.h: SAME  base=0fe467cc0e79d52b cand=0fe467cc0e79d52b
+spectrum_protocol.h: SAME  base=b2ad47c49ed42224 cand=b2ad47c49ed42224
+COMMON.c: SAME  base=7e78e58702076fb5 cand=7e78e58702076fb5
+COMMON.h: SAME  base=27f7c19e5b36a720 cand=27f7c19e5b36a720

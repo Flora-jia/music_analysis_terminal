@@ -1,0 +1,187 @@
+{
+  "rtl/fft_accel_wrapper.v": {
+    "sha256": "3630d1c6db92202bfc4cad3e1af7511ff1500850a818b74021af467b05f60dd9",
+    "source": "new.zip:new/fft_accel_wrapper.v"
+  },
+  "rtl/audio_fft_top.v": {
+    "sha256": "d464743fef4bc777a83d7f9549a8d2608d9824c2a0f1897a7e3bfa122da06d97",
+    "source": "new.zip:new/audio_fft_top.v"
+  },
+  "rtl/fft_spectrum_chain.v": {
+    "sha256": "b3055e379685a431d0560084c8215e3ad5a52100eba3e5647a4e771bae385365",
+    "source": "new.zip:new/fft_spectrum_chain.v"
+  },
+  "rtl/fft_frame_controller.v": {
+    "sha256": "736b92582cf41bf91f5e48ed1c9940dbabeafad80f9181ce303848ac924a2781",
+    "source": "new.zip:new/fft_frame_controller.v"
+  },
+  "rtl/pcm_overlap_buffer.v": {
+    "sha256": "cbb80d4c7fd2478a896491ff148f7174676c84fb4f7fbd256d58b4622cf24367",
+    "source": "new.zip:new/pcm_overlap_buffer.v"
+  },
+  "rtl/spectrum_frame_pack.v": {
+    "sha256": "3750d10d8d15d8f9f434872b2fd9a51cbaeb9bd15beaa921456d2e2bc7b15bbb",
+    "source": "new.zip:new/spectrum_frame_pack.v"
+  },
+  "rtl/fft_peak_search.v": {
+    "sha256": "7611fb29d2d3b8e7388c9eb0e77e438fd5b79541fc0f5309da25538c60647dda",
+    "source": "new.zip:new/fft_peak_search.v"
+  },
+  "rtl/axis_hann4096.v": {
+    "sha256": "701b68fb3baa6bd8c4e0f805a6102e95985806476c23dd9889dcb8e6eaac380b",
+    "source": "new.zip:new/axis_hann4096.v"
+  },
+  "rtl/hann4096_rom.v": {
+    "sha256": "80a325aba6ee71e48abf94194d25f44ffbeb3fc7001ba5047d533825766347da",
+    "source": "new.zip:new/hann4096_rom.v"
+  },
+  "rtl/music_fft1024_batch.v": {
+    "sha256": "92c410046b257bc9d1f4ad7adc5562c7d8f0d9a3e24c58c404f026cb57fc0259",
+    "source": "对接中 (2).zip:对接中/01_rtl模型支路/music_fft1024_batch.v"
+  },
+  "rtl/music_pcm_segments.v": {
+    "sha256": "1c4e7ebf2417b348fb5c44f125b2bb6f7df985951278ac40651380bc2cda1c98",
+    "source": "对接中 (2).zip:对接中/01_rtl模型支路/music_pcm_segments.v"
+  },
+  "rtl/hann_coef_rom.v": {
+    "sha256": "1df91ea8ed9755a12e7ee525c04505f195413e2cad0e5510102471bfb34eee4c",
+    "source": "对接中 (2).zip:对接中/01_rtl模型支路/hann_coef_rom.v"
+  },
+  "ip/xfft_1024.xcix": {
+    "sha256": "2669ef506c9104e9112cd820a34b6851d30ccf3973d7861b842a76b39c27f16c",
+    "source": "对接中 (2).zip"
+  },
+  "model/pl_fft.py": {
+    "sha256": "84e91d9a8ef4dcc860645dba2d40c1fcfdebf3784b58a472bebaf66fa119578b",
+    "source": "对接中 (2).zip"
+  },
+  "model/test_integration.py": {
+    "sha256": "5d834bba09c661f9f83d81fc0669e33d4486fe1eb49f39cd7aa85df226d6c321",
+    "source": "对接中 (2).zip"
+  },
+  "model/tb_fft_protocol.v": {
+    "sha256": "8221a9f1e4d97ad5bcd3440dc49433521f090a2820b2af727c9cd76f7717eda5",
+    "source": "对接中 (2).zip"
+  },
+  "model/infer_numpy.py": {
+    "sha256": "8fa315d6296705e97ac4f0c192b2b36b280330f408ea5858ac38881d8ad0a38c",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference_infer.py": {
+    "sha256": "46818209cb2cd70a1b0411cf28e1007cb5e0ac286efa14dcb0dc0e3130bc743d",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference_check.py": {
+    "sha256": "ef72c04bea3e62dc4b8887c67e2257277163d9a750964efb58100d5bd2006963",
+    "source": "对接中 (2).zip"
+  },
+  "model/manifest.json": {
+    "sha256": "e0b5d6e8b64860abbb1e774806f745ee333eeb41fd223ea2152accbb8b0382cb",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference_manifest.json": {
+    "sha256": "5914aef183341ba30b49ee617ce864fe388116b3856ba4bda25ff553186ef769",
+    "source": "对接中 (2).zip"
+  },
+  "model/REFERENCE_README.md": {
+    "sha256": "86eb25267d207d654b719faab9e7929989fcf7137df63a0a4b938f8ed07355fa",
+    "source": "对接中 (2).zip"
+  },
+  "model/models/cnn_weights.npz": {
+    "sha256": "4146c3863ec6a2e8dee6eac139659a9fa142f9c19ed661fdd21c542a6107c63a",
+    "source": "对接中 (2).zip"
+  },
+  "model/models/mel_matrix.npy": {
+    "sha256": "9455b8916038184f94abf8f3581553c41b1e6075a5bd8f18037157cf6bc5271e",
+    "source": "对接中 (2).zip"
+  },
+  "model/models/model_meta.json": {
+    "sha256": "5a206e665c7b4a795fe540410bebf5c899053881756d7d754e0fdb4c03e22e1c",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference/frozen_config.json": {
+    "sha256": "79f51ae409e10a1216a3a9cf3a93fd7e1da2955ffafeb0248bbda431bc71590a",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference/reference_bank.npz": {
+    "sha256": "3779e1bb27cd67a8618d4b2cebe80295a9f611f289b3526938853c9a0b8b284c",
+    "source": "对接中 (2).zip"
+  },
+  "model/reference/reference_meta.json": {
+    "sha256": "a505e41800fbbaf508551d7ad805a290f8d73f3b90694ae3084c2ef4ae939f01",
+    "source": "对接中 (2).zip"
+  },
+  "MODEL_SELECTION.md": {
+    "sha256": "61424a2d60ee6cbdcb35cf8287db9cf32cc4ac799f980cc6bc51e846ce22c739",
+    "source": "对接中 (2).zip"
+  },
+  "rtl/audio_mono_select.v": {
+    "sha256": "904e07acc2ea07da191e98d0d33ff125cdf80c6efa638d0f82397b62cd6bc299",
+    "source": "D:\\project\\audio_f0923\\audio\\audio\\audio_mono_select.v"
+  },
+  "rtl/fir_audio.v": {
+    "sha256": "c9f715c6db62fdb8f4ed1070dba27f734dd7c2f7173e565c9aec35f810e40982",
+    "source": "D:\\project\\audio_f0923\\audio\\audio\\fir_audio.v"
+  },
+  "rtl/fir_to_fft_scale.v": {
+    "sha256": "32e0a5034a99b0b53579495488e5101932f2bfb1b22f7b99d61a5d8d957647f9",
+    "source": "D:\\project\\audio_f0923\\audio\\audio\\fir_to_fft_scale.v"
+  },
+  "rtl/audio_top.v": {
+    "sha256": "50094075952659863783643a334370654674d3529d0d9680e60364dbe896d017",
+    "source": "adapted current audio_top.v"
+  },
+  "rtl/Audio_iic_debug_wrapper.v": {
+    "sha256": "14c9bcc04e452c90d189eb9cfdfddd8a72468e7e627e6e51591293f26d58e303",
+    "source": "adapted current wrapper; preserve IOBUF/PL IIC"
+  },
+  "sys.xdc": {
+    "sha256": "7bc74670dbb31a4913724678997141d4582ae814d533f2fb387cd90c7705cd2b",
+    "source": "current pin/CDC constraints, runtime without ILA"
+  },
+  "spectrum_protocol.h": {
+    "sha256": "b2ad47c49ed42224ca2d5f28a3262a839be234074ff967db05a65518e7384324",
+    "source": "supplied spectrum_protocol.h"
+  },
+  "rtl/ac820_speaker_core.v": {
+    "source": "D:\\project\\audio_f0923\\audio\\audio\\speaker_support_2020_2\\ac820_speaker_core.v",
+    "sha256": "00b8e37c9be2da552bf39029ce5c1d39a42e313846b734cafbc20f2a5295b79a",
+    "note": "Identical RTL copied after build for project portability; original compiled source preserved."
+  },
+  "bd/Audio.bd": {
+    "sha256": "a5354aad7072cd8a544a7e4550abfc4f24c48aed9e3aa610b79172cb8cda6c65",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\bd\\Audio\\Audio.bd"
+  },
+  "base_ip/xfft_0/xfft_0.xci": {
+    "sha256": "a465db9eca1f6014d1945f22452c200bfd63439e8e874fefcdf0f76157e41b86",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\ip\\xfft_0\\xfft_0.xci"
+  },
+  "base_ip/cordic_translate_0/cordic_translate_0.xci": {
+    "sha256": "ffa46378119526eb8c1f29c6ddac53f05d88e0304e7be52af77ef9348dd36b47",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\ip\\cordic_translate_0\\cordic_translate_0.xci"
+  },
+  "base_ip/fir_compiler_audio/fir_compiler_audio.xci": {
+    "sha256": "f95eaa5220ea1e145713c5de23b19a843a93450da88edb881766280053be8ee2",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\ip\\fir_compiler_audio\\fir_compiler_audio.xci"
+  },
+  "base_ip/fir_compiler_audio/fir_5k_simple_16k.coe": {
+    "sha256": "f970c17a806b24716dc1018d3028087b80ed2e36c1e4b39df04966a2e6a8f8e3",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\ip\\fir_compiler_audio\\fir_5k_simple_16k.coe"
+  },
+  "rtl/audio_capture_debug.v": {
+    "sha256": "4826b3bf4b6cf44107ad5d96c69419a4a0e4aa0db58fb03808d05af61e8de30f",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\new\\audio_capture_debug.v"
+  },
+  "rtl/dds_tone_source.v": {
+    "sha256": "ec70d2df3a424031cfbcbcce0c29000f8e567a223629302e9c1eab65a8ff83b5",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\new\\dds_tone_source.v"
+  },
+  "rtl/frame_auto_trigger.v": {
+    "sha256": "cb9d7d25b47cbe06cf52444c8493b821acad15ebf5e50f97401b37329912fa1f",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\new\\frame_auto_trigger.v"
+  },
+  "bd/Audio.tcl": {
+    "sha256": "8072f62083cef2a053e91270e9f92b4218fcb988056a966408283b9dd5df7dc7",
+    "source": "D:\\project\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.srcs\\sources_1\\bd\\Audio\\hw_handoff\\Audio_bd.tcl"
+  }
+}

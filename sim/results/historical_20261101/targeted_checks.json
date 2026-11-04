@@ -1,0 +1,172 @@
+{
+  "bit_files": {
+    "hardware\\audio_merged.bit": {
+      "a": "audio_top;UserID=0XFFFFFFFF;Version=2020.2",
+      "b": "7z020clg484",
+      "c": "2026/10/31",
+      "d": "14:33:09",
+      "payload_bytes": 4045564,
+      "payload_sha256": "404feadf609fb32ec28011a9b223daec495b137fa77624f4f153b180faa9de38"
+    },
+    "project\\audio_merged.runs\\impl_1\\audio_top.bit": {
+      "a": "audio_top;UserID=0XFFFFFFFF;Version=2020.2",
+      "b": "7z020clg484",
+      "c": "2026/10/31",
+      "d": "20:15:36",
+      "payload_bytes": 4045564,
+      "payload_sha256": "385a8e2aad6ac85743c3dd573e366dfe54063f6b61901852afb26aa4ef713e4f"
+    }
+  },
+  "payloads_equal": false,
+  "bit_byte_differences": {
+    "count": 687607,
+    "range_count": 225581,
+    "first_ranges": [
+      [
+        91,
+        92
+      ],
+      [
+        94,
+        95
+      ],
+      [
+        97,
+        98
+      ],
+      [
+        250014,
+        250014
+      ],
+      [
+        250020,
+        250020
+      ],
+      [
+        250025,
+        250025
+      ],
+      [
+        250043,
+        250043
+      ],
+      [
+        250059,
+        250059
+      ],
+      [
+        250091,
+        250091
+      ],
+      [
+        250137,
+        250137
+      ],
+      [
+        250139,
+        250139
+      ],
+      [
+        250185,
+        250185
+      ],
+      [
+        250187,
+        250187
+      ],
+      [
+        250215,
+        250216
+      ],
+      [
+        250237,
+        250237
+      ],
+      [
+        250239,
+        250239
+      ],
+      [
+        250285,
+        250285
+      ],
+      [
+        250287,
+        250287
+      ],
+      [
+        250331,
+        250331
+      ],
+      [
+        250432,
+        250432
+      ],
+      [
+        250463,
+        250463
+      ],
+      [
+        250619,
+        250620
+      ],
+      [
+        250735,
+        250735
+      ],
+      [
+        250737,
+        250737
+      ],
+      [
+        250739,
+        250739
+      ],
+      [
+        251237,
+        251237
+      ],
+      [
+        251427,
+        251428
+      ],
+      [
+        251543,
+        251543
+      ],
+      [
+        251545,
+        251545
+      ],
+      [
+        251547,
+        251547
+      ]
+    ]
+  },
+  "xcix_xci_entries": [
+    "xfft_1024/xfft_1024.xci"
+  ],
+  "system_zip_runtime_differences": [],
+  "scale_diff": "--- verified PL2\n+++ merged\n@@ -3,13 +3,12 @@\n \n // 24-bit FIR output -> 16-bit signed sample for FFT chain.\n //\n-// FIR output is left-justified in [23:8] (input was left-justified too),\n-// so take [23:8] to recover the 16-bit sample.\n-//\n-// No backpressure: FIR is Non-Blocking (no output tready), so the FFT chain's\n-// sample_ready is not propagated. At 16 kHz sample rate on a 50 MHz clock the\n-// FFT chain processes ~3000x faster than data arrives, so sample_ready is\n-// effectively always high and no sample is dropped.\n+// Actual generated FIR: signed 24-bit input, signed integer 16-bit coefficients,\n+// 40-bit accumulator, Truncate_LSBs to 24-bit output (discard 16 accumulator LSBs).\n+// Input PCM is shifted left by 8 in fir_audio; selecting [23:8] below gives\n+// approximately sum(PCM[n-k] * coefficient[k]) >>> 16, NOT a unity-gain promise.\n+// Non-blocking FIR output cannot be stalled by FFT. Observe frame diagnostics\n+// for in-frame drops and intentional frame-gap omissions separately.\n module fir_to_fft_scale (\n     input  wire [23:0] s_tdata,\n     input  wire        s_tvalid,\n",
+  "history_association_repro": {
+    "before": [
+      {
+        "segment": 0,
+        "cnn_label": "piano",
+        "reference_label": "piano",
+        "confidence": 0.9,
+        "reference_similarity": 0.8,
+        "association": "overlap_nominal_fir_delay",
+        "calibrated": false
+      }
+    ],
+    "after": [],
+    "erased": true
+  },
+  "runtime_weights_sha256": "4146c3863ec6a2e8dee6eac139659a9fa142f9c19ed661fdd21c542a6107c63a",
+  "head_candidate_files": [
+    "head_adaptation_20261101\\head_fit.npz",
+    "head_adaptation_20261101\\verified_features.npz"
+  ]
+}

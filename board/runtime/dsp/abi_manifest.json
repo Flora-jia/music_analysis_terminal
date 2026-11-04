@@ -1,0 +1,77 @@
+{
+  "schema": "ac820.native.v2",
+  "native_version": "libmusic_ps 2.0.0",
+  "layout": {
+    "MPResult": {
+      "size": 56,
+      "offsets": {
+        "valid": 0,
+        "active": 4,
+        "tracking_valid": 8,
+        "midi": 12,
+        "frequency_hz": 16,
+        "confidence": 20,
+        "note_id": 24,
+        "reason": 28,
+        "time_quality": 32,
+        "frame_id": 36,
+        "feature_sample": 40,
+        "decision_sample": 48
+      }
+    },
+    "MPEvent": {
+      "size": 88,
+      "offsets": {
+        "type": 0,
+        "note_id": 4,
+        "midi": 8,
+        "frequency_hz": 12,
+        "confidence": 16,
+        "start_sample": 24,
+        "end_sample": 32,
+        "duration_s": 40,
+        "reason": 44,
+        "time_quality": 48,
+        "frame_id": 52,
+        "session_id": 56,
+        "event_seq": 60,
+        "schema_version": 64,
+        "flags": 68,
+        "decision_sample": 72,
+        "fs": 80
+      }
+    },
+    "MPSummary": {
+      "size": 40,
+      "offsets": {
+        "on_count": 0,
+        "off_count": 4,
+        "onset_count": 8,
+        "unassigned_onsets": 12,
+        "bad_packet_count": 16,
+        "gap_count": 20,
+        "event_overflow": 24,
+        "noise_db_milli": 28,
+        "calibrated": 32,
+        "state": 36
+      }
+    },
+    "MPJianpu": {
+      "size": 24,
+      "offsets": {
+        "valid": 0,
+        "degree": 4,
+        "accidental": 8,
+        "octave_offset": 12,
+        "name": 16
+      }
+    }
+  },
+  "libraries": {
+    "host": "e20728251a807391f02ff3aec427ff2611c84f7f562f7d32ac6d5278b4b214a9",
+    "arm": "aa74e1dfdc0820e7a2a28cd390d57fb3397a553240587fb3d0b0703291858287"
+  },
+  "core_sources_available": true,
+  "arm_glibc_floor": "2.27",
+  "core_manifest_sha256": "c1af0d9dbdc2bc33ba23b7810d26e2e4e1323c7bbe7448ca2876bbeb622bbd35"
+}

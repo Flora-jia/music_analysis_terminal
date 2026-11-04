@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "records": 3,
+  "errors": [],
+  "gaps": [],
+  "scope": "normalized packet/index/time checks; mixed values only detected if distinguishable golden payload is provided"
+}

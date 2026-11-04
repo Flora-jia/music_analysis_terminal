@@ -1,0 +1,35 @@
+[
+  {
+    "archive": "piano_low_medium.zip",
+    "n": 31,
+    "old_correct": 17,
+    "new_correct": 27,
+    "new_predictions": {
+      "piano": 27,
+      "guitar": 1,
+      "violin": 3
+    }
+  },
+  {
+    "archive": "piano_mid_medium.zip",
+    "n": 13,
+    "old_correct": 5,
+    "new_correct": 7,
+    "new_predictions": {
+      "piano": 7,
+      "guitar": 2,
+      "violin": 4
+    }
+  },
+  {
+    "archive": "piano_high_medium_v2.zip",
+    "n": 5,
+    "old_correct": 0,
+    "new_correct": 0,
+    "new_predictions": {
+      "piano": 0,
+      "guitar": 4,
+      "violin": 1
+    }
+  }
+]

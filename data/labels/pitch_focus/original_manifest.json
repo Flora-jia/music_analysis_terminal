@@ -1,0 +1,49 @@
+[
+  {
+    "file": "E5_pure_20s.wav",
+    "sr": 16000,
+    "synthetic": true,
+    "f0_hz": 659.255114,
+    "harmonics": {
+      "1": 1.0
+    },
+    "start_s": 1.0,
+    "end_s": 21.0,
+    "duration_s": 22.0,
+    "sha256": "175e30edef5d8b04db10d73c4e1e336d09d31f94b0dd56815cf0f22dfa29fd68"
+  },
+  {
+    "file": "A2_third_strong_20s.wav",
+    "sr": 16000,
+    "synthetic": true,
+    "f0_hz": 110.0,
+    "harmonics": {
+      "1": 0.1,
+      "2": 0.15,
+      "3": 1.0,
+      "4": 0.4,
+      "5": 0.3
+    },
+    "start_s": 1.0,
+    "end_s": 21.0,
+    "duration_s": 22.0,
+    "sha256": "c0d45acc1fe5daa90b1c34d6eb3119b47e5435b25b9ce3ca5fd446414d0204af"
+  },
+  {
+    "file": "A3_missing_fundamental_20s.wav",
+    "sr": 16000,
+    "synthetic": true,
+    "f0_hz": 220.0,
+    "harmonics": {
+      "2": 0.8,
+      "3": 0.6,
+      "4": 0.4,
+      "5": 0.3,
+      "6": 0.2
+    },
+    "start_s": 1.0,
+    "end_s": 21.0,
+    "duration_s": 22.0,
+    "sha256": "df526dcbfef2f43cd849b72004b76b853ec6ec2cf7fef8f00ab586fe1b869849"
+  }
+]

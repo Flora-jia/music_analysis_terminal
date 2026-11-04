@@ -1,0 +1,187 @@
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=4055 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4063 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4063 first=0x00000000001FBE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=4071 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4079 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=4087 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4095 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4095 first=0x00000000001FFE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=4103 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4111 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=4119 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4127 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4127 first=0x0000000000203E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=4135 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4143 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=4151 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=4159 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4159 first=0x0000000000207E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PL2_SUM rx=17 ok=17 err=0 gap=0 dropped=0 source_drop=0 fps=8.192 max_process_us=163
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PL2_SUM rx=1 ok=1 err=0 gap=0 dropped=0 source_drop=0 fps=0.663 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PITCH frame=4167 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=1 ok=1 err=0 gap=0 dropped=0 source_drop=0 fps=0.654 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4213 first=0x000000000020EA00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=45 gap=45 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=45 dropped=45 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4260 first=0x0000000000214800 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=91 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=91 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4308 first=0x000000000021A800 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=138 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=138 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4355 first=0x0000000000220600 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=184 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=184 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4403 first=0x0000000000226600 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=231 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=231 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4451 first=0x000000000022C600 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=278 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=278 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4498 first=0x0000000000232400 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=324 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=324 source_drop=0 fps=0.657 max_process_us=158
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PITCH frame=4546 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4546 first=0x0000000000238400 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=371 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=371 source_drop=0 fps=0.646 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4593 first=0x000000000023E200 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=417 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=417 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4641 first=0x0000000000244200 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=464 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=464 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4688 first=0x000000000024A000 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=510 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=510 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4737 first=0x0000000000250200 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=558 gap=48 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=48 dropped=558 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4784 first=0x0000000000256000 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=604 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=604 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4832 first=0x000000000025C000 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=651 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=651 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4879 first=0x0000000000261E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=697 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=697 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PITCH frame=4927 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=4927 first=0x0000000000267E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=744 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=744 source_drop=0 fps=0.646 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=4974 first=0x000000000026DC00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=790 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=790 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5022 first=0x0000000000273C00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=837 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=837 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5070 first=0x0000000000279C00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=884 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=884 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5118 first=0x000000000027FC00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=931 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=931 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5165 first=0x0000000000285A00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=977 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=977 source_drop=0 fps=0.657 max_process_us=162
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5213 first=0x000000000028BA00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=1024 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=1024 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+SPEC frame=5261 first=0x0000000000291A00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=1071 gap=47 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=47 dropped=1071 source_drop=0 fps=0.657 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)
+PITCH frame=5308 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=5308 first=0x0000000000297800 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=1117 gap=46 source_drop=0
+PL2_SUM rx=1 ok=1 err=0 gap=46 dropped=1117 source_drop=0 fps=0.646 max_process_us=161
+SPEC slow-receive test pause=1500ms (whole-frame drops expected)

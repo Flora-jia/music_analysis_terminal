@@ -1,0 +1,87 @@
+{
+  "sr": 16000,
+  "synthetic": true,
+  "events": [
+    {
+      "label": "A0",
+      "f0_hz": 27.5,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 1.0,
+      "end_s": 2.5
+    },
+    {
+      "label": "C1",
+      "f0_hz": 32.703196,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 3.25,
+      "end_s": 4.75
+    },
+    {
+      "label": "C2",
+      "f0_hz": 65.406391,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 5.5,
+      "end_s": 7.0
+    },
+    {
+      "label": "C3",
+      "f0_hz": 130.812783,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 7.75,
+      "end_s": 9.25
+    },
+    {
+      "label": "C4",
+      "f0_hz": 261.625565,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 10.0,
+      "end_s": 11.5
+    },
+    {
+      "label": "C5",
+      "f0_hz": 523.251131,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 12.25,
+      "end_s": 13.75
+    },
+    {
+      "label": "C6",
+      "f0_hz": 1046.502261,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 14.5,
+      "end_s": 16.0
+    },
+    {
+      "label": "C7",
+      "f0_hz": 2093.004522,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 16.75,
+      "end_s": 18.25
+    },
+    {
+      "label": "C8",
+      "f0_hz": 4186.009045,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 19.0,
+      "end_s": 20.5
+    }
+  ]
+}

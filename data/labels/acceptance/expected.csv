@@ -1,0 +1,12 @@
+﻿file,start_s,end_s,frequency_hz,note,midi,expected_bin_nearest,purpose
+pure_500_1000.wav,2,7,500,,,128,steady spectral peak; silence outside regions
+pure_500_1000.wav,9,14,1000,,,256,steady spectral peak; silence outside regions
+scale_c4_a4.wav,2.0,3.0,261.625565,C4,60,67,pitch/note event test; acoustic onset times need alignment
+scale_c4_a4.wav,3.5,4.5,293.664768,D4,62,75,pitch/note event test; acoustic onset times need alignment
+scale_c4_a4.wav,5.0,6.0,329.627557,E4,64,84,pitch/note event test; acoustic onset times need alignment
+scale_c4_a4.wav,6.5,7.5,349.228231,F4,65,89,pitch/note event test; acoustic onset times need alignment
+scale_c4_a4.wav,8.0,9.0,391.995436,G4,67,100,pitch/note event test; acoustic onset times need alignment
+scale_c4_a4.wav,9.5,10.5,440.0,A4,69,113,pitch/note event test; acoustic onset times need alignment
+repeat_c4.wav,2.0,3.0,261.625565,C4,60,67,pitch/note event test; acoustic onset times need alignment
+repeat_c4.wav,3.5,4.5,261.625565,C4,60,67,pitch/note event test; acoustic onset times need alignment
+repeat_c4.wav,5.0,6.0,261.625565,C4,60,67,pitch/note event test; acoustic onset times need alignment

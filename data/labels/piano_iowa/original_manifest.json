@@ -1,0 +1,89 @@
+{
+  "schema": "ac820.piano_playback_selection.v1",
+  "source_repository": "https://github.com/mcapodici/pianosounds",
+  "original_source_claimed_by_repository": "University of Iowa Electronic Music Studios",
+  "notes": [
+    "C4",
+    "D4",
+    "E4",
+    "G4",
+    "A4"
+  ],
+  "rounds": 2,
+  "processing": "Original Ogg preserved; decoded PCM16 WAV supplied for mobile playback",
+  "files": [
+    {
+      "note": "C4",
+      "file": "01_Piano.ff.C4.wav",
+      "url": "https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.ff.C4.ogg",
+      "bytes": 40677,
+      "sha256": "2540b6ca32ddac04eb58077a60e596b55ca829f89b68f9d8f386e751e2acd930",
+      "original_ogg": "01_Piano.ff.C4.ogg",
+      "original_sha256": "aa0c84a6b55d0d8c9b1aa3dc3f004e3a581552039237d393c904231903218e2a",
+      "duration_seconds": 3.0,
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    {
+      "note": "D4",
+      "file": "02_Piano.ff.D4.wav",
+      "url": "https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.ff.D4.ogg",
+      "bytes": 40036,
+      "sha256": "79e566766fb19d55ebf5f8103e03566991e7790c05b5676e454b8c3b6cf39b2d",
+      "original_ogg": "02_Piano.ff.D4.ogg",
+      "original_sha256": "f963146ea1044ccbbebee588f9f68d24da7ec44b3e0d801398acf27f11e20cd0",
+      "duration_seconds": 3.0,
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    {
+      "note": "E4",
+      "file": "03_Piano.ff.E4.wav",
+      "url": "https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.ff.E4.ogg",
+      "bytes": 41017,
+      "sha256": "87a3928f6591c2f5a54c2d8df8becc54ee4aac6d68dce0bebc19cbe03874ba5e",
+      "original_ogg": "03_Piano.ff.E4.ogg",
+      "original_sha256": "1d5e7f82d31d48799cd2c515ce2b83d0359f74aef6cf4f250f1d630a84481e4a",
+      "duration_seconds": 3.0,
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    {
+      "note": "G4",
+      "file": "04_Piano.ff.G4.wav",
+      "url": "https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.ff.G4.ogg",
+      "bytes": 40353,
+      "sha256": "3e5739ad3fdc258411ea5098d74f9500ceecf75d2755e72717b4aa317370b570",
+      "original_ogg": "04_Piano.ff.G4.ogg",
+      "original_sha256": "630fe3dd6ca8175ff7fc57d54303da8ab4ef7143212b1f46f16d9aae4b90b476",
+      "duration_seconds": 3.0,
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    {
+      "note": "A4",
+      "file": "05_Piano.ff.A4.wav",
+      "url": "https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.ff.A4.ogg",
+      "bytes": 40390,
+      "sha256": "3478958fe1d24ac6192d26185922eab9b1e2eff8ea78e59afe381d2b4445df7a",
+      "original_ogg": "05_Piano.ff.A4.ogg",
+      "original_sha256": "20478b362a6cd90c4301ea1cfec3b6b4f883322fbc870cd26df3286efbbdbe85",
+      "duration_seconds": 3.0,
+      "sample_rate": 44100,
+      "channels": 2
+    }
+  ],
+  "decoder": {
+    "package": "soundfile",
+    "version": "0.14.0",
+    "wheel_sha256": "299491d3499460fb1b74bb4bd78b57ffc2d243a5fafa7b6ec1b264875c78453e",
+    "output": "PCM16 WAV; same sample rate/channels; no gain or pitch processing"
+  },
+  "combined_track": {
+    "file": "piano_test_2rounds.wav",
+    "duration_seconds": 70,
+    "sample_rate": 44100,
+    "channels": 2,
+    "sha256": "d48fce7ff7387a8e506bb10cbe76d0ee96f04699a8a98aecdce5a66a032034af"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "date_utc": "2026-11-04T01:50:29.779172+00:00",
+  "mode": "full",
+  "vivado_root": "D:\\software_1\\Xilinx\\Vivado\\2020.2",
+  "source_release": "20261102-r6-freeze",
+  "board_runtime_modified": false,
+  "artifacts": {
+    "audio_merged.bit": {
+      "sha256": "0429025d53606b8c9d8fe575926f63602bb3bb39e15cde217c2049efb985121b",
+      "matches_frozen": false
+    },
+    "audio_merged.hwh": {
+      "sha256": "caba60076cc04177d25ab48cdff600aa2a45393bb411b0bd5a8c820b4d3a2a80",
+      "matches_frozen": false
+    }
+  }
+}

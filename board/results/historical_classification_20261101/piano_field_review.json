@@ -1,0 +1,4103 @@
+{
+  "scope": "Three operator-labeled piano runs; not multi-class general accuracy",
+  "archives": [
+    {
+      "archive": "piano_low_medium.zip",
+      "bytes": 9993695,
+      "sha256": "b61ee8973041b0c433b0460f1a576cbd21e93724cd4106a933a8b5af0ebfbedf",
+      "state": "verified",
+      "epoch": "374823ad71bb452e817a055b8ff458e1",
+      "note": "low_medium_C2_E2_G2_A2_C3",
+      "saved": 111,
+      "writer_status": {
+        "enabled": true,
+        "directory": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/three_in_one/instrument_captures/374823ad71bb452e817a055b8ff458e1",
+        "operator_label": "piano",
+        "seen": 111,
+        "accepted": 111,
+        "written": 111,
+        "queue_dropped": 0,
+        "write_failed": 0,
+        "skipped_limit": 0,
+        "pending": 0,
+        "reserved_bytes": 32520853,
+        "bytes_written": 30801688,
+        "error": null,
+        "closing": true,
+        "max_segments": 120,
+        "max_bytes": 268435456
+      },
+      "source_artifact_hashes_match": {
+        "audio_merged.bit": true,
+        "audio_merged.hwh": true,
+        "pl_fft.py": true,
+        "infer_numpy.py": true,
+        "reference_infer.py": true,
+        "instrument_capture.py": true,
+        "models/cnn_weights.npz": true,
+        "models/mel_matrix.npy": true,
+        "models/model_meta.json": true,
+        "reference/reference_bank.npz": true,
+        "reference/reference_meta.json": true,
+        "reference/frozen_config.json": true
+      },
+      "gated_high_tone_replays": [],
+      "features_verified": 111,
+      "max_mel_error": 0.0,
+      "max_cnn_replay_error": 1.7881393432617188e-07,
+      "classified": 31,
+      "gated_silence": 80,
+      "cnn_counts": {
+        "violin": 8,
+        "piano": 17,
+        "guitar": 6
+      },
+      "reference_counts": {
+        "piano": 29,
+        "violin": 2
+      },
+      "low_margin": 4,
+      "high_confidence_wrong": 8,
+      "first_above_gate": {
+        "count": 10,
+        "cnn_counts": {
+          "violin": 8,
+          "piano": 2
+        }
+      },
+      "following_above_gate": {
+        "count": 21,
+        "cnn_counts": {
+          "piano": 15,
+          "guitar": 6
+        }
+      },
+      "dma_max_dropped": 0,
+      "inference_max_dropped": 0,
+      "gaps": 0
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "bytes": 9844763,
+      "sha256": "94e3cd0e4c25df13901d8c6e5a200426da7d7ac45bca2383d921f84cf500f6d4",
+      "state": "verified",
+      "epoch": "12d0cf01ab3044c8bb91daca6d21d2ad",
+      "note": "mid_medium_C4_E4_G4_A4_C5",
+      "saved": 111,
+      "writer_status": {
+        "enabled": true,
+        "directory": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/three_in_one/instrument_captures/12d0cf01ab3044c8bb91daca6d21d2ad",
+        "operator_label": "piano",
+        "seen": 111,
+        "accepted": 111,
+        "written": 111,
+        "queue_dropped": 0,
+        "write_failed": 0,
+        "skipped_limit": 0,
+        "pending": 0,
+        "reserved_bytes": 32510848,
+        "bytes_written": 30791683,
+        "error": null,
+        "closing": true,
+        "max_segments": 120,
+        "max_bytes": 268435456
+      },
+      "source_artifact_hashes_match": {
+        "audio_merged.bit": true,
+        "audio_merged.hwh": true,
+        "pl_fft.py": true,
+        "infer_numpy.py": true,
+        "reference_infer.py": true,
+        "instrument_capture.py": true,
+        "models/cnn_weights.npz": true,
+        "models/mel_matrix.npy": true,
+        "models/model_meta.json": true,
+        "reference/reference_bank.npz": true,
+        "reference/reference_meta.json": true,
+        "reference/frozen_config.json": true
+      },
+      "gated_high_tone_replays": [],
+      "features_verified": 111,
+      "max_mel_error": 0.0,
+      "max_cnn_replay_error": 1.4901161193847656e-07,
+      "classified": 13,
+      "gated_silence": 98,
+      "cnn_counts": {
+        "violin": 7,
+        "guitar": 1,
+        "piano": 5
+      },
+      "reference_counts": {
+        "piano": 10,
+        "guitar": 3
+      },
+      "low_margin": 0,
+      "high_confidence_wrong": 7,
+      "first_above_gate": {
+        "count": 10,
+        "cnn_counts": {
+          "violin": 7,
+          "piano": 3
+        }
+      },
+      "following_above_gate": {
+        "count": 3,
+        "cnn_counts": {
+          "guitar": 1,
+          "piano": 2
+        }
+      },
+      "dma_max_dropped": 0,
+      "inference_max_dropped": 0,
+      "gaps": 0
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "bytes": 9581757,
+      "sha256": "c8d563a5e31f1109714ab2ffea7c4423db0fdda3584078205e480cfd327f808d",
+      "state": "verified",
+      "epoch": "febae7471b154d44bc8f0c3c61563f4b",
+      "note": "high_medium_C6_E6_G6_A6_C7",
+      "saved": 109,
+      "writer_status": {
+        "enabled": true,
+        "directory": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/three_in_one/instrument_captures/febae7471b154d44bc8f0c3c61563f4b",
+        "operator_label": "piano",
+        "seen": 109,
+        "accepted": 109,
+        "written": 109,
+        "queue_dropped": 0,
+        "write_failed": 0,
+        "skipped_limit": 0,
+        "pending": 0,
+        "reserved_bytes": 31920760,
+        "bytes_written": 30232569,
+        "error": null,
+        "closing": true,
+        "max_segments": 120,
+        "max_bytes": 268435456
+      },
+      "source_artifact_hashes_match": {
+        "audio_merged.bit": true,
+        "audio_merged.hwh": true,
+        "pl_fft.py": true,
+        "infer_numpy.py": true,
+        "reference_infer.py": true,
+        "instrument_capture.py": true,
+        "models/cnn_weights.npz": true,
+        "models/mel_matrix.npy": true,
+        "models/model_meta.json": true,
+        "reference/reference_bank.npz": true,
+        "reference/reference_meta.json": true,
+        "reference/frozen_config.json": true
+      },
+      "gated_high_tone_replays": [
+        {
+          "segment": 18,
+          "rms_est": 0.002834941296473433,
+          "original_label": "silence",
+          "replay_label": "violin",
+          "replay_probability": 0.999572217464447,
+          "strongest_bin_hz": 1328.125
+        },
+        {
+          "segment": 27,
+          "rms_est": 0.0027295483710062375,
+          "original_label": "silence",
+          "replay_label": "violin",
+          "replay_probability": 0.9998652935028076,
+          "strongest_bin_hz": 1562.5
+        },
+        {
+          "segment": 46,
+          "rms_est": 0.002019650351225525,
+          "original_label": "silence",
+          "replay_label": "violin",
+          "replay_probability": 0.9999334812164307,
+          "strongest_bin_hz": 2109.375
+        },
+        {
+          "segment": 69,
+          "rms_est": 0.002844697746822276,
+          "original_label": "silence",
+          "replay_label": "violin",
+          "replay_probability": 0.9999290704727173,
+          "strongest_bin_hz": 1328.125
+        },
+        {
+          "segment": 79,
+          "rms_est": 0.0023427596264538903,
+          "original_label": "silence",
+          "replay_label": "violin",
+          "replay_probability": 0.9998433589935303,
+          "strongest_bin_hz": 1562.5
+        }
+      ],
+      "features_verified": 109,
+      "max_mel_error": 0.0,
+      "max_cnn_replay_error": 1.4915713109076023e-10,
+      "classified": 5,
+      "gated_silence": 104,
+      "cnn_counts": {
+        "violin": 5
+      },
+      "reference_counts": {
+        "guitar": 5
+      },
+      "low_margin": 0,
+      "high_confidence_wrong": 5,
+      "first_above_gate": {
+        "count": 5,
+        "cnn_counts": {
+          "violin": 5
+        }
+      },
+      "following_above_gate": {
+        "count": 0,
+        "cnn_counts": {}
+      },
+      "dma_max_dropped": 0,
+      "inference_max_dropped": 0,
+      "gaps": 0
+    }
+  ],
+  "timeline": [
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 1,
+      "segment": 0,
+      "window_start_seconds": 0.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012168797745172539,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 2,
+      "segment": 1,
+      "window_start_seconds": 1.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009249289226655076,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 3,
+      "segment": 2,
+      "window_start_seconds": 2.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010719755001094258,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 4,
+      "segment": 3,
+      "window_start_seconds": 3.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001225797280046548,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 5,
+      "segment": 4,
+      "window_start_seconds": 4.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009696432114187685,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 6,
+      "segment": 5,
+      "window_start_seconds": 5.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010772374931175173,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 7,
+      "segment": 6,
+      "window_start_seconds": 6.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0011800668369034994,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 8,
+      "segment": 7,
+      "window_start_seconds": 7.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010265373094068171,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 9,
+      "segment": 8,
+      "window_start_seconds": 8.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.015165708335558095,
+      "probabilities": {
+        "piano": 0.0004099588259123266,
+        "guitar": 0.00010402051702840254,
+        "violin": 0.999485969543457
+      },
+      "margin": 0.9990760107175447
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 10,
+      "segment": 9,
+      "window_start_seconds": 9.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.007546925924687146,
+      "probabilities": {
+        "piano": 0.7228195071220398,
+        "guitar": 0.27711349725723267,
+        "violin": 6.701404345221817e-05
+      },
+      "margin": 0.44570600986480713
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 11,
+      "segment": 10,
+      "window_start_seconds": 10.0,
+      "cnn": "guitar",
+      "reference": "violin",
+      "rms_est": 0.0030140917414462677,
+      "probabilities": {
+        "piano": 0.33213457465171814,
+        "guitar": 0.6628777384757996,
+        "violin": 0.004987679421901703
+      },
+      "margin": 0.3307431638240814
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 12,
+      "segment": 11,
+      "window_start_seconds": 11.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.003516350738096886,
+      "probabilities": {
+        "piano": 0.6069607734680176,
+        "guitar": 0.38394081592559814,
+        "violin": 0.009098430164158344
+      },
+      "margin": 0.22301995754241943
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 13,
+      "segment": 12,
+      "window_start_seconds": 12.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.0032848753142349437,
+      "probabilities": {
+        "piano": 0.7579648494720459,
+        "guitar": 0.23991520702838898,
+        "violin": 0.002119950484484434
+      },
+      "margin": 0.5180496424436569
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 14,
+      "segment": 13,
+      "window_start_seconds": 13.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0015714913559221884,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 15,
+      "segment": 14,
+      "window_start_seconds": 14.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009597217685157552,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 16,
+      "segment": 15,
+      "window_start_seconds": 15.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012270407638036941,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 17,
+      "segment": 16,
+      "window_start_seconds": 16.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010633098930681705,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 18,
+      "segment": 17,
+      "window_start_seconds": 17.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009082767082535209,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 19,
+      "segment": 18,
+      "window_start_seconds": 18.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.018891647036186978,
+      "probabilities": {
+        "piano": 0.008007296361029148,
+        "guitar": 0.037404172122478485,
+        "violin": 0.9545885324478149
+      },
+      "margin": 0.9171843603253365
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 20,
+      "segment": 19,
+      "window_start_seconds": 19.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.006557903643106148,
+      "probabilities": {
+        "piano": 0.6687461733818054,
+        "guitar": 0.3240482211112976,
+        "violin": 0.007205616217106581
+      },
+      "margin": 0.3446979522705078
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 21,
+      "segment": 20,
+      "window_start_seconds": 20.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002925918287272859,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 22,
+      "segment": 21,
+      "window_start_seconds": 21.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0019176979039787902,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 23,
+      "segment": 22,
+      "window_start_seconds": 22.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001540343876322594,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 24,
+      "segment": 23,
+      "window_start_seconds": 23.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009882548087601938,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 25,
+      "segment": 24,
+      "window_start_seconds": 24.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010813440588872982,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 26,
+      "segment": 25,
+      "window_start_seconds": 25.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0011788770841325432,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 27,
+      "segment": 26,
+      "window_start_seconds": 26.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.004382878435488465,
+      "probabilities": {
+        "piano": 0.041626714169979095,
+        "guitar": 5.600368604063988e-05,
+        "violin": 0.958317220211029
+      },
+      "margin": 0.91669050604105
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 28,
+      "segment": 27,
+      "window_start_seconds": 27.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.022096970990153068,
+      "probabilities": {
+        "piano": 0.9704409241676331,
+        "guitar": 0.029262613505125046,
+        "violin": 0.0002964399172924459
+      },
+      "margin": 0.941178310662508
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 29,
+      "segment": 28,
+      "window_start_seconds": 28.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.009188812792841217,
+      "probabilities": {
+        "piano": 0.865440309047699,
+        "guitar": 0.13147775828838348,
+        "violin": 0.003081935690715909
+      },
+      "margin": 0.7339625507593155
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 30,
+      "segment": 29,
+      "window_start_seconds": 29.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.005826830834803376,
+      "probabilities": {
+        "piano": 0.6829630732536316,
+        "guitar": 0.29235565662384033,
+        "violin": 0.024681314826011658
+      },
+      "margin": 0.39060741662979126
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 31,
+      "segment": 30,
+      "window_start_seconds": 30.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.0038351873361998326,
+      "probabilities": {
+        "piano": 0.6350417733192444,
+        "guitar": 0.3465654253959656,
+        "violin": 0.018392786383628845
+      },
+      "margin": 0.2884763479232788
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 32,
+      "segment": 31,
+      "window_start_seconds": 31.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0016781742155210651,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 33,
+      "segment": 32,
+      "window_start_seconds": 32.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010122129186300247,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 34,
+      "segment": 33,
+      "window_start_seconds": 33.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009254542719736808,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 35,
+      "segment": 34,
+      "window_start_seconds": 34.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001172057173204428,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 36,
+      "segment": 35,
+      "window_start_seconds": 35.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.014735409735856167,
+      "probabilities": {
+        "piano": 0.0051563396118581295,
+        "guitar": 0.0037320673000067472,
+        "violin": 0.9911115765571594
+      },
+      "margin": 0.9859552369453013
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 37,
+      "segment": 36,
+      "window_start_seconds": 36.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.004026301246001136,
+      "probabilities": {
+        "piano": 0.661410391330719,
+        "guitar": 0.3368215560913086,
+        "violin": 0.0017680476885288954
+      },
+      "margin": 0.3245888352394104
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 38,
+      "segment": 37,
+      "window_start_seconds": 37.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001973881646036853,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 39,
+      "segment": 38,
+      "window_start_seconds": 38.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0017222369472737987,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 40,
+      "segment": 39,
+      "window_start_seconds": 39.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012083092890741336,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 41,
+      "segment": 40,
+      "window_start_seconds": 40.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0011570163776507712,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 42,
+      "segment": 41,
+      "window_start_seconds": 41.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00101026604480826,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 43,
+      "segment": 42,
+      "window_start_seconds": 42.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010634443980115915,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 44,
+      "segment": 43,
+      "window_start_seconds": 43.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010301425854466301,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 45,
+      "segment": 44,
+      "window_start_seconds": 44.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00104843812794554,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 46,
+      "segment": 45,
+      "window_start_seconds": 45.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.01791620966778244,
+      "probabilities": {
+        "piano": 0.0017465795390307903,
+        "guitar": 8.345375681528822e-05,
+        "violin": 0.9981698989868164
+      },
+      "margin": 0.9964233194477856
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 47,
+      "segment": 46,
+      "window_start_seconds": 46.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.006371485462575621,
+      "probabilities": {
+        "piano": 0.7523322105407715,
+        "guitar": 0.11503343284130096,
+        "violin": 0.13263432681560516
+      },
+      "margin": 0.6196978837251663
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 48,
+      "segment": 47,
+      "window_start_seconds": 47.0,
+      "cnn": "guitar",
+      "reference": "piano",
+      "rms_est": 0.003114191634349571,
+      "probabilities": {
+        "piano": 0.49371346831321716,
+        "guitar": 0.49894681572914124,
+        "violin": 0.007339748553931713
+      },
+      "margin": 0.005233347415924072
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 49,
+      "segment": 48,
+      "window_start_seconds": 48.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002958799718834162,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 50,
+      "segment": 49,
+      "window_start_seconds": 49.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0021977523452999586,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 51,
+      "segment": 50,
+      "window_start_seconds": 50.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0015750967660394337,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 52,
+      "segment": 51,
+      "window_start_seconds": 51.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012152119709744975,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 53,
+      "segment": 52,
+      "window_start_seconds": 52.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009828027317786367,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 54,
+      "segment": 53,
+      "window_start_seconds": 53.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009995215283539799,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 55,
+      "segment": 54,
+      "window_start_seconds": 54.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009734332029893199,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 56,
+      "segment": 55,
+      "window_start_seconds": 55.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000987799201835042,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 57,
+      "segment": 56,
+      "window_start_seconds": 56.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010347356576969457,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 58,
+      "segment": 57,
+      "window_start_seconds": 57.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010440536711877947,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 59,
+      "segment": 58,
+      "window_start_seconds": 58.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0008711362865050123,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 60,
+      "segment": 59,
+      "window_start_seconds": 59.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023030942053221893,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 61,
+      "segment": 60,
+      "window_start_seconds": 60.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.018393929484649824,
+      "probabilities": {
+        "piano": 0.002072961302474141,
+        "guitar": 0.00773571478202939,
+        "violin": 0.9901913404464722
+      },
+      "margin": 0.9824556256644428
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 62,
+      "segment": 61,
+      "window_start_seconds": 61.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.004502960117285849,
+      "probabilities": {
+        "piano": 0.5047255158424377,
+        "guitar": 0.49483761191368103,
+        "violin": 0.0004368532681837678
+      },
+      "margin": 0.009887903928756714
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 63,
+      "segment": 62,
+      "window_start_seconds": 62.0,
+      "cnn": "guitar",
+      "reference": "violin",
+      "rms_est": 0.0034651722520491054,
+      "probabilities": {
+        "piano": 0.39565959572792053,
+        "guitar": 0.5980876684188843,
+        "violin": 0.006252760998904705
+      },
+      "margin": 0.20242807269096375
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 64,
+      "segment": 63,
+      "window_start_seconds": 63.0,
+      "cnn": "guitar",
+      "reference": "piano",
+      "rms_est": 0.0036664676948417784,
+      "probabilities": {
+        "piano": 0.48310714960098267,
+        "guitar": 0.50249844789505,
+        "violin": 0.014394398778676987
+      },
+      "margin": 0.019391298294067383
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 65,
+      "segment": 64,
+      "window_start_seconds": 64.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002920293684943368,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 66,
+      "segment": 65,
+      "window_start_seconds": 65.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006300673652389649,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 67,
+      "segment": 66,
+      "window_start_seconds": 66.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020534313693311893,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 68,
+      "segment": 67,
+      "window_start_seconds": 67.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022160774063781163,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 69,
+      "segment": 68,
+      "window_start_seconds": 68.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002009006602764136,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 70,
+      "segment": 69,
+      "window_start_seconds": 69.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.020559450892782865,
+      "probabilities": {
+        "piano": 0.8647111058235168,
+        "guitar": 0.13148470222949982,
+        "violin": 0.0038042443338781595
+      },
+      "margin": 0.733226403594017
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 71,
+      "segment": 70,
+      "window_start_seconds": 70.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.006502632029991688,
+      "probabilities": {
+        "piano": 0.6543194651603699,
+        "guitar": 0.3407837450504303,
+        "violin": 0.00489685358479619
+      },
+      "margin": 0.3135357201099396
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 72,
+      "segment": 71,
+      "window_start_seconds": 71.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002840187739319974,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 73,
+      "segment": 72,
+      "window_start_seconds": 72.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0016510334045601498,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 74,
+      "segment": 73,
+      "window_start_seconds": 73.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012190570269085745,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 75,
+      "segment": 74,
+      "window_start_seconds": 74.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003082213567888307,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 76,
+      "segment": 75,
+      "window_start_seconds": 75.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002171473795428363,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 77,
+      "segment": 76,
+      "window_start_seconds": 76.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020126112621902018,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 78,
+      "segment": 77,
+      "window_start_seconds": 77.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00017970729380698154,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 79,
+      "segment": 78,
+      "window_start_seconds": 78.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.018313530421757925,
+      "probabilities": {
+        "piano": 0.0006408177432604134,
+        "guitar": 0.0001070237995008938,
+        "violin": 0.9992521405220032
+      },
+      "margin": 0.9986113227787428
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 80,
+      "segment": 79,
+      "window_start_seconds": 79.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.013280581835937756,
+      "probabilities": {
+        "piano": 0.9119822382926941,
+        "guitar": 0.08791975677013397,
+        "violin": 9.79547476163134e-05
+      },
+      "margin": 0.8240624815225601
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 81,
+      "segment": 80,
+      "window_start_seconds": 80.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.006725981567635529,
+      "probabilities": {
+        "piano": 0.7900614738464355,
+        "guitar": 0.2097485214471817,
+        "violin": 0.0001900027273222804
+      },
+      "margin": 0.5803129523992538
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 82,
+      "segment": 81,
+      "window_start_seconds": 81.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.004411619653476739,
+      "probabilities": {
+        "piano": 0.7384834289550781,
+        "guitar": 0.26094409823417664,
+        "violin": 0.0005725022056140006
+      },
+      "margin": 0.4775393307209015
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 83,
+      "segment": 82,
+      "window_start_seconds": 82.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0026822601407626963,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 84,
+      "segment": 83,
+      "window_start_seconds": 83.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010650063020421839,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 85,
+      "segment": 84,
+      "window_start_seconds": 84.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00026132050499730705,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 86,
+      "segment": 85,
+      "window_start_seconds": 85.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021403190948756967,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 87,
+      "segment": 86,
+      "window_start_seconds": 86.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019923060608337443,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 88,
+      "segment": 87,
+      "window_start_seconds": 87.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00018467674108803525,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 89,
+      "segment": 88,
+      "window_start_seconds": 88.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019699066547700656,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 90,
+      "segment": 89,
+      "window_start_seconds": 89.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.01718733695267438,
+      "probabilities": {
+        "piano": 0.5241273641586304,
+        "guitar": 0.3422534763813019,
+        "violin": 0.13361911475658417
+      },
+      "margin": 0.1818738877773285
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 91,
+      "segment": 90,
+      "window_start_seconds": 90.0,
+      "cnn": "guitar",
+      "reference": "piano",
+      "rms_est": 0.003334955245143978,
+      "probabilities": {
+        "piano": 0.3496730625629425,
+        "guitar": 0.645111620426178,
+        "violin": 0.005215371958911419
+      },
+      "margin": 0.2954385578632355
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 92,
+      "segment": 91,
+      "window_start_seconds": 91.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001798377343570195,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 93,
+      "segment": 92,
+      "window_start_seconds": 92.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001416380733163828,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 94,
+      "segment": 93,
+      "window_start_seconds": 93.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009401220124475607,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 95,
+      "segment": 94,
+      "window_start_seconds": 94.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0007534420208584828,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 96,
+      "segment": 95,
+      "window_start_seconds": 95.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019508276709031047,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 97,
+      "segment": 96,
+      "window_start_seconds": 96.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001900693351639083,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 98,
+      "segment": 97,
+      "window_start_seconds": 97.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00016110074861666563,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 99,
+      "segment": 98,
+      "window_start_seconds": 98.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019531482559596495,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 100,
+      "segment": 99,
+      "window_start_seconds": 99.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.020835744992599315,
+      "probabilities": {
+        "piano": 0.0005532228969968855,
+        "guitar": 0.0008157186675816774,
+        "violin": 0.9986310601234436
+      },
+      "margin": 0.9978153414558619
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 101,
+      "segment": 100,
+      "window_start_seconds": 100.0,
+      "cnn": "guitar",
+      "reference": "piano",
+      "rms_est": 0.0039054920420111623,
+      "probabilities": {
+        "piano": 0.43462809920310974,
+        "guitar": 0.5074625015258789,
+        "violin": 0.057909391820430756
+      },
+      "margin": 0.07283440232276917
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 102,
+      "segment": 101,
+      "window_start_seconds": 101.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0028628853359142247,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 103,
+      "segment": 102,
+      "window_start_seconds": 102.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0021773110874200997,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 104,
+      "segment": 103,
+      "window_start_seconds": 103.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0017832315659333387,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 105,
+      "segment": 104,
+      "window_start_seconds": 104.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010765302839255576,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 106,
+      "segment": 105,
+      "window_start_seconds": 105.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004577748721635186,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 107,
+      "segment": 106,
+      "window_start_seconds": 106.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019075442447208458,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 108,
+      "segment": 107,
+      "window_start_seconds": 107.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001997770811233601,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 109,
+      "segment": 108,
+      "window_start_seconds": 108.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001705201663636927,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 110,
+      "segment": 109,
+      "window_start_seconds": 109.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022795207344932777,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_low_medium.zip",
+      "record_id": 111,
+      "segment": 110,
+      "window_start_seconds": 110.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001894657028535802,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 1,
+      "segment": 0,
+      "window_start_seconds": 0.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003417785154066317,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 2,
+      "segment": 1,
+      "window_start_seconds": 1.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004726550171251718,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 3,
+      "segment": 2,
+      "window_start_seconds": 2.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00028422139528331907,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 4,
+      "segment": 3,
+      "window_start_seconds": 3.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002897561634453856,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 5,
+      "segment": 4,
+      "window_start_seconds": 4.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002492628253215521,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 6,
+      "segment": 5,
+      "window_start_seconds": 5.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002288187046071796,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 7,
+      "segment": 6,
+      "window_start_seconds": 6.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021695097893873063,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 8,
+      "segment": 7,
+      "window_start_seconds": 7.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023399451239272787,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 9,
+      "segment": 8,
+      "window_start_seconds": 8.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.01309548999302503,
+      "probabilities": {
+        "piano": 0.00021008978364989161,
+        "guitar": 6.0649359511444345e-05,
+        "violin": 0.9997292160987854
+      },
+      "margin": 0.9995191263151355
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 10,
+      "segment": 9,
+      "window_start_seconds": 9.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0022764791191539897,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 11,
+      "segment": 10,
+      "window_start_seconds": 10.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0020258586521328835,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 12,
+      "segment": 11,
+      "window_start_seconds": 11.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0014827754007916548,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 13,
+      "segment": 12,
+      "window_start_seconds": 12.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0013692249376813593,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 14,
+      "segment": 13,
+      "window_start_seconds": 13.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006689614201257821,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 15,
+      "segment": 14,
+      "window_start_seconds": 14.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00030319835456726457,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 16,
+      "segment": 15,
+      "window_start_seconds": 15.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00024089736922432758,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 17,
+      "segment": 16,
+      "window_start_seconds": 16.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00027640866680541217,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 18,
+      "segment": 17,
+      "window_start_seconds": 17.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.004147384213666963,
+      "probabilities": {
+        "piano": 1.490808131165977e-06,
+        "guitar": 1.005766443995526e-05,
+        "violin": 0.9999884366989136
+      },
+      "margin": 0.9999783790344736
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 19,
+      "segment": 18,
+      "window_start_seconds": 18.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002079051258957363,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 20,
+      "segment": 19,
+      "window_start_seconds": 19.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001484075618261759,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 21,
+      "segment": 20,
+      "window_start_seconds": 20.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006663003470005508,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 22,
+      "segment": 21,
+      "window_start_seconds": 21.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006229599903296965,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 23,
+      "segment": 22,
+      "window_start_seconds": 22.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00034019038025558926,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 24,
+      "segment": 23,
+      "window_start_seconds": 23.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003175266413055165,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 25,
+      "segment": 24,
+      "window_start_seconds": 24.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00029899189417597087,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 26,
+      "segment": 25,
+      "window_start_seconds": 25.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00043458052195620585,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 27,
+      "segment": 26,
+      "window_start_seconds": 26.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.01567178276415771,
+      "probabilities": {
+        "piano": 0.0001984189875656739,
+        "guitar": 5.747286559198983e-05,
+        "violin": 0.9997441172599792
+      },
+      "margin": 0.9995456982724136
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 28,
+      "segment": 27,
+      "window_start_seconds": 27.0,
+      "cnn": "guitar",
+      "reference": "piano",
+      "rms_est": 0.003375305762102812,
+      "probabilities": {
+        "piano": 0.3600362539291382,
+        "guitar": 0.6388607025146484,
+        "violin": 0.0011030371533706784
+      },
+      "margin": 0.27882444858551025
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 29,
+      "segment": 28,
+      "window_start_seconds": 28.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0024361507626199604,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 30,
+      "segment": 29,
+      "window_start_seconds": 29.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010224306345069203,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 31,
+      "segment": 30,
+      "window_start_seconds": 30.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00046962347734857214,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 32,
+      "segment": 31,
+      "window_start_seconds": 31.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00027723513104522813,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 33,
+      "segment": 32,
+      "window_start_seconds": 32.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00026301626303806803,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 34,
+      "segment": 33,
+      "window_start_seconds": 33.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022212442813721985,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 35,
+      "segment": 34,
+      "window_start_seconds": 34.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002508633903285456,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 36,
+      "segment": 35,
+      "window_start_seconds": 35.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0005194740064326768,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 37,
+      "segment": 36,
+      "window_start_seconds": 36.0,
+      "cnn": "piano",
+      "reference": "guitar",
+      "rms_est": 0.004355323367335648,
+      "probabilities": {
+        "piano": 0.9607346057891846,
+        "guitar": 0.03899997100234032,
+        "violin": 0.00026548546156845987
+      },
+      "margin": 0.9217346347868443
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 38,
+      "segment": 37,
+      "window_start_seconds": 37.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0010548089646681745,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 39,
+      "segment": 38,
+      "window_start_seconds": 38.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00044359939658777817,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 40,
+      "segment": 39,
+      "window_start_seconds": 39.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00035273019050291937,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 41,
+      "segment": 40,
+      "window_start_seconds": 40.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00033627464224239887,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 42,
+      "segment": 41,
+      "window_start_seconds": 41.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00034560418496960436,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 43,
+      "segment": 42,
+      "window_start_seconds": 42.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002513568517347463,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 44,
+      "segment": 43,
+      "window_start_seconds": 43.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00026221176011291487,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 45,
+      "segment": 44,
+      "window_start_seconds": 44.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002631834284356469,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 46,
+      "segment": 45,
+      "window_start_seconds": 45.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002528005477552362,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 47,
+      "segment": 46,
+      "window_start_seconds": 46.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.013018740725527549,
+      "probabilities": {
+        "piano": 0.0025097918696701527,
+        "guitar": 4.371130853542127e-05,
+        "violin": 0.9974465370178223
+      },
+      "margin": 0.9949367451481521
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 48,
+      "segment": 47,
+      "window_start_seconds": 47.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002883242513942706,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 49,
+      "segment": 48,
+      "window_start_seconds": 48.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0007699553063072308,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 50,
+      "segment": 49,
+      "window_start_seconds": 49.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0005905213501993343,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 51,
+      "segment": 50,
+      "window_start_seconds": 50.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000530934518826655,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 52,
+      "segment": 51,
+      "window_start_seconds": 51.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00040054101359025536,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 53,
+      "segment": 52,
+      "window_start_seconds": 52.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003081361107607739,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 54,
+      "segment": 53,
+      "window_start_seconds": 53.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022586718510975818,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 55,
+      "segment": 54,
+      "window_start_seconds": 54.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021634217505197632,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 56,
+      "segment": 55,
+      "window_start_seconds": 55.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002166736455298051,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 57,
+      "segment": 56,
+      "window_start_seconds": 56.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002314569220318505,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 58,
+      "segment": 57,
+      "window_start_seconds": 57.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021171547032946042,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 59,
+      "segment": 58,
+      "window_start_seconds": 58.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001999645657121686,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 60,
+      "segment": 59,
+      "window_start_seconds": 59.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023203621250933755,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 61,
+      "segment": 60,
+      "window_start_seconds": 60.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020430817885487971,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 62,
+      "segment": 61,
+      "window_start_seconds": 61.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021169580709796092,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 63,
+      "segment": 62,
+      "window_start_seconds": 62.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.013762708385733185,
+      "probabilities": {
+        "piano": 0.0007812920957803726,
+        "guitar": 9.038456482812762e-05,
+        "violin": 0.9991282820701599
+      },
+      "margin": 0.9983469899743795
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 64,
+      "segment": 63,
+      "window_start_seconds": 63.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0020683815481357844,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 65,
+      "segment": 64,
+      "window_start_seconds": 64.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0019970952565252133,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 66,
+      "segment": 65,
+      "window_start_seconds": 65.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0015061765389164812,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 67,
+      "segment": 66,
+      "window_start_seconds": 66.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001283988562562362,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 68,
+      "segment": 67,
+      "window_start_seconds": 67.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006788303435540632,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 69,
+      "segment": 68,
+      "window_start_seconds": 68.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004937061806530626,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 70,
+      "segment": 69,
+      "window_start_seconds": 69.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00254993656912008,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 71,
+      "segment": 70,
+      "window_start_seconds": 70.0,
+      "cnn": "piano",
+      "reference": "guitar",
+      "rms_est": 0.0041971529913477764,
+      "probabilities": {
+        "piano": 0.8255681395530701,
+        "guitar": 0.15873318910598755,
+        "violin": 0.015698624774813652
+      },
+      "margin": 0.6668349504470825
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 72,
+      "segment": 71,
+      "window_start_seconds": 71.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0016106428019589682,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 73,
+      "segment": 72,
+      "window_start_seconds": 72.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0007139823889007041,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 74,
+      "segment": 73,
+      "window_start_seconds": 73.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000537486351313956,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 75,
+      "segment": 74,
+      "window_start_seconds": 74.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00048369304729472417,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 76,
+      "segment": 75,
+      "window_start_seconds": 75.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00038046385936612854,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 77,
+      "segment": 76,
+      "window_start_seconds": 76.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002172601910496942,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 78,
+      "segment": 77,
+      "window_start_seconds": 77.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.01497282337034334,
+      "probabilities": {
+        "piano": 0.000617660756688565,
+        "guitar": 8.918700768845156e-05,
+        "violin": 0.9992930889129639
+      },
+      "margin": 0.9986754281562753
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 79,
+      "segment": 78,
+      "window_start_seconds": 78.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.007024814567667569,
+      "probabilities": {
+        "piano": 0.8129953742027283,
+        "guitar": 0.18656812608242035,
+        "violin": 0.00043651959276758134
+      },
+      "margin": 0.6264272481203079
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 80,
+      "segment": 79,
+      "window_start_seconds": 79.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.0031437369576654568,
+      "probabilities": {
+        "piano": 0.6325883269309998,
+        "guitar": 0.3662797808647156,
+        "violin": 0.0011319045443087816
+      },
+      "margin": 0.2663085460662842
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 81,
+      "segment": 80,
+      "window_start_seconds": 80.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0019269620860282396,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 82,
+      "segment": 81,
+      "window_start_seconds": 81.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0007002926111350871,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 83,
+      "segment": 82,
+      "window_start_seconds": 82.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00041743639280128236,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 84,
+      "segment": 83,
+      "window_start_seconds": 83.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00035740529772400326,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 85,
+      "segment": 84,
+      "window_start_seconds": 84.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00026995465188673365,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 86,
+      "segment": 85,
+      "window_start_seconds": 85.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020110424219796092,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 87,
+      "segment": 86,
+      "window_start_seconds": 86.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022139631326916647,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 88,
+      "segment": 87,
+      "window_start_seconds": 87.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00025104656031008223,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 89,
+      "segment": 88,
+      "window_start_seconds": 88.0,
+      "cnn": "violin",
+      "reference": "piano",
+      "rms_est": 0.0059886981082233745,
+      "probabilities": {
+        "piano": 0.0007362510659731925,
+        "guitar": 0.00028532787109725177,
+        "violin": 0.9989784955978394
+      },
+      "margin": 0.9982422445318662
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 90,
+      "segment": 89,
+      "window_start_seconds": 89.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0012833717515330944,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 91,
+      "segment": 90,
+      "window_start_seconds": 90.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004919688976171678,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 92,
+      "segment": 91,
+      "window_start_seconds": 91.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003954556640480259,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 93,
+      "segment": 92,
+      "window_start_seconds": 92.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00038527648523335837,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 94,
+      "segment": 93,
+      "window_start_seconds": 93.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002122438095184443,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 95,
+      "segment": 94,
+      "window_start_seconds": 94.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00018631960905338843,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 96,
+      "segment": 95,
+      "window_start_seconds": 95.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022079808349024485,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 97,
+      "segment": 96,
+      "window_start_seconds": 96.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019896826603521767,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 98,
+      "segment": 97,
+      "window_start_seconds": 97.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00032118156380052534,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 99,
+      "segment": 98,
+      "window_start_seconds": 98.0,
+      "cnn": "piano",
+      "reference": "piano",
+      "rms_est": 0.013468829687666304,
+      "probabilities": {
+        "piano": 0.9916443228721619,
+        "guitar": 4.889683987130411e-05,
+        "violin": 0.008306710049510002
+      },
+      "margin": 0.9833376128226519
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 100,
+      "segment": 99,
+      "window_start_seconds": 99.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0009221596506948816,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 101,
+      "segment": 100,
+      "window_start_seconds": 100.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0006491440935670871,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 102,
+      "segment": 101,
+      "window_start_seconds": 101.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004896335906817278,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 103,
+      "segment": 102,
+      "window_start_seconds": 102.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003989856609909849,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 104,
+      "segment": 103,
+      "window_start_seconds": 103.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00027359711106993454,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 105,
+      "segment": 104,
+      "window_start_seconds": 104.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002273913719905799,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 106,
+      "segment": 105,
+      "window_start_seconds": 105.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002105863425573395,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 107,
+      "segment": 106,
+      "window_start_seconds": 106.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000196867009317541,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 108,
+      "segment": 107,
+      "window_start_seconds": 107.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002242212240519439,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 109,
+      "segment": 108,
+      "window_start_seconds": 108.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020387351783026275,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 110,
+      "segment": 109,
+      "window_start_seconds": 109.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002239270798850924,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_mid_medium.zip",
+      "record_id": 111,
+      "segment": 110,
+      "window_start_seconds": 110.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023259729966564478,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 1,
+      "segment": 0,
+      "window_start_seconds": 0.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003241424179574576,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 2,
+      "segment": 1,
+      "window_start_seconds": 1.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023598625500640666,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 3,
+      "segment": 2,
+      "window_start_seconds": 2.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019521243547455223,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 4,
+      "segment": 3,
+      "window_start_seconds": 3.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019759075412461148,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 5,
+      "segment": 4,
+      "window_start_seconds": 4.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00018470789599184744,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 6,
+      "segment": 5,
+      "window_start_seconds": 5.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001978596839482698,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 7,
+      "segment": 6,
+      "window_start_seconds": 6.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021389807677909569,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 8,
+      "segment": 7,
+      "window_start_seconds": 7.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019477217619964836,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 9,
+      "segment": 8,
+      "window_start_seconds": 8.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.00409065710860529,
+      "probabilities": {
+        "piano": 3.2975374324450968e-06,
+        "guitar": 1.8807277228916064e-05,
+        "violin": 0.9999779462814331
+      },
+      "margin": 0.9999591390042042
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 10,
+      "segment": 9,
+      "window_start_seconds": 9.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.001603291840229008,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 11,
+      "segment": 10,
+      "window_start_seconds": 10.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004867437003931842,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 12,
+      "segment": 11,
+      "window_start_seconds": 11.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002595721289720213,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 13,
+      "segment": 12,
+      "window_start_seconds": 12.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002231323063931763,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 14,
+      "segment": 13,
+      "window_start_seconds": 13.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00029960918729784184,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 15,
+      "segment": 14,
+      "window_start_seconds": 14.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019476442069964037,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 16,
+      "segment": 15,
+      "window_start_seconds": 15.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023621908524605067,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 17,
+      "segment": 16,
+      "window_start_seconds": 16.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00018249743068207838,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 18,
+      "segment": 17,
+      "window_start_seconds": 17.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022591315612925054,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 19,
+      "segment": 18,
+      "window_start_seconds": 18.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002834941296473433,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 20,
+      "segment": 19,
+      "window_start_seconds": 19.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003797822401696837,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 21,
+      "segment": 20,
+      "window_start_seconds": 20.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00036891071123191675,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 22,
+      "segment": 21,
+      "window_start_seconds": 21.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0005444049403480348,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 23,
+      "segment": 22,
+      "window_start_seconds": 22.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00033215020050470845,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 24,
+      "segment": 23,
+      "window_start_seconds": 23.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000696560799123887,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 25,
+      "segment": 24,
+      "window_start_seconds": 24.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004488807505721397,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 26,
+      "segment": 25,
+      "window_start_seconds": 25.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002880424130108032,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 27,
+      "segment": 26,
+      "window_start_seconds": 26.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00035870583927581103,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 28,
+      "segment": 27,
+      "window_start_seconds": 27.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0027295483710062375,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 29,
+      "segment": 28,
+      "window_start_seconds": 28.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0005187462861347323,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 30,
+      "segment": 29,
+      "window_start_seconds": 29.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00025937423153670717,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 31,
+      "segment": 30,
+      "window_start_seconds": 30.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002678279139479709,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 32,
+      "segment": 31,
+      "window_start_seconds": 31.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022348200540857487,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 33,
+      "segment": 32,
+      "window_start_seconds": 32.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00028240904577320203,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 34,
+      "segment": 33,
+      "window_start_seconds": 33.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021279754485321675,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 35,
+      "segment": 34,
+      "window_start_seconds": 34.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021960872406251179,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 36,
+      "segment": 35,
+      "window_start_seconds": 35.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000246643202701003,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 37,
+      "segment": 36,
+      "window_start_seconds": 36.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.003564158374832353,
+      "probabilities": {
+        "piano": 5.240136306383647e-05,
+        "guitar": 0.00017079769168049097,
+        "violin": 0.9997767806053162
+      },
+      "margin": 0.9996059829136357
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 38,
+      "segment": 37,
+      "window_start_seconds": 37.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00044509554642872454,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 39,
+      "segment": 38,
+      "window_start_seconds": 38.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00027906519783284386,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 40,
+      "segment": 39,
+      "window_start_seconds": 39.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002634258255449536,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 41,
+      "segment": 40,
+      "window_start_seconds": 40.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021686292945322094,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 42,
+      "segment": 41,
+      "window_start_seconds": 41.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002709985356289142,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 43,
+      "segment": 42,
+      "window_start_seconds": 42.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000283461838872527,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 44,
+      "segment": 43,
+      "window_start_seconds": 43.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023648592640298786,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 45,
+      "segment": 44,
+      "window_start_seconds": 44.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00034522891449534837,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 46,
+      "segment": 45,
+      "window_start_seconds": 45.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00024282274313505928,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 47,
+      "segment": 46,
+      "window_start_seconds": 46.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002019650351225525,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 48,
+      "segment": 47,
+      "window_start_seconds": 47.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00044488357626982356,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 49,
+      "segment": 48,
+      "window_start_seconds": 48.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023394045230340217,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 50,
+      "segment": 49,
+      "window_start_seconds": 49.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002639416429232438,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 51,
+      "segment": 50,
+      "window_start_seconds": 50.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002350648731368941,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 52,
+      "segment": 51,
+      "window_start_seconds": 51.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020100407481286618,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 53,
+      "segment": 52,
+      "window_start_seconds": 52.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002477756395616739,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 54,
+      "segment": 53,
+      "window_start_seconds": 53.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020337265394218236,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 55,
+      "segment": 54,
+      "window_start_seconds": 54.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000262944456852303,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 56,
+      "segment": 55,
+      "window_start_seconds": 55.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002133279992851124,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 57,
+      "segment": 56,
+      "window_start_seconds": 56.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0005508946900709264,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 58,
+      "segment": 57,
+      "window_start_seconds": 57.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00025800291436992885,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 59,
+      "segment": 58,
+      "window_start_seconds": 58.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022382483220737334,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 60,
+      "segment": 59,
+      "window_start_seconds": 59.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022880465311435444,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 61,
+      "segment": 60,
+      "window_start_seconds": 60.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.005543072328197549,
+      "probabilities": {
+        "piano": 1.936659282364417e-05,
+        "guitar": 1.9592916942201555e-05,
+        "violin": 0.9999610185623169
+      },
+      "margin": 0.9999414256453747
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 62,
+      "segment": 61,
+      "window_start_seconds": 61.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0008141669421356714,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 63,
+      "segment": 62,
+      "window_start_seconds": 62.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00036564170013116067,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 64,
+      "segment": 63,
+      "window_start_seconds": 63.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00026078288472923544,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 65,
+      "segment": 64,
+      "window_start_seconds": 64.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022568481894222355,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 66,
+      "segment": 65,
+      "window_start_seconds": 65.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002278447311286721,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 67,
+      "segment": 66,
+      "window_start_seconds": 66.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021451120501135261,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 68,
+      "segment": 67,
+      "window_start_seconds": 67.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002362058647106163,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 69,
+      "segment": 68,
+      "window_start_seconds": 68.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00028986890697570476,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 70,
+      "segment": 69,
+      "window_start_seconds": 69.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.002844697746822276,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 71,
+      "segment": 70,
+      "window_start_seconds": 70.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003683821799588311,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 72,
+      "segment": 71,
+      "window_start_seconds": 71.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000236922046569546,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 73,
+      "segment": 72,
+      "window_start_seconds": 72.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020155411280677087,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 74,
+      "segment": 73,
+      "window_start_seconds": 73.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021185339004185585,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 75,
+      "segment": 74,
+      "window_start_seconds": 74.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022772674597396005,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 76,
+      "segment": 75,
+      "window_start_seconds": 75.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023640678997279306,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 77,
+      "segment": 76,
+      "window_start_seconds": 76.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019982168492302095,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 78,
+      "segment": 77,
+      "window_start_seconds": 77.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0001947432207296107,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 79,
+      "segment": 78,
+      "window_start_seconds": 78.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019727912062408027,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 80,
+      "segment": 79,
+      "window_start_seconds": 79.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0023427596264538903,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 81,
+      "segment": 80,
+      "window_start_seconds": 80.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0004471950454055692,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 82,
+      "segment": 81,
+      "window_start_seconds": 81.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002275566703326394,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 83,
+      "segment": 82,
+      "window_start_seconds": 82.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022001385174944262,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 84,
+      "segment": 83,
+      "window_start_seconds": 83.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00024280744204485417,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 85,
+      "segment": 84,
+      "window_start_seconds": 84.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019641818265482487,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 86,
+      "segment": 85,
+      "window_start_seconds": 85.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020334228248684348,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 87,
+      "segment": 86,
+      "window_start_seconds": 86.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00019032422510971753,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 88,
+      "segment": 87,
+      "window_start_seconds": 87.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020219983702964245,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 89,
+      "segment": 88,
+      "window_start_seconds": 88.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.000221537080815175,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 90,
+      "segment": 89,
+      "window_start_seconds": 89.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.004013457970061927,
+      "probabilities": {
+        "piano": 6.789412145735696e-05,
+        "guitar": 0.00018028082558885217,
+        "violin": 0.9997518658638
+      },
+      "margin": 0.9995715850382112
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 91,
+      "segment": 90,
+      "window_start_seconds": 90.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002807164701102229,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 92,
+      "segment": 91,
+      "window_start_seconds": 91.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0003333699914094857,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 93,
+      "segment": 92,
+      "window_start_seconds": 92.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002941148871882435,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 94,
+      "segment": 93,
+      "window_start_seconds": 93.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00033277520425314906,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 95,
+      "segment": 94,
+      "window_start_seconds": 94.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00031473099317391685,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 96,
+      "segment": 95,
+      "window_start_seconds": 95.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022587882158594098,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 97,
+      "segment": 96,
+      "window_start_seconds": 96.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002301600130955726,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 98,
+      "segment": 97,
+      "window_start_seconds": 97.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00021288592449502142,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 99,
+      "segment": 98,
+      "window_start_seconds": 98.0,
+      "cnn": "violin",
+      "reference": "guitar",
+      "rms_est": 0.004647111561264437,
+      "probabilities": {
+        "piano": 2.9610328056151047e-05,
+        "guitar": 4.300469663576223e-05,
+        "violin": 0.9999274015426636
+      },
+      "margin": 0.9998843968460278
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 100,
+      "segment": 99,
+      "window_start_seconds": 99.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00024588673612385047,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 101,
+      "segment": 100,
+      "window_start_seconds": 100.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022053554396397624,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 102,
+      "segment": 101,
+      "window_start_seconds": 101.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023405929526344315,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 103,
+      "segment": 102,
+      "window_start_seconds": 102.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002157409491581001,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 104,
+      "segment": 103,
+      "window_start_seconds": 103.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023910728539161555,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 105,
+      "segment": 104,
+      "window_start_seconds": 104.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00020885234379006427,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 106,
+      "segment": 105,
+      "window_start_seconds": 105.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00022514106870839492,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 107,
+      "segment": 106,
+      "window_start_seconds": 106.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.00023940732561352323,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 108,
+      "segment": 107,
+      "window_start_seconds": 107.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002124087740370876,
+      "probabilities": null,
+      "margin": null
+    },
+    {
+      "archive": "piano_high_medium_v2.zip",
+      "record_id": 109,
+      "segment": 108,
+      "window_start_seconds": 108.0,
+      "cnn": "silence",
+      "reference": "silence",
+      "rms_est": 0.0002170323991290639,
+      "probabilities": null,
+      "margin": null
+    }
+  ]
+}

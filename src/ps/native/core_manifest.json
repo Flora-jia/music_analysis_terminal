@@ -1,0 +1,13 @@
+{
+  "audio_note_types.h": "c5f5bf67293a9a6a84915444878e834846f1ab3ece8196dfddc20938bac6dc74",
+  "pitch_compare.c": "6bfa7d9aa62b100dfe9726498aedc189182e2c9d6f6f5ef21fdc1d62925cf7dc",
+  "pitch_compare.h": "0fe467cc0e79d52bac17ba6a02af6b0f28289f9f8fe599a2cd5fd2eb2eb99f41",
+  "onset_detector.c": "98befac7c07d86a50bcfeb653baf9dcd23951d110cd90268c5b41d14bb65bc49",
+  "onset_detector.h": "2ca68c1a44711d4afad7055961f21e60b52f8cfc9432d6781cf8b1ac6bb18b29",
+  "note_tracker.c": "525e7d2153cec9eda59d56fb281798426fc01677914a2579f85327e5d1e644c6",
+  "note_tracker.h": "1f7064fc804a1c9bb12742388a39a8917420a4252f226f897ed22c4a1572c6d8",
+  "note_event_queue.c": "0db2562a997c6ff24dd18dd558786d282342a2e6cc471eea59348a5d67cf75dd",
+  "note_event_queue.h": "29be0f213c68587cabc621fd5c8b10514914f9b71150e85ed89b898aedce8ed3",
+  "jianpu_map.c": "8a16c7c95c98ba87812e1c71f587c611ea4b4584c4a2ea08a94084c84e62f297",
+  "jianpu_map.h": "8b0e73fef1a609b6e995b97c287377bd9a9c7daa5012182384be31b0f446da9d"
+}

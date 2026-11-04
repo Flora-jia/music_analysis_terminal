@@ -1,0 +1,12 @@
+{
+  "bins": 2049,
+  "window_samples": 4096,
+  "hop_samples": 512,
+  "coverage": "all_packets",
+  "require_drop_marker": true,
+  "reference_peak": {
+    "first_bin": 13,
+    "last_bin": 512,
+    "threshold": 100
+  }
+}

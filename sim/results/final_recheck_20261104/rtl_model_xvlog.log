@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/platform_reproduction_20261104/music_analysis_terminal/sim/testbench/tb_fft_protocol.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_fft_protocol
+INFO: [VRFC 10-311] analyzing module xfft_1024
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/platform_reproduction_20261104/music_analysis_terminal/src/rtl/music_fft1024_batch.v" into library work
+INFO: [VRFC 10-311] analyzing module music_fft1024_batch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/platform_reproduction_20261104/music_analysis_terminal/src/rtl/music_pcm_segments.v" into library work
+INFO: [VRFC 10-311] analyzing module music_pcm_segments
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Claude_code_thing_new/audio_f0923/submission/platform_reproduction_20261104/music_analysis_terminal/src/rtl/hann_coef_rom.v" into library work
+INFO: [VRFC 10-311] analyzing module hann_coef_rom

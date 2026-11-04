@@ -1,0 +1,12 @@
+{
+  "spectrum": {
+    "passed": true,
+    "marker": "SPEC_RTL_PASS",
+    "scope": "control/protocol simulation; vendor FFT math not verified here"
+  },
+  "model": {
+    "passed": true,
+    "marker": "PASS: 63 frames",
+    "scope": "control/protocol simulation; vendor FFT math not verified here"
+  }
+}

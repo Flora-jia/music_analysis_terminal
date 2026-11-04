@@ -1,0 +1,18 @@
+{
+  "release": "20261102-r6-freeze",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "host_platform": "Windows-11-10.0.26200-SP0",
+  "vivado": "2020.2",
+  "create_project": "passed BD generation, IP generation and syntax checking in a new output directory",
+  "full_synthesis_implementation_rerun": false,
+  "rtl_protocol_benches": 2,
+  "host_tests": 22,
+  "host_failures": 0,
+  "host_errors": 0,
+  "arm_library_exactly_rebuilt": true,
+  "arm_library_sha256": "aa74e1dfdc0820e7a2a28cd390d57fb3397a553240587fb3d0b0703291858287",
+  "production_runtime_modified": false,
+  "board_programmed_during_freeze": false,
+  "note": "Host and protocol checks are packaging verification, not new physical board acceptance or classification accuracy."
+}

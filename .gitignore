@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.Xil/
+build/work/
+board/runtime/music_records/
+*.jou
+*.log.tmp
+external_assets/
+
+# 超大文件不上传（单文件 1.77GB，超出 GitHub 100MB 限制）
+board/environment/images/*.zip
+board/environment/images/*.img

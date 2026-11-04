@@ -1,0 +1,27 @@
+test_bfp_unsigned (__main__.Checks.test_bfp_unsigned) ... ok
+test_cnn_is_three_conv_and_finite (__main__.Checks.test_cnn_is_three_conv_and_finite) ... ok
+test_mel_against_pcm_reference (__main__.Checks.test_mel_against_pcm_reference) ... ok
+test_model_complete_batch (__main__.Checks.test_model_complete_batch) ... ok
+test_model_rejects_splice (__main__.Checks.test_model_rejects_splice) ... ok
+test_native_gap_marks_truncation (__main__.Checks.test_native_gap_marks_truncation) ... ok
+test_native_octaves_and_silence (__main__.Checks.test_native_octaves_and_silence) ... ok
+test_nyquist_visualization (__main__.Checks.test_nyquist_visualization) ... ok
+test_python_syntax (__main__.Checks.test_python_syntax) ... ok
+test_runtime_manifest (__main__.Checks.test_runtime_manifest) ... ok
+test_saved_rtl_spectra_and_corruption (__main__.Checks.test_saved_rtl_spectra_and_corruption) ... ok
+test_source_mirrors (__main__.Checks.test_source_mirrors) ... ok
+test_capture_does_not_change_real_model_decision (capture_release_checks.Tests.test_capture_does_not_change_real_model_decision) ... ok
+test_diagnostics_confusion_transition_and_archive (capture_release_checks.Tests.test_diagnostics_confusion_transition_and_archive) ... ok
+test_disk_failure_is_reported_without_raising_to_producer (capture_release_checks.Tests.test_disk_failure_is_reported_without_raising_to_producer) ... ok
+test_exact_features_and_operator_label_are_preserved (capture_release_checks.Tests.test_exact_features_and_operator_label_are_preserved) ... ok
+test_full_queue_does_not_wait_and_close_drains (capture_release_checks.Tests.test_full_queue_does_not_wait_and_close_drains) ... ok
+test_invalid_labels_epochs_and_bad_features (capture_release_checks.Tests.test_invalid_labels_epochs_and_bad_features) ... ok
+test_preprocessing_mismatch_is_detected (capture_release_checks.Tests.test_preprocessing_mismatch_is_detected) ... ok
+test_segment_and_byte_limits (capture_release_checks.Tests.test_segment_and_byte_limits) ... ok
+test_silence_is_recorded_without_fake_probabilities (capture_release_checks.Tests.test_silence_is_recorded_without_fake_probabilities) ... ok
+test_worker_recording_failure_does_not_stop_inference (capture_release_checks.Tests.test_worker_recording_failure_does_not_stop_inference) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.500s
+
+OK

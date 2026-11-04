@@ -1,0 +1,36 @@
+{
+  "first_sample": {
+    "shape": [],
+    "dtype": "int64"
+  },
+  "pcm": {
+    "shape": [
+      4096
+    ],
+    "dtype": "int64"
+  },
+  "hann_q15": {
+    "shape": [
+      4096
+    ],
+    "dtype": "int64"
+  },
+  "windowed": {
+    "shape": [
+      4096
+    ],
+    "dtype": "int64"
+  },
+  "expected_magnitude": {
+    "shape": [
+      2049
+    ],
+    "dtype": "float64"
+  },
+  "hardware_magnitude": {
+    "shape": [
+      2049
+    ],
+    "dtype": "int64"
+  }
+}

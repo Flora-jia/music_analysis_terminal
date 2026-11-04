@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-02",
+  "host_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "unit_tests": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "scope": "offline fixtures, injected failures and mocked MMIO only; no new physical PYNQ board execution"
+  },
+  "cli_checks": [
+    {
+      "name": "layout",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "overlay_example",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "frame_example",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "feature_example",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "timing_example",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "historical_timing_rejection",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true
+    },
+    {
+      "name": "historical_numeric_compare",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "historical_adapter",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "historical_frame_check",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    }
+  ],
+  "new_hardware_runs": 0,
+  "new_cross_board_runs": 0,
+  "prompt_template_stability_evaluated": false,
+  "official_quick_validator": "attempted; unavailable because bundled Python has no PyYAML; restricted two-scalar metadata validator supplied and run instead"
+}

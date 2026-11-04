@@ -1,0 +1,7 @@
+{
+  "implementation_passed": true,
+  "setup_ns": 7.336,
+  "hold_ns": 0.04,
+  "bit_sha256": "42740ac0ef8a2715750f5d37f1adb570f8d5de1cc66bc2ba01fb333379a6e37c",
+  "hwh_sha256": "dd13e40f663de7ba6dafadb4d66d569ba0370f02f46ead69fda801f1bb7a72f3"
+}

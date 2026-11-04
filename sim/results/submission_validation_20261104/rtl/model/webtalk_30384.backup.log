@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  4 04:05:55 2026
+# Process ID: 30384
+# Current directory: D:/Claude_code_thing_new/audio_f0923/submission/final_20261104/music_analysis_terminal/sim/results/submission_validation_20261104/rtl/model
+# Command line: wbtcv.exe -mode batch -source D:/Claude_code_thing_new/audio_f0923/submission/final_20261104/music_analysis_terminal/sim/results/submission_validation_20261104/rtl/model/xsim.dir/tb_fft_protocol_snapshot/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Claude_code_thing_new/audio_f0923/submission/final_20261104/music_analysis_terminal/sim/results/submission_validation_20261104/rtl/model/webtalk.log
+# Journal file: D:/Claude_code_thing_new/audio_f0923/submission/final_20261104/music_analysis_terminal/sim/results/submission_validation_20261104/rtl/model\webtalk.jou
+#-----------------------------------------------------------
+source D:/Claude_code_thing_new/audio_f0923/submission/final_20261104/music_analysis_terminal/sim/results/submission_validation_20261104/rtl/model/xsim.dir/tb_fft_protocol_snapshot/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  4 04:05:56 2026...

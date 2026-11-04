@@ -1,0 +1,33 @@
+ACCEPTANCE_CASE: wired_model_nofeatures01 OUTPUT: /home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/acceptance_runs/wired_model_nofeatures01
+MODEL_CANDIDATE: R6 learned piano support; raw CNN unchanged; board verification pending
+SOFTWARE_RELEASE: 20261101-R6
+AC820 clock calibration: PS_REF=33.333333 MHz; FCLK0=50.000000 MHz
+lcd_vdma @ 0x43000000; lcd_vtc @ 0x43C20000
+vdma_control=0x00010003; vdma_status=0x00011000; vtc_control=0x03F7EF07; vtc_active_size=0x01E00320
+MM2S running. Check LCD: white/yellow/cyan/green/magenta/red/blue/black.
+Keep lcd alive. Use lcd.stop() before reloading any overlay.
+AUDIO_PIANO_SUPPORT: loaded 23 learned templates
+CODEC_AND_CLOCKS: {"codec": {"R04": "0x3c", "R08": "0x0", "R17": "0x18", "R18": "0x6", "R19": "0x22", "R27": "0x80", "R2A": "0x80", "R2B": "0x80"}, "i2c_backend": "pl_open_drain", "i2c_half_period_us": 20.0, "rx_divider": 12, "slot_bits": 16, "rx_enabled": true, "measured_lrclk_hz": 15979.2, "measured_bclk_hz": 511333.4, "bclk_per_frame": 32.0, "status": {"beat_index": 0, "beat_count": 0, "enabled": false, "clock_ok": true, "watchdog_fault": false, "fast_clock_fault": false, "frame_count": 2496, "bclk_count": 79906}}
+LIVE_API: http://0.0.0.0:5002/api/state; backend=C; demo=False
+GT911_OK: {'product': '911', 'firmware': 4192, 'address': '0x5D', 'width': 800, 'height': 480, 'gpiochip': '/dev/gpiochip0', 'gpio_label': 'zynq_gpio'}
+UI_TIMING: {"touch_p95_ms": 14.8, "touch_max_ms": 21.7, "step_p95_ms": 4.6, "step_max_ms": 444.4, "paint_p95_ms": 439.9, "paint_max_ms": 443.1, "frame_writes_5s": 2, "render_p95_ms": 436.3, "render_max_ms": 439.4, "copy_flush_p95_ms": 3.6, "copy_flush_max_ms": 3.6, "loop_p95_ms": 18.0, "loop_max_ms": 463.6}
+UI_TIMING: {"touch_p95_ms": 34.2, "touch_max_ms": 52.6, "step_p95_ms": 4.7, "step_max_ms": 27.3, "paint_p95_ms": null, "paint_max_ms": null, "frame_writes_5s": 0, "render_p95_ms": null, "render_max_ms": null, "copy_flush_p95_ms": null, "copy_flush_max_ms": null, "loop_p95_ms": 21.9, "loop_max_ms": 59.1}
+UI_TIMING: {"touch_p95_ms": 15.9, "touch_max_ms": 35.2, "step_p95_ms": 5.7, "step_max_ms": 14.0, "paint_p95_ms": null, "paint_max_ms": null, "frame_writes_5s": 0, "render_p95_ms": null, "render_max_ms": null, "copy_flush_p95_ms": null, "copy_flush_max_ms": null, "loop_p95_ms": 19.8, "loop_max_ms": 47.6}
+UI_TIMING: {"touch_p95_ms": 13.4, "touch_max_ms": 17.9, "step_p95_ms": 3.5, "step_max_ms": 13.6, "paint_p95_ms": null, "paint_max_ms": null, "frame_writes_5s": 0, "render_p95_ms": null, "render_max_ms": null, "copy_flush_p95_ms": null, "copy_flush_max_ms": null, "loop_p95_ms": 18.4, "loop_max_ms": 39.4}
+MODEL_REVIEW: label=guitar raw_cnn=guitar raw_confidence=0.683983325958252 reason=None
+MODEL_REVIEW: label=piano raw_cnn=piano raw_confidence=0.9839503765106201 reason=None
+MODEL_REVIEW: label=guitar raw_cnn=guitar raw_confidence=1.0 reason=None
+UI_TIMING: {"touch_p95_ms": 15.5, "touch_max_ms": 30.9, "step_p95_ms": 8.1, "step_max_ms": 809.6, "paint_p95_ms": 776.7, "paint_max_ms": 807.0, "frame_writes_5s": 5, "render_p95_ms": 773.9, "render_max_ms": 804.2, "copy_flush_p95_ms": 3.8, "copy_flush_max_ms": 4.0, "loop_p95_ms": 24.5, "loop_max_ms": 842.6}
+MODEL_REVIEW: label=piano raw_cnn=piano raw_confidence=0.6802695393562317 reason=None
+UI_TIMING: {"touch_p95_ms": 17.4, "touch_max_ms": 26.6, "step_p95_ms": 11.8, "step_max_ms": 552.4, "paint_p95_ms": 544.0, "paint_max_ms": 547.7, "frame_writes_5s": 4, "render_p95_ms": 540.9, "render_max_ms": 544.7, "copy_flush_p95_ms": 4.3, "copy_flush_max_ms": 4.4, "loop_p95_ms": 27.6, "loop_max_ms": 547.5}
+MODEL_REVIEW: label=guitar raw_cnn=guitar raw_confidence=1.0 reason=None
+UI_TIMING: {"touch_p95_ms": 18.9, "touch_max_ms": 25.4, "step_p95_ms": 13.6, "step_max_ms": 524.5, "paint_p95_ms": 510.3, "paint_max_ms": 522.3, "frame_writes_5s": 3, "render_p95_ms": 506.8, "render_max_ms": 518.8, "copy_flush_p95_ms": 3.5, "copy_flush_max_ms": 3.5, "loop_p95_ms": 29.2, "loop_max_ms": 594.9}
+UI_TIMING: {"touch_p95_ms": 21.6, "touch_max_ms": 45.5, "step_p95_ms": 7.9, "step_max_ms": 396.1, "paint_p95_ms": 389.0, "paint_max_ms": 389.7, "frame_writes_5s": 2, "render_p95_ms": 385.6, "render_max_ms": 386.3, "copy_flush_p95_ms": 3.4, "copy_flush_max_ms": 3.5, "loop_p95_ms": 27.8, "loop_max_ms": 581.9}
+MODEL_REVIEW: label=piano raw_cnn=piano raw_confidence=0.9278159141540527 reason=None
+MODEL_REVIEW: label=guitar raw_cnn=guitar raw_confidence=1.0 reason=None
+UI_TIMING: {"touch_p95_ms": 16.0, "touch_max_ms": 22.5, "step_p95_ms": 10.9, "step_max_ms": 512.3, "paint_p95_ms": 498.1, "paint_max_ms": 504.1, "frame_writes_5s": 7, "render_p95_ms": 494.7, "render_max_ms": 501.0, "copy_flush_p95_ms": 5.9, "copy_flush_max_ms": 6.2, "loop_p95_ms": 27.4, "loop_max_ms": 522.6}
+UI_TIMING: {"touch_p95_ms": 14.6, "touch_max_ms": 15.3, "step_p95_ms": 459.0, "step_max_ms": 866.3, "paint_p95_ms": 748.4, "paint_max_ms": 833.3, "frame_writes_5s": 8, "render_p95_ms": 739.0, "render_max_ms": 820.8, "copy_flush_p95_ms": 9.7, "copy_flush_max_ms": 12.5, "loop_p95_ms": 473.9, "loop_max_ms": 878.2}
+UI_TIMING: {"touch_p95_ms": 15.3, "touch_max_ms": 19.6, "step_p95_ms": 6.2, "step_max_ms": 479.7, "paint_p95_ms": 452.8, "paint_max_ms": 457.1, "frame_writes_5s": 2, "render_p95_ms": 448.6, "render_max_ms": 452.8, "copy_flush_p95_ms": 4.2, "copy_flush_max_ms": 4.3, "loop_p95_ms": 21.5, "loop_max_ms": 513.0}
+MODEL_REVIEW: label=piano raw_cnn=piano raw_confidence=0.7201023697853088 reason=None
+MODEL_REVIEW: label=guitar raw_cnn=guitar raw_confidence=1.0 reason=None
+UI_TIMING: {"touch_p95_ms": 18.1, "touch_max_ms": 31.8, "step_p95_ms": 17.3, "step_max_ms": 561.4, "paint_p95_ms": 543.7, "paint_max_ms": 546.9, "frame_writes_5s": 7, "render_p95_ms": 539.1, "render_max_ms": 541.8, "copy_flush_p95_ms": 5.9, "copy_flush_max_ms": 6.2, "loop_p95_ms": 35.5, "loop_max_ms": 578.8}

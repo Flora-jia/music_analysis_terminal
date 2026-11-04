@@ -1,0 +1,48 @@
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/project/audio_f0923/audio/audio/pl_merge_20261031/relocate_check.tcl -notrace
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+Reading block design file <D:/project/audio_f0923/audio/audio/pl_merge_20261031/project/audio_merged.srcs/sources_1/bd/Audio/Audio.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'M_AXI_GP0_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'M_AXI_GP0_aximm_rd_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:i2s_receiver:1.0 - i2s_receiver_0
+Adding component instance block -- xilinx.com:ip:i2s_transmitter:1.0 - i2s_transmitter_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - lcd_clk_wiz
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - lcd_vdma
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - lcd_vtc
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - lcd_video_out
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - lcd_rst
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - lcd_one
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - lcd_zero
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - touch_reset_slice
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - touch_reset_feedback
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - touch_reset_zero
+Adding component instance block -- xilinx.com:module_ref:ac820_speaker_core:1.0 - speaker_core
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_1
+Successfully read diagram <Audio> from block design file <D:/project/audio_f0923/audio/audio/pl_merge_20261031/project/audio_merged.srcs/sources_1/bd/Audio/Audio.bd>
+INFO: [BD 5-320] Validate design is not run, since the design is already validated.
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'Audio' - hence not re-generating.
+INFO: [Vivado 12-4796] No errors or warning reported.
+RELOCATION_PROJECT_OK
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 15:00:09 2026...

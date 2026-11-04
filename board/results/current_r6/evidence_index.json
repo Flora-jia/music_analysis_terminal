@@ -1,0 +1,38 @@
+{
+  "schema": "music.board.evidence_index.v1",
+  "software_release": "20261101-R6",
+  "cases": [
+    {
+      "case": "wired_smoke02",
+      "archive_sha256": "828ca5c9f2de531152562c4ffa4113911032589909f47a8860bcf45f78623b05",
+      "evidence_manifest": "wired_smoke02/evidence_manifest.json",
+      "test_conditions": "wired_smoke02/test_conditions.json",
+      "analysis": "wired_smoke02/analysis.json",
+      "readable_record": "wired_smoke02/recorded"
+    },
+    {
+      "case": "wired_static01",
+      "archive_sha256": "3c7c5b7e926aeab80c292289332ffbf3d758a06abbbd17987451033d56b2d9b8",
+      "evidence_manifest": "wired_static01/evidence_manifest.json",
+      "test_conditions": "wired_static01/test_conditions.json",
+      "analysis": "wired_static01/analysis.json",
+      "readable_record": "wired_static01/recorded"
+    },
+    {
+      "case": "wired_nomodel01",
+      "archive_sha256": "12105ba8f1b9ea06abf457100de4d2555e8524c6dc394e6f7e496ad7cfe383db",
+      "evidence_manifest": "wired_nomodel01/evidence_manifest.json",
+      "test_conditions": "wired_nomodel01/test_conditions.json",
+      "analysis": "wired_nomodel01/analysis.json",
+      "readable_record": "wired_nomodel01/recorded"
+    },
+    {
+      "case": "wired_model_nofeatures01",
+      "archive_sha256": "d7e56212fb6b0b1d59b1013c9de19c509afdd446181b98fff17102b46f631c57",
+      "evidence_manifest": "wired_model_nofeatures01/evidence_manifest.json",
+      "test_conditions": "wired_model_nofeatures01/test_conditions.json",
+      "analysis": "wired_model_nofeatures01/analysis.json",
+      "readable_record": "wired_model_nofeatures01/recorded"
+    }
+  ]
+}

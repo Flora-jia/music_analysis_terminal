@@ -1,0 +1,3 @@
+{"sequence": 0, "first_sample": 0, "sample_count": 8, "bins": [0, 1, 2, 3, 4], "values": [0, 1, 9, 2, 0], "reference_peak": {"bin": 2, "value": 9}}
+{"sequence": 1, "first_sample": 2, "sample_count": 8, "bins": [0, 1, 2, 3, 4], "values": [0, 1, 9, 2, 0], "reference_peak": {"bin": 2, "value": 9}}
+{"sequence": 2, "first_sample": 4, "sample_count": 8, "bins": [0, 1, 2, 3, 4], "values": [0, 1, 9, 2, 0], "reference_peak": {"bin": 2, "value": 9}}

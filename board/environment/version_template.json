@@ -1,0 +1,11 @@
+{
+  "state": "export_from_actual_verified_board",
+  "sd_image_filename": null,
+  "sd_image_source": null,
+  "pynq": null,
+  "python": null,
+  "numpy": null,
+  "kernel": null,
+  "input_profile": null,
+  "piano_review_enabled": null
+}

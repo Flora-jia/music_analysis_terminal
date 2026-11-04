@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "max_abs_error": 0.0,
+  "mismatched_elements": 0,
+  "shape": [
+    2,
+    2
+  ],
+  "atol": 1e-06,
+  "rtol": 0,
+  "scope": "numerical equality of supplied arrays, not task accuracy"
+}

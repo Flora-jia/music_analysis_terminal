@@ -1,0 +1,33 @@
+test_bin_reorder_and_short_rejected (__main__.Checks.test_bin_reorder_and_short_rejected) ... ok
+test_complete_frames (__main__.Checks.test_complete_frames) ... ok
+test_complex_reference_preserves_phase_difference (__main__.Checks.test_complex_reference_preserves_phase_difference) ... ok
+test_dma_descriptor_before_producer_and_cache (__main__.Checks.test_dma_descriptor_before_producer_and_cache) ... ok
+test_dma_error_rejected (__main__.Checks.test_dma_error_rejected) ... ok
+test_dma_stuck_halt_retains_buffer (__main__.Checks.test_dma_stuck_halt_retains_buffer) ... ok
+test_escape_path_rejected (__main__.Checks.test_escape_path_rejected) ... ok
+test_global_mel_reference_and_silence (__main__.Checks.test_global_mel_reference_and_silence) ... ok
+test_hash_drift_rejected (__main__.Checks.test_hash_drift_rejected) ... ok
+test_inconsistent_hop_rejected (__main__.Checks.test_inconsistent_hop_rejected) ... ok
+test_mixed_payload_detected_with_golden (__main__.Checks.test_mixed_payload_detected_with_golden) ... ok
+test_negative_hold_rejected (__main__.Checks.test_negative_hold_rejected) ... ok
+test_nonfinite_magnitude_rejected (__main__.Checks.test_nonfinite_magnitude_rejected) ... ok
+test_positive_slack_missing_io_is_not_full_pass (__main__.Checks.test_positive_slack_missing_io_is_not_full_pass) ... ok
+test_positive_timing_complete_constraints (__main__.Checks.test_positive_timing_complete_constraints) ... ok
+test_producer_stop_failure_retains_buffer (__main__.Checks.test_producer_stop_failure_retains_buffer) ... ok
+test_same_frame_reference_peak_rejected (__main__.Checks.test_same_frame_reference_peak_rejected) ... ok
+test_sampled_log_does_not_claim_dma_loss (__main__.Checks.test_sampled_log_does_not_claim_dma_loss) ... ok
+test_sg_requires_different_adapter (__main__.Checks.test_sg_requires_different_adapter) ... ok
+test_shape_nan_and_tolerance (__main__.Checks.test_shape_nan_and_tolerance) ... ok
+test_short_packet_rejected (__main__.Checks.test_short_packet_rejected) ... ok
+test_timing_unknown_format_fails_closed (__main__.Checks.test_timing_unknown_format_fails_closed) ... ok
+test_two_unrelated_overlay_maps (__main__.Checks.test_two_unrelated_overlay_maps) ... ok
+test_unmarked_gap_rejected (__main__.Checks.test_unmarked_gap_rejected) ... ok
+test_unsigned_bfp_and_format_rejection (__main__.Checks.test_unsigned_bfp_and_format_rejection) ... ok
+test_whole_frame_gap_marked (__main__.Checks.test_whole_frame_gap_marked) ... ok
+test_wrong_exponent_numerically_detected (__main__.Checks.test_wrong_exponent_numerically_detected) ... ok
+test_wrong_ip_address_rejected (__main__.Checks.test_wrong_ip_address_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.481s
+
+OK

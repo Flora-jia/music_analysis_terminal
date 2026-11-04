@@ -1,0 +1,18 @@
+# Preserve the byte hashes recorded in release_manifest.json across checkouts.
+* -text
+*.bit binary
+*.hwh -text
+*.npz binary
+*.npy binary
+*.wav binary
+*.ogg binary
+*.aif binary
+*.aiff binary
+*.zip binary
+*.xsa binary
+*.xlsx binary
+*.so binary
+*.dll binary
+
+# SD image stored with Git LFS.
+board/environment/images/*.zip filter=lfs diff=lfs merge=lfs -text

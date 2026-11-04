@@ -1,0 +1,53 @@
+{
+  "sr": 16000,
+  "synthetic": true,
+  "events": [
+    {
+      "label": "A3_pure",
+      "f0_hz": 220,
+      "harmonics": {
+        "1": 1
+      },
+      "start_s": 1.0,
+      "end_s": 3.0
+    },
+    {
+      "label": "A3_second_strong",
+      "f0_hz": 220,
+      "harmonics": {
+        "1": 0.12,
+        "2": 1,
+        "3": 0.5,
+        "4": 0.35
+      },
+      "start_s": 4.0,
+      "end_s": 6.0
+    },
+    {
+      "label": "A3_missing_fundamental",
+      "f0_hz": 220,
+      "harmonics": {
+        "2": 0.8,
+        "3": 0.6,
+        "4": 0.4,
+        "5": 0.3,
+        "6": 0.2
+      },
+      "start_s": 7.0,
+      "end_s": 9.0
+    },
+    {
+      "label": "A2_third_strong",
+      "f0_hz": 110,
+      "harmonics": {
+        "1": 0.1,
+        "2": 0.15,
+        "3": 1,
+        "4": 0.4,
+        "5": 0.3
+      },
+      "start_s": 10.0,
+      "end_s": 12.0
+    }
+  ]
+}

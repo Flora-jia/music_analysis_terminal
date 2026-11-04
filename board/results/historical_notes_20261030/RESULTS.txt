@@ -1,0 +1,81 @@
+=== host tests Fri Oct 30 16:11:07     2026 ===
+compiler: zig cc (clang)
+PASS  A1 only one ON and one OFF
+PASS  A1 ON/OFF share note_id
+PASS  A1 positive duration
+PASS  A1 duration follows sample indices
+PASS  A1 reason QUIET
+PASS  A2 three ON, two OFF (last still open)
+PASS  A2 MIDI order 60/62/64
+PASS  A2 first boundary shared
+PASS  A2 second boundary shared
+PASS  A2 new note id per note
+PASS  A3 single wrong frame adds no note
+PASS  A3 jitter was suppressed
+PASS  A4 octave jumps create new notes
+PASS  A4 octaves preserved, no forced divide-by-two
+PASS  A5 pitch wobble does not split note
+PASS  A6 tracking invalid on one bad pitch frame
+PASS  A6 one invalid frame does not end note
+PASS  A7 pitch-lost closes the note
+PASS  A7 reason PITCH_LOST not QUIET
+PASS  A8 quiet tail emits a single OFF
+PASS  A9 STREAM_GAP emitted
+PASS  A9 open note closed at gap
+PASS  A9 OFF reason DATA_GAP
+PASS  A9 no negative duration
+PASS  A10 stop closes once, no duplicate OFF
+PASS  A11 64-bit index keeps one note pair
+PASS  A11 64-bit duration correct
+PASS  A12 overflow count
+PASS  A12 resync requested
+PASS  A12 resync clears after take
+PASS  A13 MIDI60 -> 1, C4
+PASS  A13 MIDI61 -> #1
+PASS  A13 MIDI66 -> #4
+PASS  A13 MIDI48 -> low octave
+PASS  A13 MIDI72 -> high octave
+PASS  A13 MIDI0 valid
+PASS  A13 MIDI127 valid
+PASS  A13 invalid MIDI rejected
+PASS  A14 two separated repeats produce two pairs
+PASS  A14 repeats use different ids
+PASS  B-preview no REATTACK without onset evidence
+
+SUMMARY pass=41 fail=0
+
+PASS  B1 all-zero: no onset and finite values
+PASS  B3 steady tone: no repeated onset
+PASS  B2 first tone frame has no history, no onset
+      ev ON reason=START id=1 midi=69 start=6656 end=0
+      ev OFF reason=QUIET id=1 midi=69 start=6656 end=10752
+      ev ON reason=START id=2 midi=69 start=14848 end=0
+      ev OFF reason=QUIET id=2 midi=69 start=14848 end=18944
+      ev ON reason=START id=3 midi=69 start=23040 end=0
+PASS  B4 three separated repeats -> three onsets
+      ev ON reason=START id=1 midi=69 start=2560 end=0
+      ev OFF reason=REATTACK id=1 midi=69 start=2560 end=9216
+      ev ON reason=REATTACK id=2 midi=69 start=9216 end=0
+PASS  B5 dip-then-rise produces an onset
+PASS  B5 tracker emits one REATTACK with new id
+PASS  B5 re-attack uses a new note_id
+      ev ON reason=START id=1 midi=69 start=2560 end=0
+PASS  B6 attack detected before pitch change
+PASS  B6 new pitch emitted
+PASS  B6 boundary uses the onset sample
+PASS  B6 boundary marked as onset estimate
+INFO  B7 crescendo false onsets = 0
+PASS  B7 crescendo does not spray false onsets
+      ev ON reason=START id=1 midi=69 start=6656 end=0
+      ev OFF reason=QUIET id=1 midi=69 start=6656 end=10752
+      ev ON reason=START id=2 midi=69 start=14848 end=0
+      ev OFF reason=QUIET id=2 midi=69 start=14848 end=18944
+      ev ON reason=START id=3 midi=57 start=23040 end=0
+PASS  B8 weak tone and strong-harmonic tone still trigger
+PASS  B10 NaN frame marked bad input
+PASS  B10 bad spectrum produces no onset
+
+SUMMARY pass=15 fail=0
+
+=== replay (state machine only, pitch-only traces) ===
+half_second: ON=12 OFF=12; fast_150ms: ON=12 OFF=12; MIDI 60,62,64,65,67,69 x2

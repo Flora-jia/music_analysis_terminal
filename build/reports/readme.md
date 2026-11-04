@@ -1,0 +1,1 @@
+frozen_20261031与随包板端bit哈希配套。release_validation_20261102保存工程创建与C编译收据，submission_native_20261104保存从最终交付目录重编译的主机和ARM库及完整命令。各构建报告按日期和构建身份单独组织，reference_other_build保留阶段综合参考。

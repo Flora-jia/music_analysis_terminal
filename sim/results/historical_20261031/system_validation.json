@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "state": "native_C_source_integrated_host_passed_board_pending",
+  "root": "D:\\project\\audio_f0923\\audio\\audio\\pl_merge_20261031",
+  "project": "D:\\project\\audio_f0923\\audio\\audio\\pl_merge_20261031\\project\\audio_merged.xpr",
+  "hardware": {
+    "wns_ns": 7.336,
+    "whs_ns": 0.04,
+    "wpws_ns": 7.0,
+    "bram_tiles": 45,
+    "bram_available": 140,
+    "drc_errors": 0
+  },
+  "software": {
+    "runtime_tests_passed": 24,
+    "frontend_render_test": "passed",
+    "python38_runtime_modules": 20,
+    "pc_url": "http://127.0.0.1:5001",
+    "board_url": "http://192.168.2.99:5002",
+    "board_connected": false,
+    "frontend_logic_test": "passed",
+    "native_host_execution": "passed",
+    "native_arm_execution": "pending: board unavailable",
+    "native_abi": 2,
+    "pitch_backend": "libmusic_ps 2.0.0",
+    "board_acceptance": false,
+    "api_service_check": "reports/pc_service_check.json",
+    "feature_capture_tests_passed": 10,
+    "feature_capture": "optional labeled DMA1 power/BFP/Mel + raw decision diagnostics; not board tested"
+  },
+  "remaining": [
+    "ARM library load and startup self-test on PYNQ",
+    "Real ADC/LCD/GT911/Line Out regression",
+    "Pitch/instrument quality and end-to-end latency",
+    "Long running DMA0 + DMA1 + LCD + HTTP + metronome",
+    "Hardware-calibrated branch timing and autostart migration"
+  ],
+  "bit_sha256": "42740ac0ef8a2715750f5d37f1adb570f8d5de1cc66bc2ba01fb333379a6e37c",
+  "hwh_sha256": "dd13e40f663de7ba6dafadb4d66d569ba0370f02f46ead69fda801f1bb7a72f3"
+}

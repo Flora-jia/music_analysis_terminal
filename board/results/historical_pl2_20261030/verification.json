@@ -1,0 +1,1454 @@
+{
+  "core_chain_passed": true,
+  "release_elf_sha256": "02617cfea030d0283d45e6b4ac7e23cd834edf937aac5c1c2c373844d51c284a",
+  "release_bit_sha256": "0c59b8891cb418fdbc0e1051a4d536493049e756db0b927d7ed2b6ffb734cc89",
+  "actual_hardware_used": true,
+  "cold_boots": [
+    {
+      "cycle": 1,
+      "user_confirmed_physical_power_cycle": true,
+      "serial": "cold1_serial.txt",
+      "passed": true,
+      "fps": 31.244
+    },
+    {
+      "cycle": 2,
+      "user_confirmed_physical_power_cycle": true,
+      "serial": "cold2_serial.txt",
+      "passed": true,
+      "fps": 31.244
+    },
+    {
+      "cycle": 3,
+      "user_confirmed_physical_power_cycle": true,
+      "serial": "cold3_serial.txt",
+      "passed": true,
+      "fps": 31.244
+    },
+    {
+      "cycle": 4,
+      "user_confirmed_physical_power_cycle": true,
+      "serial": "cold4_serial.txt",
+      "passed": true,
+      "fps": 31.244
+    },
+    {
+      "cycle": 5,
+      "user_confirmed_physical_power_cycle": true,
+      "serial": "cold5_serial.txt",
+      "passed": true,
+      "fps": 31.244
+    }
+  ],
+  "slow_receive": {
+    "passed": true,
+    "last_dropped": 1117,
+    "max_summary_gap": 48
+  },
+  "recovery": {
+    "passed": true,
+    "settled_dropped": 1387,
+    "stable_tail_summaries": 10
+  },
+  "same_pcm_spectrum": {
+    "passed": true,
+    "frame": 1,
+    "first_sample": 512,
+    "old_trigger_row": 4352,
+    "new_trigger_row": 256,
+    "source_count_at_trigger": 4615,
+    "source_first_captured": 264,
+    "source_last_captured": 8446,
+    "source_events": 8183,
+    "copy_count": 4096,
+    "replay_count": 4096,
+    "max_task_cycles": 24762,
+    "peak_bin": 85,
+    "peak_magnitude": 344,
+    "magnitude_max_abs_error": 1.890660642814329,
+    "magnitude_rms_error": 0.6917799670462806,
+    "allowed_abs_error": 8,
+    "source_window_peak": 17577,
+    "raw_clip_samples": 2836,
+    "raw_events": 8183,
+    "raw_last_2000_clip_samples": 1101,
+    "pitch_on_frozen_packet": {
+      "gate": 0,
+      "peaks": 64,
+      "max": 344.0,
+      "dominant": 330.15576171875,
+      "twm": {
+        "frequency": 80.078125,
+        "score": 0.3619406521320343,
+        "midi": 40,
+        "valid": true,
+        "reason": 0,
+        "mode": 0
+      },
+      "salience": {
+        "frequency": 329.58258056640625,
+        "score": 0.14012162387371063,
+        "midi": 64,
+        "valid": true,
+        "reason": 0,
+        "mode": 0
+      },
+      "yinfft": {
+        "frequency": 334.5968017578125,
+        "score": 0.7611147165298462,
+        "midi": -1,
+        "valid": false,
+        "reason": 2,
+        "mode": 1
+      }
+    },
+    "method": "Both ILAs armed before RX starts; same result_valid trigger on frame1. Old capture qualifies source_valid OR result_valid. Source indices anchored by new source_count at the common trigger; every sample512..4607 extracted, same fixed Hann/8192 scale, float DFT tolerance8."
+  },
+  "final_counters": {
+    "source_count": 12964359,
+    "overlap_first": 12960256,
+    "overlap_frame": 25313,
+    "scheduled": 25314,
+    "launched": 25314,
+    "scheduler_drop": 0,
+    "copy_error": 0,
+    "pack_drop": 0,
+    "copy_count": 4096,
+    "replay_count": 4096,
+    "task_cycles": 24761,
+    "max_task_cycles": 24762
+  },
+  "long_run": {
+    "passed": true,
+    "observed_nominal_sample_span_s": 649.184,
+    "rx_packets_in_summaries": 20277,
+    "printed_packet_rows": 642,
+    "fps_median": 31.244,
+    "max_process_us": 4172,
+    "summary_rows": 634,
+    "packet_errors": 0,
+    "new_drops": 0,
+    "source_write_drops": 0
+  },
+  "tone_tests": [
+    {
+      "case": "500Hz",
+      "expected_note": "B4",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 500.329,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.319,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.324,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.33,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.321,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.323,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.331,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.322,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.322,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.331,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.324,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.32,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.328,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.333,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.326,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.32,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.327,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.328,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.32,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.326,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.329,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.32,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.324,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.331,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.322,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.322,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.331,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.332,
+          "note": "B4",
+          "confidence_milli": 999
+        },
+        {
+          "valid": 1,
+          "hz": 500.323,
+          "note": "B4",
+          "confidence_milli": 999
+        }
+      ]
+    },
+    {
+      "case": "E5",
+      "expected_note": "E5",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 660.401,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.401,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.407,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.406,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.406,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.403,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.406,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.407,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.405,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.404,
+          "note": "E5",
+          "confidence_milli": 996
+        },
+        {
+          "valid": 1,
+          "hz": 660.402,
+          "note": "E5",
+          "confidence_milli": 996
+        }
+      ]
+    },
+    {
+      "case": "A2_third_strong",
+      "expected_note": "A2",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.032,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.03,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.031,
+          "note": "A2",
+          "confidence_milli": 991
+        }
+      ]
+    },
+    {
+      "case": "110Hz",
+      "expected_note": "A2",
+      "stable_rows": 35,
+      "correct": 35,
+      "results": [
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.191,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.192,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.191,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.185,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.185,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.19,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.188,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.187,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        },
+        {
+          "valid": 1,
+          "hz": 110.189,
+          "note": "A2",
+          "confidence_milli": 991
+        }
+      ]
+    }
+  ],
+  "preserved_failure": {
+    "case": "A2_third_strong",
+    "expected_note": "A2",
+    "stable_rows": 35,
+    "correct": 0,
+    "results": [
+      {
+        "valid": 1,
+        "hz": 330.647,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.635,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.64,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.675,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.632,
+        "note": "E4",
+        "confidence_milli": 871
+      },
+      {
+        "valid": 1,
+        "hz": 330.637,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.66,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.616,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.643,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.629,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.612,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.619,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.608,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.646,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.638,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.642,
+        "note": "E4",
+        "confidence_milli": 871
+      },
+      {
+        "valid": 1,
+        "hz": 330.613,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.605,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.646,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.676,
+        "note": "E4",
+        "confidence_milli": 871
+      },
+      {
+        "valid": 1,
+        "hz": 330.625,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.638,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.61,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.615,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.627,
+        "note": "E4",
+        "confidence_milli": 871
+      },
+      {
+        "valid": 1,
+        "hz": 330.645,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.627,
+        "note": "E4",
+        "confidence_milli": 871
+      },
+      {
+        "valid": 1,
+        "hz": 330.69,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.649,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.628,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.637,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.613,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.65,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.639,
+        "note": "E4",
+        "confidence_milli": 870
+      },
+      {
+        "valid": 1,
+        "hz": 330.654,
+        "note": "E4",
+        "confidence_milli": 870
+      }
+    ]
+  },
+  "speed_observations": [
+    {
+      "case": "half_second",
+      "note_duration_s": 0.5,
+      "gap_s": 0.1,
+      "target_schedule": [
+        {
+          "midi": 60,
+          "frequency": 261.6255653005986,
+          "start_s": 2.0,
+          "end_s": 2.5
+        },
+        {
+          "midi": 62,
+          "frequency": 293.6647679174076,
+          "start_s": 2.6,
+          "end_s": 3.1
+        },
+        {
+          "midi": 64,
+          "frequency": 329.6275569128699,
+          "start_s": 3.2,
+          "end_s": 3.7
+        },
+        {
+          "midi": 65,
+          "frequency": 349.2282314330039,
+          "start_s": 3.8000000000000003,
+          "end_s": 4.300000000000001
+        },
+        {
+          "midi": 67,
+          "frequency": 391.99543598174927,
+          "start_s": 4.4,
+          "end_s": 4.9
+        },
+        {
+          "midi": 69,
+          "frequency": 440.0,
+          "start_s": 5.0,
+          "end_s": 5.5
+        },
+        {
+          "midi": 60,
+          "frequency": 261.6255653005986,
+          "start_s": 5.6,
+          "end_s": 6.1
+        },
+        {
+          "midi": 62,
+          "frequency": 293.6647679174076,
+          "start_s": 6.199999999999999,
+          "end_s": 6.699999999999999
+        },
+        {
+          "midi": 64,
+          "frequency": 329.6275569128699,
+          "start_s": 6.799999999999999,
+          "end_s": 7.299999999999999
+        },
+        {
+          "midi": 65,
+          "frequency": 349.2282314330039,
+          "start_s": 7.399999999999999,
+          "end_s": 7.899999999999999
+        },
+        {
+          "midi": 67,
+          "frequency": 391.99543598174927,
+          "start_s": 7.999999999999998,
+          "end_s": 8.499999999999998
+        },
+        {
+          "midi": 69,
+          "frequency": 440.0,
+          "start_s": 8.599999999999998,
+          "end_s": 9.099999999999998
+        }
+      ],
+      "trace_rows": 379,
+      "valid_rows": 227,
+      "valid_midi_seen": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69
+      ],
+      "target_midi_seen": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69
+      ],
+      "unexpected_midi": [
+        61,
+        63,
+        68
+      ],
+      "sequence_errors": 0,
+      "note": "Per-frame pitch observations only; no onset/note-event segmentation. PC playback time is not an exact ADC timestamp. Do not interpret set coverage as note accuracy."
+    },
+    {
+      "case": "fast_150ms",
+      "note_duration_s": 0.15,
+      "gap_s": 0.03,
+      "target_schedule": [
+        {
+          "midi": 60,
+          "frequency": 261.6255653005986,
+          "start_s": 2.0,
+          "end_s": 2.15
+        },
+        {
+          "midi": 62,
+          "frequency": 293.6647679174076,
+          "start_s": 2.18,
+          "end_s": 2.33
+        },
+        {
+          "midi": 64,
+          "frequency": 329.6275569128699,
+          "start_s": 2.3600000000000003,
+          "end_s": 2.5100000000000002
+        },
+        {
+          "midi": 65,
+          "frequency": 349.2282314330039,
+          "start_s": 2.5400000000000005,
+          "end_s": 2.6900000000000004
+        },
+        {
+          "midi": 67,
+          "frequency": 391.99543598174927,
+          "start_s": 2.7200000000000006,
+          "end_s": 2.8700000000000006
+        },
+        {
+          "midi": 69,
+          "frequency": 440.0,
+          "start_s": 2.900000000000001,
+          "end_s": 3.0500000000000007
+        },
+        {
+          "midi": 60,
+          "frequency": 261.6255653005986,
+          "start_s": 3.080000000000001,
+          "end_s": 3.230000000000001
+        },
+        {
+          "midi": 62,
+          "frequency": 293.6647679174076,
+          "start_s": 3.260000000000001,
+          "end_s": 3.410000000000001
+        },
+        {
+          "midi": 64,
+          "frequency": 329.6275569128699,
+          "start_s": 3.4400000000000013,
+          "end_s": 3.590000000000001
+        },
+        {
+          "midi": 65,
+          "frequency": 349.2282314330039,
+          "start_s": 3.6200000000000014,
+          "end_s": 3.7700000000000014
+        },
+        {
+          "midi": 67,
+          "frequency": 391.99543598174927,
+          "start_s": 3.8000000000000016,
+          "end_s": 3.9500000000000015
+        },
+        {
+          "midi": 69,
+          "frequency": 440.0,
+          "start_s": 3.9800000000000018,
+          "end_s": 4.130000000000002
+        }
+      ],
+      "trace_rows": 224,
+      "valid_rows": 72,
+      "valid_midi_seen": [
+        41,
+        57,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "target_midi_seen": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69
+      ],
+      "unexpected_midi": [
+        41,
+        57,
+        61,
+        63,
+        66,
+        68
+      ],
+      "sequence_errors": 0,
+      "note": "Per-frame pitch observations only; no onset/note-event segmentation. PC playback time is not an exact ADC timestamp. Do not interpret set coverage as note accuracy."
+    }
+  ],
+  "final_state": "Release bit+ELF running; intentional slowdown disabled; playback finished. ILA inspection does not halt CPU.",
+  "limitations": [
+    "No real-instrument/20cm microphone/UI/AI/PYNQ integration test in this task",
+    "H9 per-frame observations include transition errors; note segmentation remains future work",
+    "External audio/IIC timing constraint gaps inherited",
+    "Confidence is not the probability that a pitch is correct"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿round,note,start_seconds,end_seconds,source_file
+1,C4,5,8.0,01_Piano.ff.C4.wav
+1,D4,11.0,14.0,02_Piano.ff.D4.wav
+1,E4,17.0,20.0,03_Piano.ff.E4.wav
+1,G4,23.0,26.0,04_Piano.ff.G4.wav
+1,A4,29.0,32.0,05_Piano.ff.A4.wav
+2,C4,35.0,38.0,01_Piano.ff.C4.wav
+2,D4,41.0,44.0,02_Piano.ff.D4.wav
+2,E4,47.0,50.0,03_Piano.ff.E4.wav
+2,G4,53.0,56.0,04_Piano.ff.G4.wav
+2,A4,59.0,62.0,05_Piano.ff.A4.wav

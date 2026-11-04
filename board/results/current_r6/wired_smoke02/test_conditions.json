@@ -1,0 +1,50 @@
+{
+  "case": "wired_smoke02",
+  "source": "computer_audio_cable_to_LINE_IN",
+  "pc_volume_percent": 100,
+  "input_profile": "line",
+  "piano_review": false,
+  "piano_support": true,
+  "playback_order": [
+    {
+      "file": "data/audio/acceptance/pure_500_1000.wav",
+      "sha256": "09507043571c628debfec2b8ff5a020fba9a1fb063b92c18d5e4c3e6868263f9",
+      "plays": 1
+    },
+    {
+      "file": "data/audio/acceptance/scale_c4_a4.wav",
+      "sha256": "887e79e58aa7365bc4adeeaeff646fa8e2f666e7bfd15a9291a4ff4738584459",
+      "plays": 1
+    },
+    {
+      "file": "data/audio/acceptance/repeat_c4.wav",
+      "sha256": "92d220121317881a35ddd4e7c93e32273ecead522d36a9c709a46eb8d383903e",
+      "plays": 1
+    }
+  ],
+  "playback_order_basis": "operator_confirmation",
+  "model_enabled": true,
+  "feature_recording_enabled": true,
+  "screen_mode": "interactive",
+  "operator_confirmation": {
+    "source": "user reply 2026-11-03",
+    "playback_order": [
+      "pure_500_1000.wav",
+      "scale_c4_a4.wav",
+      "repeat_c4.wav"
+    ],
+    "repetitions_per_file": 1,
+    "paused_or_replayed": false,
+    "volume_changed": false,
+    "pc_volume_percent": 100,
+    "touch_operated": true,
+    "metronome_operated": true,
+    "actual_sound_of_metronome_not_independently_verified": true
+  },
+  "run_arguments_file": "recorded/run_arguments.json",
+  "source_board_wall_clock": {
+    "start": "2021-11-18T08:20:32.823734+00:00",
+    "end": "2021-11-18T08:23:15.662216+00:00"
+  },
+  "date_note": "Original board clock values retained; collection notes and evidence receipt date provide the test context."
+}

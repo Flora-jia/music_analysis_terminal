@@ -1,0 +1,10 @@
+{
+  "hwh": "design.hwh",
+  "artifacts": {
+    "design.hwh": "326321935792fe03cc1109ff97bd8ee0c965a1b0ee1638277a5facfdbf346618",
+    "payload.bin": "9bf89ed58fee04783a19f6998efcf661d62967eecfbee6fbb6c631c20d8f8e46"
+  },
+  "expected_ips": {
+    "sensor_dma": "0x81000000"
+  }
+}

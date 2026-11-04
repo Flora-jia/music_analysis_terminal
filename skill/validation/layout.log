@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "skill": "pynq-portable-bringup",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "skill": "axis-frame-validation",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "skill": "dsp-feature-alignment",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "skill": "build-evidence-review",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "scope": "restricted name/description frontmatter and required files; not generic YAML parsing"
+}

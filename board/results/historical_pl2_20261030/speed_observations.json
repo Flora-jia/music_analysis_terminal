@@ -1,0 +1,222 @@
+[
+  {
+    "case": "half_second",
+    "note_duration_s": 0.5,
+    "gap_s": 0.1,
+    "target_schedule": [
+      {
+        "midi": 60,
+        "frequency": 261.6255653005986,
+        "start_s": 2.0,
+        "end_s": 2.5
+      },
+      {
+        "midi": 62,
+        "frequency": 293.6647679174076,
+        "start_s": 2.6,
+        "end_s": 3.1
+      },
+      {
+        "midi": 64,
+        "frequency": 329.6275569128699,
+        "start_s": 3.2,
+        "end_s": 3.7
+      },
+      {
+        "midi": 65,
+        "frequency": 349.2282314330039,
+        "start_s": 3.8000000000000003,
+        "end_s": 4.300000000000001
+      },
+      {
+        "midi": 67,
+        "frequency": 391.99543598174927,
+        "start_s": 4.4,
+        "end_s": 4.9
+      },
+      {
+        "midi": 69,
+        "frequency": 440.0,
+        "start_s": 5.0,
+        "end_s": 5.5
+      },
+      {
+        "midi": 60,
+        "frequency": 261.6255653005986,
+        "start_s": 5.6,
+        "end_s": 6.1
+      },
+      {
+        "midi": 62,
+        "frequency": 293.6647679174076,
+        "start_s": 6.199999999999999,
+        "end_s": 6.699999999999999
+      },
+      {
+        "midi": 64,
+        "frequency": 329.6275569128699,
+        "start_s": 6.799999999999999,
+        "end_s": 7.299999999999999
+      },
+      {
+        "midi": 65,
+        "frequency": 349.2282314330039,
+        "start_s": 7.399999999999999,
+        "end_s": 7.899999999999999
+      },
+      {
+        "midi": 67,
+        "frequency": 391.99543598174927,
+        "start_s": 7.999999999999998,
+        "end_s": 8.499999999999998
+      },
+      {
+        "midi": 69,
+        "frequency": 440.0,
+        "start_s": 8.599999999999998,
+        "end_s": 9.099999999999998
+      }
+    ],
+    "trace_rows": 379,
+    "valid_rows": 227,
+    "valid_midi_seen": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      67,
+      68,
+      69
+    ],
+    "target_midi_seen": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      69
+    ],
+    "unexpected_midi": [
+      61,
+      63,
+      68
+    ],
+    "sequence_errors": 0,
+    "note": "Per-frame pitch observations only; no onset/note-event segmentation. PC playback time is not an exact ADC timestamp. Do not interpret set coverage as note accuracy."
+  },
+  {
+    "case": "fast_150ms",
+    "note_duration_s": 0.15,
+    "gap_s": 0.03,
+    "target_schedule": [
+      {
+        "midi": 60,
+        "frequency": 261.6255653005986,
+        "start_s": 2.0,
+        "end_s": 2.15
+      },
+      {
+        "midi": 62,
+        "frequency": 293.6647679174076,
+        "start_s": 2.18,
+        "end_s": 2.33
+      },
+      {
+        "midi": 64,
+        "frequency": 329.6275569128699,
+        "start_s": 2.3600000000000003,
+        "end_s": 2.5100000000000002
+      },
+      {
+        "midi": 65,
+        "frequency": 349.2282314330039,
+        "start_s": 2.5400000000000005,
+        "end_s": 2.6900000000000004
+      },
+      {
+        "midi": 67,
+        "frequency": 391.99543598174927,
+        "start_s": 2.7200000000000006,
+        "end_s": 2.8700000000000006
+      },
+      {
+        "midi": 69,
+        "frequency": 440.0,
+        "start_s": 2.900000000000001,
+        "end_s": 3.0500000000000007
+      },
+      {
+        "midi": 60,
+        "frequency": 261.6255653005986,
+        "start_s": 3.080000000000001,
+        "end_s": 3.230000000000001
+      },
+      {
+        "midi": 62,
+        "frequency": 293.6647679174076,
+        "start_s": 3.260000000000001,
+        "end_s": 3.410000000000001
+      },
+      {
+        "midi": 64,
+        "frequency": 329.6275569128699,
+        "start_s": 3.4400000000000013,
+        "end_s": 3.590000000000001
+      },
+      {
+        "midi": 65,
+        "frequency": 349.2282314330039,
+        "start_s": 3.6200000000000014,
+        "end_s": 3.7700000000000014
+      },
+      {
+        "midi": 67,
+        "frequency": 391.99543598174927,
+        "start_s": 3.8000000000000016,
+        "end_s": 3.9500000000000015
+      },
+      {
+        "midi": 69,
+        "frequency": 440.0,
+        "start_s": 3.9800000000000018,
+        "end_s": 4.130000000000002
+      }
+    ],
+    "trace_rows": 224,
+    "valid_rows": 72,
+    "valid_midi_seen": [
+      41,
+      57,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "target_midi_seen": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      69
+    ],
+    "unexpected_midi": [
+      41,
+      57,
+      61,
+      63,
+      66,
+      68
+    ],
+    "sequence_errors": 0,
+    "note": "Per-frame pitch observations only; no onset/note-event segmentation. PC playback time is not an exact ADC timestamp. Do not interpret set coverage as note accuracy."
+  }
+]

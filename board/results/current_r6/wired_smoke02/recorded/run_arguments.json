@@ -1,0 +1,25 @@
+{
+  "case": "wired_smoke02",
+  "command_argv": [
+    "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/run_live_system.py",
+    "--ui-stats",
+    "--input",
+    "line",
+    "--record-dir",
+    "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/acceptance_runs/wired_smoke02/music_records",
+    "--capture-label",
+    "unlabeled",
+    "--capture-limit",
+    "120",
+    "--capture-dir",
+    "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/acceptance_runs/wired_smoke02/features",
+    "--capture-note",
+    "actual_date=2026-11-02; source=PC_line"
+  ],
+  "runtime": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime",
+  "operator_label": "unlabeled",
+  "board_wall_clock_started": "2021-11-18T08:20:32.823734+00:00",
+  "state": "entry_returned_normally",
+  "note": "Operator label is ground truth metadata; it is not supplied as an input to the classifier.",
+  "board_wall_clock_ended": "2021-11-18T08:23:15.662216+00:00"
+}

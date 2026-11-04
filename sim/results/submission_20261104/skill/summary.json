@@ -1,0 +1,7 @@
+{
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "offline fixtures, injected failures and mocked MMIO only; no new physical PYNQ board execution"
+}

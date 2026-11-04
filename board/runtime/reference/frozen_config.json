@@ -1,0 +1,48 @@
+{
+  "method": "centered_cosine_v1",
+  "selection_scores": {
+    "cosine": {
+      "per_class_recall": [
+        0.85,
+        0.5,
+        0.9333333333333333
+      ],
+      "macro_recall": 0.7611111111111111
+    },
+    "centered_cosine": {
+      "per_class_recall": [
+        0.85,
+        0.65,
+        0.9333333333333333
+      ],
+      "macro_recall": 0.8111111111111112
+    },
+    "standardized_cosine": {
+      "per_class_recall": [
+        0.8,
+        0.6,
+        0.9
+      ],
+      "macro_recall": 0.7666666666666666
+    },
+    "standardized_euclidean": {
+      "per_class_recall": [
+        0.85,
+        0.55,
+        0.8333333333333334
+      ],
+      "macro_recall": 0.7444444444444445
+    }
+  },
+  "reference_bank_sha256": "281ec1a5948415aa80f2e7fe89a7927f8f6c8be9f472e8986574512c317cc320",
+  "reference_meta_sha256": "f5c70ab281ddddc9b58e66ce161d0971cb5450ce316d0a4e1d60607e8502fb42",
+  "implementation_sha256": "46818209cb2cd70a1b0411cf28e1007cb5e0ac286efa14dcb0dc0e3130bc743d",
+  "final_time_holdout_starts": {
+    "piano": 85,
+    "guitar": 240,
+    "violin": 85
+  },
+  "seconds_per_class": 20,
+  "scope": "Calibration leave-one-out chooses distance; correlated excerpts, not general accuracy",
+  "candidate_pairing": "dense head only; original reference embeddings preserved; optional learned piano supports"
+}

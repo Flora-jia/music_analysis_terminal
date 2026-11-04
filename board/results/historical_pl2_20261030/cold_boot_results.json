@@ -1,0 +1,37 @@
+[
+  {
+    "cycle": 1,
+    "user_confirmed_physical_power_cycle": true,
+    "serial": "cold1_serial.txt",
+    "passed": true,
+    "fps": 31.244
+  },
+  {
+    "cycle": 2,
+    "user_confirmed_physical_power_cycle": true,
+    "serial": "cold2_serial.txt",
+    "passed": true,
+    "fps": 31.244
+  },
+  {
+    "cycle": 3,
+    "user_confirmed_physical_power_cycle": true,
+    "serial": "cold3_serial.txt",
+    "passed": true,
+    "fps": 31.244
+  },
+  {
+    "cycle": 4,
+    "user_confirmed_physical_power_cycle": true,
+    "serial": "cold4_serial.txt",
+    "passed": true,
+    "fps": 31.244
+  },
+  {
+    "cycle": 5,
+    "user_confirmed_physical_power_cycle": true,
+    "serial": "cold5_serial.txt",
+    "passed": true,
+    "fps": 31.244
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "native_lib_sha256": "e20728251a807391f02ff3aec427ff2611c84f7f562f7d32ac6d5278b4b214a9",
+  "scope": "PC real C/Python with generated/recorded protocol data; no board, ADC, LCD or vendor FFT arithmetic assertion"
+}

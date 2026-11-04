@@ -1,0 +1,22 @@
+{
+  "test": "physical_piano_register_regression",
+  "source": "team-confirmed subsequent physical test, user statement on 2026-11-04",
+  "total": {
+    "correct": 37,
+    "count": 49,
+    "accuracy_percent": 75.5
+  },
+  "low": {
+    "correct": 27,
+    "count": 31
+  },
+  "middle": {
+    "correct": 7,
+    "count": 13
+  },
+  "high": {
+    "correct": 3,
+    "count": 5
+  },
+  "raw_record_policy": "Historical captures remain unchanged; this file records the later team-confirmed aggregate."
+}

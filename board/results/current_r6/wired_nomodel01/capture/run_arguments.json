@@ -1,0 +1,22 @@
+{
+  "case": "wired_nomodel01",
+  "command_argv": [
+    "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/run_live_system.py",
+    "--ui-stats",
+    "--input",
+    "line",
+    "--record-dir",
+    "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime/acceptance_runs/wired_nomodel01/music_records",
+    "--no-model",
+    "--capture-note",
+    "PC_volume=100; fixed_metronome_page; metronome_off; same_three_wavs"
+  ],
+  "runtime": "/home/xilinx/jupyter_notebooks/Overlays/PS_GPIO/music_analysis_terminal/board/runtime",
+  "operator_label": "unlabeled",
+  "board_wall_clock_started": "2021-11-18T08:48:35.920282+00:00",
+  "model_disabled": true,
+  "headless": false,
+  "state": "entry_returned_normally",
+  "note": "Operator label is ground truth metadata; it is not supplied as an input to the classifier.",
+  "board_wall_clock_ended": "2021-11-18T08:50:12.205050+00:00"
+}

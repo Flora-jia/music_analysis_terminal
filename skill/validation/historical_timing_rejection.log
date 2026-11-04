@@ -1,0 +1,62 @@
+{
+  "passed": false,
+  "errors": [
+    "constraint_coverage_requires_review"
+  ],
+  "timing": {
+    "wns_ns": 7.336,
+    "tns_ns": 0.0,
+    "whs_ns": 0.04,
+    "ths_ns": 0.0
+  },
+  "constraint_checks": {
+    "no_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 3,
+    "no_output_delay": 25,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0
+  },
+  "constraint_review_items": [
+    "no_input_delay",
+    "no_output_delay"
+  ],
+  "clocks": [
+    {
+      "name": "clk_fpga_0",
+      "period_ns": 20.0,
+      "frequency_mhz": 50.0
+    },
+    {
+      "name": "clk_out1_Audio_lcd_clk_wiz_0",
+      "period_ns": 30.303,
+      "frequency_mhz": 33.0
+    },
+    {
+      "name": "clkfbout_Audio_lcd_clk_wiz_0",
+      "period_ns": 20.0,
+      "frequency_mhz": 50.0
+    },
+    {
+      "name": "clk_fpga_1",
+      "period_ns": 10.0,
+      "frequency_mhz": 100.0
+    },
+    {
+      "name": "sys_clk",
+      "period_ns": 20.0,
+      "frequency_mhz": 50.0
+    },
+    {
+      "name": "clk_out1_Audio_clk_wiz_0_0",
+      "period_ns": 81.393,
+      "frequency_mhz": 12.286
+    },
+    {
+      "name": "clkfbout_Audio_clk_wiz_0_0",
+      "period_ns": 60.0,
+      "frequency_mhz": 16.667
+    }
+  ],
+  "scope": "receipt and parsed timing checks only; does not prove source-to-bit regeneration, CDC correctness or board electrical timing"
+}

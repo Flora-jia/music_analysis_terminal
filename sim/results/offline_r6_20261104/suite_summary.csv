@@ -1,0 +1,9 @@
+﻿suite,files,first_second_correct,cnn_file_vote_correct,r6_file_vote_correct,r6_file_accuracy,segments,active_segments,matching_active_segments,duplicate_files
+s01_nsynth_notes,36,28,22,22,0.6111111111111112,144,129,83,0
+s02_nsynth_piano,61,59,36,41,0.6721311475409836,244,169,110,13
+s03_nsynth_guitar,49,16,40,40,0.8163265306122449,196,172,123,13
+s04_nsynth_strings,42,39,32,32,0.7619047619047619,168,168,109,10
+s05_external_solo,3,2,3,3,1.0,72,68,53,0
+s06_external_recordings,6,4,5,5,0.8333333333333334,433,421,281,0
+s07_field_recordings,13,1,9,10,0.7692307692307693,223,197,132,0
+s08_iowa_samples,11,7,9,9,0.8181818181818182,674,245,148,0

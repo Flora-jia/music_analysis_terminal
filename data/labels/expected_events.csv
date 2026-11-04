@@ -1,0 +1,85 @@
+﻿file,start_s,end_s,note,midi,f0_hz,expected_class,purpose,label_basis,time_reference
+audio/pitch_comparison/01_pure_tones_slow.wav,1.0,2.5,500Hz,,500,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/01_pure_tones_slow.wav,3.25,4.75,A4,,440,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/01_pure_tones_slow.wav,5.5,7.0,C4,,261.625565,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/01_pure_tones_slow.wav,7.75,9.25,E2,,82.406889,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/01_pure_tones_slow.wav,10.0,11.5,G3,,195.997718,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/01_pure_tones_slow.wav,12.25,13.75,E5,,659.255114,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/02_harmonics_220.wav,1.0,3.0,A3_pure,,220,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/02_harmonics_220.wav,4.0,6.0,A3_second_strong,,220,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/02_harmonics_220.wav,7.0,9.0,A3_missing_fundamental,,220,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/02_harmonics_220.wav,10.0,12.0,A2_third_strong,,110,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,1.0,2.5,A0,,27.5,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,3.25,4.75,C1,,32.703196,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,5.5,7.0,C2,,65.406391,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,7.75,9.25,C3,,130.812783,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,10.0,11.5,C4,,261.625565,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,12.25,13.75,C5,,523.251131,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,14.5,16.0,C6,,1046.502261,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,16.75,18.25,C7,,2093.004522,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/03_octaves_and_limits.wav,19.0,20.5,C8,,4186.009045,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,1.0,1.5,C4,,261.6255653005986,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,1.75,2.25,D4,,293.6647679174076,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,2.5,3.0,E4,,329.6275569128699,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,3.25,3.75,F4,,349.2282314330039,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,4.0,4.5,G4,,391.99543598174927,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,4.75,5.25,A4,,440.0,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,5.5,6.0,B4,,493.8833012561241,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/04_scale_half_second.wav,6.25,6.75,C5,,523.2511306011972,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.0,1.15,C4,,261.6255653005986,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.18,1.3299999999999998,D4,,293.6647679174076,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.3599999999999999,1.5099999999999998,E4,,329.6275569128699,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.5399999999999998,1.6899999999999997,F4,,349.2282314330039,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.7199999999999998,1.8699999999999997,G4,,391.99543598174927,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,1.8999999999999997,2.05,A4,,440.0,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,2.0799999999999996,2.2299999999999995,B4,,493.8833012561241,,pitch regression,generator source,audio file time; align ADC separately
+audio/pitch_comparison/05_scale_fast_expected_limits.wav,2.26,2.4099999999999997,C5,,523.2511306011972,,pitch regression,generator source,audio file time; align ADC separately
+audio/acceptance/pure_500_1000.wav,2,7,,,500,,steady spectral peak; silence outside regions,generator source,audio file time; align ADC separately
+audio/acceptance/pure_500_1000.wav,9,14,,,1000,,steady spectral peak; silence outside regions,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,2.0,3.0,C4,60,261.625565,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,3.5,4.5,D4,62,293.664768,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,5.0,6.0,E4,64,329.627557,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,6.5,7.5,F4,65,349.228231,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,8.0,9.0,G4,67,391.995436,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/scale_c4_a4.wav,9.5,10.5,A4,69,440.0,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/repeat_c4.wav,2.0,3.0,C4,60,261.625565,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/repeat_c4.wav,3.5,4.5,C4,60,261.625565,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/acceptance/repeat_c4.wav,5.0,6.0,C4,60,261.625565,,pitch/note event test; acoustic onset times need alignment,generator source,audio file time; align ADC separately
+audio/note_events/same_note_repeat.wav,1.0,1.5,C4,60,261.6256,,three separate attacks with gaps,generator source,audio file time; align ADC separately
+audio/note_events/same_note_legato.wav,1.0,1.5,C4,60,261.6256,,back-to-back tapered tones; not real piano sustain,generator source,audio file time; align ADC separately
+audio/note_events/same_note_repeat.wav,1.7,2.2,C4,60,261.6256,,three separate attacks with gaps,generator source,audio file time; align ADC separately
+audio/note_events/same_note_legato.wav,1.5,2.0,C4,60,261.6256,,back-to-back tapered tones; not real piano sustain,generator source,audio file time; align ADC separately
+audio/note_events/same_note_repeat.wav,2.4,2.9,C4,60,261.6256,,three separate attacks with gaps,generator source,audio file time; align ADC separately
+audio/note_events/same_note_legato.wav,2.0,2.5,C4,60,261.6256,,back-to-back tapered tones; not real piano sustain,generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,1.0,1.5,C4,60,261.6255653005986,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,1.6,2.1,D4,62,293.6647679174076,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,2.2,2.7,E4,64,329.6275569128699,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,2.8,3.3,F4,65,349.2282314330039,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,3.4,3.9,G4,67,391.99543598174927,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/scale_500ms_c.wav,4.0,4.5,A4,69,440.0,,"six-note scale, 0.5 s tone / 0.1 s gap",generator source,audio file time; align ADC separately
+audio/note_events/crescendo_440.wav,1,4,A4,69,440,,one continuous crescendo; avoid false re-attacks,generator source,audio file time; align ADC separately
+audio/note_events/vibrato_440.wav,1,4,A4,69,440,,5 Hz vibrato +/-30 cents; historical replay interruption unresolved,generator source,audio file time; align ADC separately
+audio/note_events/strong_third_220.wav,1,3,A3,57,220,,weak fundamental and strong third harmonic,generator source,audio file time; align ADC separately
+audio/pitch_focus/E5_pure_20s.wav,1.0,21.0,,,659.255114,,stable 20-second pitch capture,generator source,audio file time; align ADC separately
+audio/pitch_focus/A2_third_strong_20s.wav,1.0,21.0,,,110.0,,stable 20-second pitch capture,generator source,audio file time; align ADC separately
+audio/pitch_focus/A3_missing_fundamental_20s.wav,1.0,21.0,,,220.0,,stable 20-second pitch capture,generator source,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,5,8.0,C4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,11.0,14.0,D4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,17.0,20.0,E4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,23.0,26.0,G4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,29.0,32.0,A4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,35.0,38.0,C4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,41.0,44.0,D4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,47.0,50.0,E4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,53.0,56.0,G4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/piano_iowa/piano_test_2rounds.wav,59.0,62.0,A4,,,piano,historical playback / regression,original timing.csv and source sample filename,audio file time; align ADC separately
+audio/nsynth_guitar/guitar_acoustic_014-060-127.wav,,,,60,261.6255653005986,guitar,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_guitar/guitar_acoustic_014-062-075.wav,,,,62,293.6647679174076,guitar,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_guitar/guitar_acoustic_014-064-025.wav,,,,64,329.6275569128699,guitar,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_guitar/guitar_acoustic_014-067-100.wav,,,,67,391.99543598174927,guitar,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_guitar/guitar_acoustic_014-069-025.wav,,,,69,440.0,guitar,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_string_family/string_acoustic_057-060-100.wav,,,,60,261.6255653005986,,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_string_family/string_acoustic_057-062-050.wav,,,,62,293.6647679174076,,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_string_family/string_acoustic_057-064-075.wav,,,,64,329.6275569128699,,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_string_family/string_acoustic_057-067-100.wav,,,,67,391.99543598174927,,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately
+audio/nsynth_string_family/string_acoustic_057-069-075.wav,,,,69,440.0,,dataset regression; string family does not establish violin identity,original NSynth examples.json; note times not annotated,audio file time; align ADC separately

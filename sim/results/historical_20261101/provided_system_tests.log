@@ -1,0 +1,29 @@
+test_abi_queries_and_real_c_exact_note (provided_system_tests.Tests.test_abi_queries_and_real_c_exact_note) ... ok
+test_bad_packet_drains_off_immediately (provided_system_tests.Tests.test_bad_packet_drains_off_immediately) ... ok
+test_c_input_range_jianpu_ui_octaves (provided_system_tests.Tests.test_c_input_range_jianpu_ui_octaves) ... ok
+test_dma_rs_start_and_length_before_rearm (provided_system_tests.Tests.test_dma_rs_start_and_length_before_rearm) ... ok
+test_dma_short_with_stale_tail_never_reaches_c (provided_system_tests.Tests.test_dma_short_with_stale_tail_never_reaches_c) ... ok
+test_gap_repetition_and_sample_progression (provided_system_tests.Tests.test_gap_repetition_and_sample_progression) ... ok
+test_http_pc_calibration_and_raw_duration (provided_system_tests.Tests.test_http_pc_calibration_and_raw_duration) ... ok
+test_legacy_serial_source_does_not_leak (provided_system_tests.Tests.test_legacy_serial_source_does_not_leak) ... ok
+test_model_capture_continues_while_inference_blocked (provided_system_tests.Tests.test_model_capture_continues_while_inference_blocked) ... ok
+test_model_power_restore_and_frozen_silence (provided_system_tests.Tests.test_model_power_restore_and_frozen_silence) ... ok
+test_model_window_association_epoch_and_stale (provided_system_tests.Tests.test_model_window_association_epoch_and_stale) ... ok
+test_native_queue_overflow_visible_and_resync (provided_system_tests.Tests.test_native_queue_overflow_visible_and_resync) ... ok
+test_native_silent_calibration (provided_system_tests.Tests.test_native_silent_calibration) ... ok
+test_nyquist_bar_and_validation (provided_system_tests.Tests.test_nyquist_bar_and_validation) ... ok
+test_original_rtl_packets_and_reject_pcm (provided_system_tests.Tests.test_original_rtl_packets_and_reject_pcm) ... ok
+test_owner_partial_init_failure_before_rx (provided_system_tests.Tests.test_owner_partial_init_failure_before_rx) ... ok
+test_owner_start_order_and_safe_stop_order (provided_system_tests.Tests.test_owner_start_order_and_safe_stop_order) ... ok
+test_packaged_entry_verifies_before_any_hardware_import (provided_system_tests.Tests.test_packaged_entry_verifies_before_any_hardware_import) ... ok
+test_poll_cancel_error_and_retained_memory (provided_system_tests.Tests.test_poll_cancel_error_and_retained_memory) ... ok
+test_real_c_440_and_880_octaves (provided_system_tests.Tests.test_real_c_440_and_880_octaves) ... ok
+test_real_c_watchdog_uses_trusted_samples (provided_system_tests.Tests.test_real_c_watchdog_uses_trusted_samples) ... ok
+test_reset_rejects_undelivered_c_queue_then_delivers_old_session (provided_system_tests.Tests.test_reset_rejects_undelivered_c_queue_then_delivers_old_session) ... ok
+test_stop_failure_quarantines_buffers_and_allows_retry (provided_system_tests.Tests.test_stop_failure_quarantines_buffers_and_allows_retry) ... ok
+test_ui_receives_off_when_not_fresh_and_preserves_raw (provided_system_tests.Tests.test_ui_receives_off_when_not_fresh_and_preserves_raw) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.394s
+
+OK

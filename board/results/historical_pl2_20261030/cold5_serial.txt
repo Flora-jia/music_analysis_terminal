@@ -1,0 +1,404 @@
+==== PL2 OVERLAP N=4096 hop=512 protocol=2 ====
+YINFFT v2: first fitted trough passing confidence; global fitted minimum optional
+Requires audio_top_overlap4096_h512.bit + this ELF; 8260B/frame
+PCM -> FIR -> scale -> Hann4096 -> FFT -> CORDIC -> spectrum DMA
+PL2 bit. N=4096/fs=16000/hop=512; 32ms update, 256ms window. No smoothing; all three methods run per valid packet
+I2S prepared with RX/TX disabled; requested fs=16000Hz, MCLK=12288000Hz
+IIC initialized: base=0xE0004000 requested_sclk=100000Hz, deadline=100ms
+ES8388 R09=0x66 expected=0x66 OK
+ES8388 R03=0x09 expected=0x09 OK
+ES8388 R08=0x00 expected=0x00 OK
+ES8388 R0A=0x00 expected=0x00 OK
+ES8388 R0B=0x02 expected=0x02 OK
+ES8388 R0C=0x0C expected=0x0C OK
+ES8388 R0D=0x06 expected=0x06 OK
+ES8388 R10=0x00 expected=0x00 OK
+ES8388 R11=0x00 expected=0x00 OK
+ES8388 R12=0x11 expected=0x11 OK
+ES8388 R16=0xC2 expected=0xC2 OK
+ES8388 R17=0x18 expected=0x18 OK
+ES8388 R18=0x00 expected=0x00 OK
+ES8388 R2B=0x80 expected=0x80 OK
+ES8388 R0F=0x20 ADCMute=0 (must be 0)
+ES8388 writes/readbacks passed; external PCM still requires ILA verification
+DMA initialized: base=0x40400000 packet=8260B wait_deadline=2000ms
+TX: cfg=0x00000201 ctrl=0x00000000 tmr=0x0000000C (must stay disabled)
+RX: cfg=0x00000201 ctrl=0x00000001 tmr=0x0000000C (sole active master)
+SPEC frame=0 first=0x0000000000000000 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=1 first=0x0000000000000200 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=2 first=0x0000000000000400 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=3 first=0x0000000000000600 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=4 first=0x0000000000000800 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=5 first=0x0000000000000A00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+SPEC frame=6 first=0x0000000000000C00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=7 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=7 first=0x0000000000000E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=15 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=21 ok=21 err=0 gap=0 dropped=0 source_drop=0 fps=20.929 max_process_us=166
+PITCH frame=23 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=31 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=31 first=0x0000000000003E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=39 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=47 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=55 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=63 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=63 first=0x0000000000007E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=71 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=158
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=79 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=87 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=95 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=95 first=0x000000000000BE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=103 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=111 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=158
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=119 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=127 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=127 first=0x000000000000FE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=135 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=143 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=151 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=159 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=159 first=0x0000000000013E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=167 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=175 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=183 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=191 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=158
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=191 first=0x0000000000017E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=199 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=207 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=215 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=223 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=223 first=0x000000000001BE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=231 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=239 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=247 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=255 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=255 first=0x000000000001FE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=263 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=271 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=279 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=287 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=287 first=0x0000000000023E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=295 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=303 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=311 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=319 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=319 first=0x0000000000027E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=327 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=335 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=343 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=351 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=351 first=0x000000000002BE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=359 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=367 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=375 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=383 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=383 first=0x000000000002FE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=391 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=399 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=158
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=407 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=415 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=415 first=0x0000000000033E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=423 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=431 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=439 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=447 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=447 first=0x0000000000037E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=455 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=463 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=471 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=479 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=479 first=0x000000000003BE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=487 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=495 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=503 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=511 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=511 first=0x000000000003FE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=519 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=527 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=535 gate=1 max=0 median=0 peaks=0 prep_us=129 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=543 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=543 first=0x0000000000043E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=551 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=559 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=161
+PITCH frame=567 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=575 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=575 first=0x0000000000047E00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+PITCH frame=583 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=591 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PL2_SUM rx=32 ok=32 err=0 gap=0 dropped=0 source_drop=0 fps=31.244 max_process_us=162
+PITCH frame=599 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+PITCH frame=607 gate=1 max=0 median=0 peaks=0 prep_us=130 total_us=161
+  TWM valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  SAL valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+  YINFFT valid=0 hz=0.000 note=- midi=-1 score_milli=0 reason=1 mode=0 us=0
+SPEC frame=607 first=0x000000000004BE00 bins=2049 fft_n=4096 check=0 flags=0x00000000
+  PL_peak=0 PS_peak=0 PL_mag=0 PS_mag=0 dropped=0 gap=0 source_drop=0
+P

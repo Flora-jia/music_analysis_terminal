@@ -1,0 +1,17 @@
+{
+  "filename": "ac820_pynq_2_7_0.zip",
+  "bytes": 1853305278,
+  "sha256": "59263095d2a411241dbaacac22e856054f85690ff5ab00aa890ac6104eb27b72",
+  "img_filename": "ACZ820_ZYNQ-2.7.0.img",
+  "img_bytes": 8070719488,
+  "distribution": "included_in_github_project_git_lfs",
+  "source": "team_provided_AC820_PYNQ_image",
+  "board_environment_record": "environment.json",
+  "delivery": "board/environment/images/ac820_pynq_2_7_0.zip",
+  "archive_members": [
+    {
+      "name": "ACZ820_ZYNQ-2.7.0.img",
+      "bytes": 8070719488
+    }
+  ]
+}

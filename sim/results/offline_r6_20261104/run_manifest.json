@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "evaluation": "PC audio replay through frozen R6 runtime classification",
+  "software_release": "20261101-R6",
+  "weights_sha256": "b3cfc4c092a788968e343b6b06bc678ea79d840bab59cf7c772494b948f727cf",
+  "piano_support": true,
+  "piano_review": false,
+  "sample_rate": 16000,
+  "segment_samples": 16000,
+  "segment_hop_samples": 16000,
+  "final_partial_segment": "zero_pad_to_one_second",
+  "file_aggregation": "majority_of_non_silent_segments_ties_remain_tie",
+  "pcm_frontend": "soundfile_float32_arithmetic_channel_mean_soxr_hq_to_16k_no_gain_normalization",
+  "spectrum": "float64_numpy_rfft_periodic_hann1024_hop256_center_zero_pad_63frames",
+  "hardware_fft_quantization_simulated": false,
+  "physical_board_execution": false,
+  "label_source": "provided_manifest_labels_not_independently_audited",
+  "timings": "host_compute_only",
+  "python": "3.13.14 (main, Jun 11 2026, 04:04:46) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "soundfile": "0.14.0",
+    "librosa": "1.0.0",
+    "soxr": "1.1.0"
+  },
+  "runtime_hashes": {
+    "infer_numpy.py": "8fa315d6296705e97ac4f0c192b2b36b280330f408ea5858ac38881d8ad0a38c",
+    "pl_fft.py": "2dc7e0f8ef2e5ab20f21aab5eca2e1b46c8e50c8b753eab46e5ba2737524a892",
+    "reference_infer.py": "46818209cb2cd70a1b0411cf28e1007cb5e0ac286efa14dcb0dc0e3130bc743d",
+    "model_stream.py": "631d132e6f12afee1fc340c5fbdc6ddb63d0e77f598f2153d518a0c18a115fa8",
+    "models/cnn_weights.npz": "b3cfc4c092a788968e343b6b06bc678ea79d840bab59cf7c772494b948f727cf",
+    "models/mel_matrix.npy": "9455b8916038184f94abf8f3581553c41b1e6075a5bd8f18037157cf6bc5271e",
+    "reference/reference_bank.npz": "281ec1a5948415aa80f2e7fe89a7927f8f6c8be9f472e8986574512c317cc320"
+  }
+}
