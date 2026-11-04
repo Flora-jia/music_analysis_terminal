@@ -11,7 +11,7 @@
     "skill",
     "report"
   ],
-  "created_utc": "2026-11-04T10:14:55.976551+00:00",
+  "created_utc": "2026-11-04T10:20:30.012840+00:00",
   "runtime_manifest_sha256": "389506f2fe0b70b1535bd4c83037ea6ffaf29793c88ce9d1c0a83d1b971fa9b6",
   "artifact_hashes": {
     "audio_merged.bit": "42740ac0ef8a2715750f5d37f1adb570f8d5de1cc66bc2ba01fb333379a6e37c",
@@ -21,8 +21,8 @@
   },
   "files": {
     ".gitattributes": {
-      "bytes": 374,
-      "sha256": "906e8f03e66753c5f62365bd3d32fe27a0752bcc910e853a26cb47579ad81bfb"
+      "bytes": 271,
+      "sha256": "e5562c24905b314fa927287a51c3f34bc01487f55ce1beaa4aff5a992689d51b"
     },
     ".gitignore": {
       "bytes": 249,
@@ -45,8 +45,8 @@
       "sha256": "6876d26ae2c36082806ed0d5d51da64ca707d3b1e0790f3dee974d50463ce731"
     },
     "board/environment/image_manifest.json": {
-      "bytes": 551,
-      "sha256": "08d42b6eed2eeb01421fe0dc9b9dfe056ea6749d20f64504aa6e2b09a37dc7a7"
+      "bytes": 536,
+      "sha256": "47ebc4b0006123aef9a5425ceac16306e55594635332762ebc1918f87d24f6e0"
     },
     "board/environment/image_receipt.json": {
       "bytes": 293,
@@ -57,8 +57,8 @@
       "sha256": "59263095d2a411241dbaacac22e856054f85690ff5ab00aa890ac6104eb27b72"
     },
     "board/environment/readme.md": {
-      "bytes": 460,
-      "sha256": "c06895a4640062bdbcc171f1adcbe2091a25aee32c0975bef3be2de68f296a8f"
+      "bytes": 638,
+      "sha256": "19c4eb8499f00b048f5fa4d8dc69924d6203a0d559699c2916772defb63465bb"
     },
     "board/environment/version_template.json": {
       "bytes": 244,

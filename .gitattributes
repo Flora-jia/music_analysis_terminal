@@ -13,6 +13,3 @@
 *.xlsx binary
 *.so binary
 *.dll binary
-
-# SD image stored with Git LFS.
-board/environment/images/*.zip filter=lfs diff=lfs merge=lfs -text
