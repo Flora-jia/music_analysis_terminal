@@ -116,6 +116,11 @@ PYNQ、NumPy、Pillow、Python与Vivado IP遵循各自发布条件，第三方�
 
 GitHub总工程使用本music_analysis_terminal目录，保留源码、验证、数据、技能与协作材料。平台复现代码采用单独整理的music_analysis_terminal目录，保留src、sim、build、board及发布清单。两份目录的R6正式运行制品一致，各自使用独立文件清单。
 
-SD镜像已包含在 `board/environment/images/ac820_pynq_2_7_0.zip`，解压得到 `ACZ820_ZYNQ-2.7.0.img`。下载者按 `board/environment/image_manifest.json` 和 `board/environment/image_receipt.json` 核对SHA256。镜像采用Git LFS管理，首次上传前执行 `git lfs install`；克隆后执行 `git lfs pull`，确保取得实际镜像文件。镜像是SD烧录输入，无需整份上传到板端Jupyter目录。
+SD镜像体积约1.85GB，超出GitHub单文件限制，不在本仓库，请通过网盘另行获取：
+
+- 文件名：`AC820_ZYNQ_Pynq_Boot_img-2.7.0.zip`
+- 链接：https://pan.baidu.com/s/1XusxxofACUekKvr4DFvRVw?pwd=x2et 提取码：`x2et`
+
+下载后按 `board/environment/image_manifest.json` 核对SHA256（`59263095d2a411241dbaacac22e856054f85690ff5ab00aa890ac6104eb27b72`），文件与哈希的对应记录见 `board/environment/image_receipt.json`。解压得到 `ACZ820_ZYNQ-2.7.0.img`。镜像是SD烧录输入，无需整份上传到板端Jupyter目录。
 
 平台上传时，将平台目录下的整个music_analysis_terminal文件夹压缩为RAR，保留根目录层级，检查归档大小小于200,000,000字节。
