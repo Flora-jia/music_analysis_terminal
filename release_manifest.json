@@ -11,7 +11,7 @@
     "skill",
     "report"
   ],
-  "created_utc": "2026-11-04T09:00:21.614155+00:00",
+  "created_utc": "2026-11-04T10:14:55.976551+00:00",
   "runtime_manifest_sha256": "389506f2fe0b70b1535bd4c83037ea6ffaf29793c88ce9d1c0a83d1b971fa9b6",
   "artifact_hashes": {
     "audio_merged.bit": "42740ac0ef8a2715750f5d37f1adb570f8d5de1cc66bc2ba01fb333379a6e37c",
@@ -25,8 +25,8 @@
       "sha256": "906e8f03e66753c5f62365bd3d32fe27a0752bcc910e853a26cb47579ad81bfb"
     },
     ".gitignore": {
-      "bytes": 107,
-      "sha256": "2b36258d45794415f2f2749789f4827e804fb2438b1967b42b55192332c2ea0e"
+      "bytes": 249,
+      "sha256": "606be578b1f93d914bf7e93eef674cf6c3404b291624baa68fa2915ac9238185"
     },
     "board/artifacts/audio_merged.bit": {
       "bytes": 4045669,
@@ -4145,8 +4145,8 @@
       "sha256": "73459d3219eb434d8730bf44c9e7f3233f475d540d0b9e0bebbe88776fba6b81"
     },
     "README.md": {
-      "bytes": 8390,
-      "sha256": "a1ea04be7ddf9e1fee9f54004f8bb3bbb4bca161ad6a8fa55cc52b76014dce28"
+      "bytes": 8533,
+      "sha256": "9b6667a549e93026a4ef3bd93f1766698ccf3896158b6392a240e362c32e67dc"
     },
     "report/ai_collaboration/README.md": {
       "bytes": 47245,
@@ -4155,10 +4155,6 @@
     "report/technical_report.pdf": {
       "bytes": 2295979,
       "sha256": "86471f844158ca137c9f9f14747a96b7bb55a9eecabc2679c585704ef405ff56"
-    },
-    "report/README.md": {
-      "bytes": 397,
-      "sha256": "9ef1fe9d720d25558dae9a539ce15d6f3d52ce39c8cf185aa7b75238a507d739"
     },
     "sim/fixtures/libmusic_ps_host.dll": {
       "bytes": 93567,
